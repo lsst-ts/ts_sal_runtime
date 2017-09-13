@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://lsst-sal.tuc.noao.edu/schema/SALEventSet.xsl"?>
+<SALEventSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://lsst-sal.tuc.noao.edu/schema/SALEventSet.xsd">
+
+
+<SALEvent>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_logevent_StateChanged</EFDB_Topic>
+ <Alias>StateChanged</Alias>
+ <Explanation>Subsystem state changed</Explanation>
+ <item>
+	<EFDB_Name>newState</EFDB_Name>
+	<Description>Reached state</Description>
+	<IDL_Type>int</IDL_Type>
+	<Units>NA</Units>
+	<Count>1</Count>
+ </item>
+</SALEvent>
+
+
+</SALEventSet>

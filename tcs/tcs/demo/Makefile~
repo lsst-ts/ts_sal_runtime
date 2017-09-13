@@ -1,0 +1,128 @@
+TCL_VERSION = 8.5
+TCL_ROOT = /usr/local
+TPK_ROOT = ..
+INSTALL_DIR = ..
+
+
+OBJ = Axis.o axisCmd.o \
+      commands.o \
+      ephempathCmd.o \
+      fastCmd.o \
+      guideCmd.o GuiderControl.o \
+      ipaCmd.o \
+      limitTimeCmd.o \
+      mediumCmd.o MountControl.o \
+      offsetCmd.o opticsCmd.o OpticsControl.o originCmd.o \
+      Pcs.o pointingCmd.o pointingModelCmd.o \
+      RotatorControl.o \
+      skySampleCmd.o SkyView.o slowCmd.o statsCmd.o \
+      targetCmd.o \
+      telInfoCmd.o \
+      wavelengthCmd.o \
+      Util.o \
+      wrapCmd.o \
+      TclClock.o \
+      hexapodCalculator.o
+
+INCLUDES = dpk.h \
+           Axis.h \
+           commands.h \
+           GuiderControl.h \
+           MountControl.h \
+           Pcs.h \
+           OpticsControl.h \
+           RotatorControl.h \
+           SkyView.h \
+           tpkobj.h \
+           Util.h
+
+SALFLAGS = -fPIC $(SAL_CPPFLAGS) -D_REENTRANT \
+	-I"$(OSPL_HOME)/include" \
+	-I"$(OSPL_HOME)/include/sys" \
+	-I"$(OSPL_HOME)/include/dcps/C++/SACPP" \
+	-I"." -I"$(OSPL_HOME)/examples/include" \
+	-I"$(OSPL_HOME)/examples" \
+	-DOSPL_BUILDEXAMPLE_LIB  -I"$(SAL_DIR)/../include" \
+	-I$(SAL_WORK_DIR)/MTMount/cpp/src  -I$(SAL_WORK_DIR)/rotator/cpp/src \
+	-I$(SAL_WORK_DIR)/MTMount/cpp      -I$(SAL_WORK_DIR)/rotator/cpp \
+	-I$(SAL_WORK_DIR)/dome/cpp/src     -I$(SAL_WORK_DIR)/hexapod/cpp/src \
+	-I$(SAL_WORK_DIR)/dome/cpp         -I$(SAL_WORK_DIR)/hexapod/cpp \
+	-I"$(SAL_WORK_DIR)/include" 
+
+CXXFLAGS = -g -fPIC -fpermissive -Wall -shared -DUSE_TCL_STUBS -DUSE_TK_STUBS \
+         -DTCL_THREADS=1 ${SALFLAGS} \
+         -I/usr/include/tk -I$/usr/include/tcl -I../tpk -I../tcspk -I../slalib
+
+LDFLAGS =  -L$(TPK_ROOT)/lib -L$(TCL_ROOT)/lib -L/usr/lib64 \
+          -ltclstub$(TCL_VERSION)
+####          -lshm_tcs_kernel_Target_server
+
+all: libdpk.a \
+     tpkDemo tpkDemo.so \
+     tpkLbt tpkLbt.so
+
+install:
+	@if test -e $(INSTALL_DIR)/lib; then true; \
+			else mkdir $(INSTALL_DIR)/lib; fi
+	@if test -e $(INSTALL_DIR)/include; then true; \
+			else mkdir $(INSTALL_DIR)/bin; fi
+	@if test -e $(INSTALL_DIR)/include; then true; \
+			else mkdir $(INSTALL_DIR)/include; fi
+	cp libdpk.a $(INSTALL_DIR)/lib
+	cp -r tif $(INSTALL_DIR)/lib
+	cp $(INCLUDES) $(INSTALL_DIR)/include
+	cp tpkDemo $(INSTALL_DIR)/bin
+	cp tpkDemo.so $(INSTALL_DIR)/lib
+	cp tpkLbt $(INSTALL_DIR)/bin
+	cp tpkLbt.so $(INSTALL_DIR)/lib
+
+tpkDemo : tpkDemo.tcl
+	echo "#!$(TCL_ROOT)/bin/wish$(TCL_VERSION)" > tpkDemo
+	cat tpkDemo.tcl >> tpkDemo
+	chmod +x tpkDemo
+
+#tpkDemo.so : demo_init.cpp DemoPcs.cpp $(OBJ)
+#	$(CXX) $(CXXFLAGS) DemoPcs.cpp demo_init.cpp $(OBJ) -o tpkDemo.so $(LDFLAGS) 
+
+tpkDemo.so : demo_init.cpp DemoPcs.cpp $(OBJ)
+	-rm $@
+	g++ -g -shared  ${CXXFLAGS} DemoPcs.cpp demo_init.cpp \
+			$(SAL_WORK_DIR)/tcs/cpp/src/.obj/CheckStatus.o \
+			$(SAL_WORK_DIR)/MTMount/cpp/src/.obj/SAL_MTMount.o \
+			$(SAL_WORK_DIR)/rotator/cpp/src/.obj/SAL_rotator.o \
+			$(SAL_WORK_DIR)/hexapod/cpp/src/.obj/SAL_hexapod.o \
+			$(SAL_WORK_DIR)/dome/cpp/src/.obj/SAL_dome.o \
+			-L$(SAL_WORK_DIR)/tcs/tcs/lib $(SAL_WORK_DIR)/tcs/tcs/slalib/*.o \
+			$(SAL_WORK_DIR)/tcs/tcs/tpk/*.o \
+			$(SAL_WORK_DIR)/tcs/tcs/tcspk/obj/*.o $(OBJ) -ltclstub$(TCL_VERSION) -ltkstub$(TCL_VERSION) \
+			-L"." -L"$(OSPL_HOME)/lib" \
+			-Wl,-rpath,\$(OSPL_HOME)/lib \
+			-L"$(SAL_DIR)/../lib"  -l"sacpp_MTMount_types" -l"sacpp_rotator_types" \
+			 -l"sacpp_hexapod_types" -l"sacpp_dome_types" -l"dcpssacpp" \
+			-l"dcpsgapi" -l"ddsuser" -l"ddskernel" -l"ddsserialization" \
+			-l"ddsconfparser" -l"ddsconf" -l"ddsdatabase" -l"ddsutil" -l"ddsos" \
+			-ldl -lpthread -o tpkDemo.so
+
+
+tpkLbt: tpkLbt.tcl
+	echo "#!$(TCL_ROOT)/bin/wish$(TCL_VERSION)" > tpkLbt
+	cat tpkLbt.tcl >> tpkLbt
+	chmod +x tpkLbt
+
+tpkLbt.so : lbt_init.cpp LbtPcs.cpp $(OBJ)
+	$(CXX) $(CXXFLAGS) LbtPcs.cpp lbt_init.cpp $(OBJ) -o tpkLbt.so $(LDFLAGS) 
+TclClock.o : ../tpk/TclClock.cpp
+	$(CXX) $(CXXFLAGS) -c ../tpk/TclClock.cpp
+
+libdpk.a :$(OBJ)
+	-rm $@
+	$(AR) -r $@ $(OBJ)
+
+clean : 
+	-rm $(OBJ)
+
+dist_clean: clean
+	-rm libdpk.a
+	-rm tpkDemo tpkDemo.so
+	-rm tpkLbtDemo tpkLbt.so
+

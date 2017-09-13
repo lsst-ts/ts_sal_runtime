@@ -1,0 +1,1 @@
+ ./configure --with-tcl=/usr/lib/tcl8.4 --with-threads

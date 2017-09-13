@@ -1,0 +1,49 @@
+<area shape="rect" href="$d7/dcd/_base_vt_8h.html" title="Definition of the target class." alt="" coords="1043,80,1117,107">
+<area shape="rect" href="$d1/ddf/_mount_vt_8h.html" title="Definition of the BaseVt class." alt="" coords="747,155,829,181">
+<area shape="rect" href="$de/de4/tpk_8h.html" title="Definition of the generic Alt/Az limit calculator class." alt="" coords="1995,528,2045,555">
+<area shape="rect" href="$de/d5c/_auto_guider_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="987,229,1101,256">
+<area shape="rect" href="$d8/d7c/_base_vt_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="1347,229,1437,256">
+<area shape="rect" href="$de/d03/_mount_vt_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="1176,229,1272,256">
+<area shape="rect" href="$d0/dc0/_optics_vt_8h.html" title="Definition of the BaseVt class." alt="" coords="383,155,465,181">
+<area shape="rect" href="$d3/d6a/_tracking_target_8h.html" title="Definition of the target class." alt="" coords="2581,80,2704,107">
+<area shape="rect" href="$d1/d3d/_galactic_target_8h.html" title="Definition of the international coordinate reference system target class." alt="" coords="1789,229,1909,256">
+<area shape="rect" href="$d2/d2f/_sol_sys_targets_8h.html" title="Definition of the topocentric apparent target class." alt="" coords="2315,379,2435,405">
+<area shape="rect" href="$d3/d14/_spiral_target_8h.html" title="Definition of the target class." alt="" coords="1445,80,1552,107">
+<area shape="rect" href="$d9/d38/_target_8cpp.html" title="Definition of the target class." alt="" coords="2728,80,2816,107">
+<area shape="rect" href="$de/d1b/_kernel_wcs_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="851,229,963,256">
+<area shape="rect" href="$df/de5/_auto_guider_8h.html" title="Definition of the BaseVt class." alt="" coords="1029,155,1131,181">
+<area shape="rect" href="$d0/dd0/_alt_az_limit_calc_8h.html" title="Definition of the mount virtual telescope class." alt="" coords="267,229,387,256">
+<area shape="rect" href="$d5/de5/_alt_az_limit_calc_8cpp.html" title="Definition of the generic Alt/Az limit calculator class." alt="" coords="361,304,495,331">
+<area shape="rect" href="$dd/dcc/_limit_calc_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="461,229,563,256">
+<area shape="rect" href="$dc/d89/_optics_vt_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="93,229,192,256">
+<area shape="rect" href="$db/def/_pointing_control_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="587,229,725,256">
+<area shape="rect" href="$de/d0a/_pointing_log_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="1320,304,1437,331">
+<area shape="rect" href="$d3/da6/_pointing_obs_8cpp.html" title="Definition of the mount virtual telescope class." alt="" coords="1765,304,1885,331">
+<area shape="rect" href="$dd/d5e/_i_c_r_s_target_8h.html" title="Definition of the tracking target class." alt="" coords="2121,155,2225,181">
+<area shape="rect" href="$d7/d58/_appt_target_8h.html" title="Definition of the tracking target class." alt="" coords="3881,229,3983,256">
+<area shape="rect" href="$d3/df3/_az_el_target_8h.html" title="Definition of the tracking target class." alt="" coords="4181,304,4283,331">
+<area shape="rect" href="$d6/dfb/_f_k5_target_8h.html" title="Definition of the tracking target class." alt="" coords="2861,229,2957,256">
+<area shape="rect" href="$d3/d57/_topo_appt_target_8h.html" title="Definition of the tracking target class." alt="" coords="3287,304,3417,331">
+<area shape="rect" href="$d9/dbe/_tracking_target_8cpp.html" title="Definition of the tracking target class." alt="" coords="2573,155,2712,181">
+<area shape="rect" href="$d9/d6c/_i_c_ref_sys_8h.html" title="Definition of the international coordinate reference system target class." alt="" coords="2413,229,2504,256">
+<area shape="rect" href="$d0/db2/_appt_target_8cpp.html" title="Definition of the Az,El coordinate reference system class." alt="" coords="3976,528,4091,555">
+<area shape="rect" href="$d0/d0d/_i_c_r_s_target_8cpp.html" title="Definition of the topocentric apparent coordinate reference system class." alt="" coords="3299,528,3416,555">
+<area shape="rect" href="$d0/d45/_f_k5_target_8cpp.html" title="Definitions of the FK5 coordinate reference system classes." alt="" coords="2611,379,2720,405">
+<area shape="rect" href="$d8/d07/_i_c_ref_sys_8cpp.html" title="Definitions of the FK5 coordinate reference system classes." alt="" coords="2187,379,2291,405">
+<area shape="rect" href="$d5/d3f/_galactic_target_8cpp.html" title="Definitions of the geocentric apparent coordinate reference system class." alt="" coords="1979,379,2112,405">
+<area shape="rect" href="$da/d1a/_sol_sys_targets_8cpp.html" title="Definition of the international coordinate reference system target class." alt="" coords="1692,453,1825,480">
+<area shape="rect" href="$d5/dff/_appt_ref_sys_8h.html" title="Definitions of the international coordinate reference system class." alt="" coords="3553,304,3657,331">
+<area shape="rect" href="$dd/d2e/_topo_appt_ref_sys_8h.html" title="Definition of the Az,El coordinate reference system class." alt="" coords="3237,453,3373,480">
+<area shape="rect" href="$dc/d0a/_f_k5_ref_sys_8h.html" title="Definitions of the international coordinate reference system class." alt="" coords="2859,304,2960,331">
+<area shape="rect" href="$d8/d49/_galactic_ref_sys_8h.html" title="Definitions of the international coordinate reference system class." alt="" coords="1909,304,2035,331">
+<area shape="rect" href="$d0/d1c/_point_cat_8cpp.html" title="Definitions of the international coordinate reference system class." alt="" coords="2635,304,2733,331">
+<area shape="rect" href="$de/dbe/_appt_ref_sys_8cpp.html" title="Definitions of the Geocentric Apparent coordinate reference system classes." alt="" coords="3744,379,3864,405">
+<area shape="rect" href="$d1/d76/_az_el_ref_sys_8h.html" title="Definitions of the Geocentric Apparent coordinate reference system classes." alt="" coords="3888,379,3992,405">
+<area shape="rect" href="$db/d7b/_topo_appt_target_8cpp.html" title="Definition of the topocentric apparent coordinate reference system class." alt="" coords="3516,528,3660,555">
+<area shape="rect" href="$dc/d98/_az_el_target_8cpp.html" title="Definition of the Az,El coordinate reference system class." alt="" coords="3853,453,3968,480">
+<area shape="rect" href="$d6/d73/_az_el_ref_sys_8cpp.html" title="Definition of the Az,El coordinate reference system class." alt="" coords="3992,453,4112,480">
+<area shape="rect" href="$d7/d04/_f_k5_ref_sys_8cpp.html" title="Definitions of the FK5 coordinate reference system classes." alt="" coords="2896,379,3011,405">
+<area shape="rect" href="$d7/d9b/_galactic_ref_sys_8cpp.html" title="Definitions of the geocentric apparent coordinate reference system class." alt="" coords="1715,379,1853,405">
+<area shape="rect" href="$df/dff/_planet_8h.html" title="Definitions of the solar system target classes." alt="" coords="2688,453,2757,480">
+<area shape="rect" href="$d7/d9a/_planet_8cpp.html" title="Definition of the Planet class." alt="" coords="2741,528,2827,555">
+<area shape="rect" href="$d7/d98/_spiral_target_8cpp.html" title="Definition of the spiral target class." alt="" coords="1512,155,1632,181">

@@ -1,0 +1,107 @@
+<manpage cat="cmd" id="image" version="0.55tile" title="image">
+<!-- This file was automatically generated.  DO NOT EDIT (yet)! -->
+<!-- 
+     Copyright (c) 2004 Joe English
+     image.n,v 1.1 2004/09/15 18:26:48 jenglish Exp
+ -->
+<?TROFF.TH title="image" section="n" date="0.55tile" source="Tile Widget Set" manual="" ?>
+<namesection>
+<name>image</name>
+<desc>Define an element based on an image</desc>
+</namesection>
+<synopsis>
+<syntax>
+<b>style create element</b> <m>name</m> <b cat="AMBIGUOUS canvasitemtype cmd">image</b> <m>imageName</m> ?<m>options</m>?
+</syntax>
+</synopsis>
+<section>
+<title>DESCRIPTION</title>
+<p>The <i>image</i> element factory creates a new element
+in the current theme whose visual appearance is determined
+by a Tk image.
+</p>
+</section>
+<section>
+<title>OPTIONS</title>
+<p>Valid  <i>options</i> are:
+</p>
+<dl>
+<dle>
+<dt><b>-border</b> <m>padding</m></dt>
+<dd><i>padding</i> is a list of up to four integers, specifying
+the left, top, right, and bottom borders, respectively.
+See <ref refid="image-stretching">IMAGE STRETCHING</ref>, below.
+</dd>
+</dle>
+<dle>
+<dt><b>-height</b> <m>height</m></dt>
+<dd>Specifies a minimum height for the element.
+If less than zero, the base image's height is used as a default.
+</dd>
+</dle>
+<dle>
+<dt><b>-map {</b> <m>statespec</m> <m>image</m>.. }</dt>
+<dd>Specifies auxilliary images to use in different states.
+Each <i>statespec</i> is a list of state names optionally
+prefixed by an exclamation point, as in <b>style map</b>.
+Each <i>imageName</i> is the name of a Tk image 
+defined with <b>image create ...</b>.
+When the element is displayed, each <i>statespec</i> is
+tested in order, and the <i>image</i> corresponding to
+the first matching <i>statespec</i> is used.  
+If none match, the base <i>imageName</i> is used.
+</dd>
+</dle>
+<dle>
+<dt><b>-padding</b> <m>padding</m></dt>
+<dd>Specifies the element's interior padding.  Defaults to 
+<i>-border</i> if not specified.
+</dd>
+</dle>
+<dle>
+<dt><b>-sticky</b> <m>spec</m></dt>
+<dd>Specifies how the image is placed within the final parcel.
+<i>spec</i> contains zero or more characters "n", "s", "w", or "e".
+</dd>
+</dle>
+<dle>
+<dt><b>-width</b> <m>width</m></dt>
+<dd>Specifies a minimum width for the element.
+If less than zero, the base image's width is used as a default.
+
+</dd>
+</dle>
+</dl>
+</section>
+<section id="image-stretching">
+<title>IMAGE STRETCHING</title>
+<p>If the element's allocated parcel is larger than the image, 
+the image will be placed in the parcel based on the <b>-sticky</b> option.
+If the image needs to stretch horizontally (i.e., <b>-sticky ew</b>)
+or vertically (<b>-sticky ns</b>),
+subregions of the image are replicated to fill the parcel
+based on the <b>-border</b> option.
+The <b>-border</b> divides the image into 9 regions: 
+four fixed corners, top and left edges (which may be tiled horizontally),
+left and right edges (which may be tiled vertically),
+and the central area (which may be tiled in both directions).
+</p>
+</section>
+<section>
+<title>EXAMPLE</title>
+<example>
+set button(normal) [image create photo -file button.png]
+set button(pressed) [image create photo -file button-pressed.png]
+style element create Button.button image $button(normal) \
+   -border {2 4} -map [list pressed $button(pressed)] -sticky nswe
+</example>
+</section>
+<seealso>
+<ref>image(n)</ref>
+<ref>photo(n)</ref>
+</seealso>
+<keywords>
+<keyword>pixmap theme</keyword>
+<keyword>image</keyword>
+</keywords>
+</manpage>

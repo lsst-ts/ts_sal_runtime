@@ -1,0 +1,82 @@
+[5 Oct 2006]
+
+ANNOUNCE: Tile Widget Set, version 0.7.8.
+
+~ What is it?
+
+The Tile widget set is an experimental reimplementation
+of some of the standard Tk widgets.  The main features are:
+
+    + Native look and feel under Windows (XP, NT, and 2K)
+    + Nearly-native look and feel under Mac OSX
+    + "Revitalized" look and feel under X11
+    + Appearance controlled by a theme engine, providing
+      greater flexibility for custom widgets
+    + New widgets, including notebook, progressbar, combobox,
+      separator, and sizegrip.
+
+~ What's New in 0.7.8
+
++ A [ttk::sizegrip] widget has been added (that's the gizmo
+  sometimes seen in the lower right corner that resizes
+  the window when dragged).
+
++ The [ttk::treeview] widget now supports item tags,
+  similar to the Text and Canvas widgets.  [$tv tag bind]
+  and [$tv tag configure] methods are supported.
+
++ The [ttk::treeview] widget now supports -selectmode {browse|extended|none}
+   The default selection behavior has been improved, and
+  '-selectmode none' combined with tag bindings make it
+  possible to implement other behaviors if desired.
+
++ All widgets now have an 'identify' method, for better
+  megawidget support.
+
++ A few more bugfixes and minor L&F improvements.
+
++ POTENTIAL INCOMPATIBILITY: Widget options now take precedence
+  over [style map] settings.  (This is usually the desired behavior).
+
+~ Forward Compatibility
+
+Due to popular demand, the [ttk::paned] widget will be
+renamed to [ttk::panedwindow] in the next release.
+To smooth the transition, [ttk::panedwindow] is now
+available as a synonym (either one will work in 0.7.8;
+in 0.8.0 the old name will become deprecated).
+
+~ Stability
+
+The script-level API for widgets may be considered stable at
+this point, with the exception of procedures in the 'tile::*'
+namespace and the [ttk::paned] widget, which will be renamed.
+Theme definitions are still subject to change: user-defined
+themes will need to be revised in the 0.8 series.
+
+
+~ A note on version numbers
+
+To help distinguish formal releases from CVS snapshots,
+the subminor version number will be incremented immediately before
+and immediately after making a release.  Thus odd-numbered subminor
+versions indicate a CVS snapshot, and even-numbered ones indicate
+a known release.
+
+~ Availability
+
+The tile widget set is hosted under the tktable project
+at SourceForge:
+
+    <URL: http://tktable.sourceforge.net/tile/ >
+    <URL: http://sourceforge.net/projects/tktable/ >
+
+Sources are available under the 'tile' module in CVS.
+A prebundled tarball is available in the file release area:
+
+    <URL: http://sourceforge.net/project/showfiles.php?group_id=11464 >
+
+Documentation is available here:
+
+    <URL: http://tktable.sourceforge.net/tile/doc/ >
+

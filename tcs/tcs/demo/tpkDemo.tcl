@@ -1,0 +1,126 @@
+# Start the basic demonstration telescope.
+
+# Add the location of the telecope interface package to the list of locations
+# searched when loading packages.
+lappend auto_path ./
+lappend auto_path [file join [file dirname [info script]] ../lib]
+
+# Load the telescope interface package.
+package require Tif
+
+# Create and start the pointing kernel
+tif::tcsInit tpkDemo
+
+# Layout the display GUI.
+grid [frame .frame -borderwidth 2 -relief sunken]
+grid [tif::timeview .frame.time] -sticky e
+set ::limittime {none 0.0}
+grid [ttk::label .frame.limit]
+grid [tif::mountview .frame.mount] \
+      [tif::skyplot .frame.skyplot -width 250 -height 250]
+grid .frame.time -columnspan 2
+wm resizable . 0 0
+
+# Create the top level window for the TV display.
+toplevel .cam
+
+# Layout the TV.
+grid [tif::camera .cam.ccd]
+wm resizable .cam 0 0
+
+# This is the procedure that updates the GUI.
+
+proc refresh {args} {
+
+# Update the time display.
+   .frame.time update
+
+# Update the time to limit
+   .frame.limit configure -text [tpk::tracktime]
+
+# Update the mount display.
+   .frame.mount update
+
+# Configure the display with the actual position of the mount.
+   .frame.skyplot configure -position [list $tpk::az $tpk::el]
+
+# Update the with the demand position of the mount
+   .frame.skyplot configure -demand [list $tpk::az_demand $tpk::el_demand]
+
+# Re-draw the star field.
+   .cam.ccd reposition
+}
+
+# Trigger refresh each time the $fast loop runs.
+   trace add execution fast-loop leave refresh
+
+# Start the fast loop
+   fast-loop
+
+# This procedure slews the telescope by setting the specified target in the
+# mount and the virtual telescope that calculates the positions of the
+# artifical stars in the focal plane and generates a new star field centred
+# on the new target.
+proc slew {target} {
+
+# Set the wrap flags to move away from the limits
+   tpk::wrap azimuth nearestrange achieved 0
+   tpk::wrap rotator nearestrange achieved 0
+
+# Set the mount target.
+   tpk::target set mount $target
+
+# Set the "sky" target.
+   tpk::target set sky $target
+
+# Generate a new star field with 10 stars in it.
+   set field [tpk::skysample mount 10]
+
+# Create targets for each of the artifical stars so that we can use them
+# as guide stars.
+   for { set i 1 } { $i < [llength $field] } { incr i } {
+      catch {tpk::target delete gs$i}
+      tpk::target create icrs [lindex $field $i] gs$i
+   }
+
+# Update the time to limit
+   after 100 updateLimits
+
+# Return the ICRS position of the field centre.
+   return [lindex $field 0]
+}
+
+# This procedure enables all the axes.
+proc enable {} {
+   foreach axis [tpk::telinfo axes] {
+      tpk::axis $axis enable
+   }
+}
+
+proc updateLimits {} {
+   set ::limittime [thread::send $::slow_id tpk::limittime]
+}
+
+proc ipa {args} {
+   eval tpk::ipa $args
+   after 100 updateLimits
+}
+
+# Make all the commands in the tpk namespace exportable.
+namespace eval tpk:: {namespace export *}
+
+# Import all the commands that we want to be user accessible.
+namespace import tpk::axis
+namespace import tpk::guide
+namespace import tpk::offset
+namespace import tpk::origin
+namespace import tpk::pointing
+namespace import tpk::pointingmodel
+namespace import tpk::target
+namespace import tpk::telinfo
+namespace import tpk::wavelength
+namespace import tpk::cameraHexapodMove
+namespace import tpk::m2HexapodMove
+namespace import tpk::domeTrack
+namespace import tpk::domeCrawl
+

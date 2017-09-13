@@ -1,0 +1,7 @@
+#!/usr/bin/env wish8.5
+
+exec $env(SAL_DIR)/simulate_controllers dome_Move dome_Crawl MTMount_trackTarget hexapod_move rotator_track camera_setFilter camera_takeImages camera_initImage &
+exec xterm -e $env(SAL_DIR)/simulate_weather.tcl &
+
+source ./LSSTDemo
+

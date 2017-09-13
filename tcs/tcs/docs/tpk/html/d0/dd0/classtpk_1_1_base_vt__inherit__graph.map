@@ -1,0 +1,4 @@
+base referer
+rect $d8/d03/classtpk_1_1_auto_guider.html 5,80 120,107
+rect $df/d51/classtpk_1_1_mount_vt.html 144,80 243,107
+rect $da/d0f/classtpk_1_1_optics_vt.html 267,80 365,107

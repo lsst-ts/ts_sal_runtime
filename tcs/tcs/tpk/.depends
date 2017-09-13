@@ -1,0 +1,168 @@
+AffineTransform.o: AffineTransform.cpp AffineTransform.h Coordinates.h \
+ Transform.h ../slalib/slalib.h
+AltAzLimitCalc.o: AltAzLimitCalc.cpp AltAzLimitCalc.h LimitCalc.h Clock.h \
+ TcsLib.h Coordinates.h ../tcspk/tcs.h MountVt.h BaseVt.h KernelRefSys.h \
+ PointingOrigin.h Target.h RefSys.h Site.h TcsMutex.h MountType.h \
+ PointingModel.h Trajectory.h
+AltAzRotLimitCalc.o: AltAzRotLimitCalc.cpp AltAzRotLimitCalc.h \
+ AltAzLimitCalc.h LimitCalc.h Clock.h TcsLib.h Coordinates.h \
+ ../tcspk/tcs.h MountVt.h BaseVt.h KernelRefSys.h PointingOrigin.h \
+ Target.h RefSys.h Site.h TcsMutex.h MountType.h PointingModel.h \
+ Trajectory.h
+ApptRefSys.o: ApptRefSys.cpp ApptRefSys.h ICRefSys.h RefSys.h \
+ Coordinates.h TcsLib.h ../tcspk/tcs.h ICRSTarget.h TrackingTarget.h \
+ Target.h Site.h TcsMutex.h ApptTarget.h ../slalib/slalib.h \
+ KernelApptRefSys.h TcspkRefSys.h KernelRefSys.h
+ApptTarget.o: ApptTarget.cpp ApptTarget.h TrackingTarget.h Coordinates.h \
+ Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h \
+ ../slalib/slalib.h AzElRefSys.h ApptRefSys.h ICRefSys.h ICRSTarget.h \
+ AzElTarget.h TopoApptRefSys.h FK5RefSys.h FK5Target.h GalacticRefSys.h \
+ GalacticTarget.h TopoApptTarget.h
+AutoGuider.o: AutoGuider.cpp AutoGuider.h BaseVt.h Coordinates.h \
+ KernelRefSys.h TcsLib.h ../tcspk/tcs.h PointingOrigin.h Target.h \
+ RefSys.h Site.h TcsMutex.h Trajectory.h Filter2D.h MountVt.h MountType.h \
+ PointingModel.h PointingControl.h RotatorLoc.h TimeKeeper.h Transform.h
+AvgFilter.o: AvgFilter.cpp AvgFilter.h Filter.h TcsMutex.h
+AzElRefSys.o: AzElRefSys.cpp AzElRefSys.h ApptRefSys.h ICRefSys.h \
+ RefSys.h Coordinates.h TcsLib.h ../tcspk/tcs.h ICRSTarget.h \
+ TrackingTarget.h Target.h Site.h TcsMutex.h ApptTarget.h AzElTarget.h \
+ ../slalib/slalib.h KernelAzElRefSys.h TcspkRefSys.h KernelRefSys.h
+AzElTarget.o: AzElTarget.cpp AzElTarget.h TrackingTarget.h Coordinates.h \
+ Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h \
+ ../slalib/slalib.h ApptRefSys.h ICRefSys.h ICRSTarget.h ApptTarget.h \
+ AzElRefSys.h
+BaseVt.o: BaseVt.cpp BaseVt.h Coordinates.h KernelRefSys.h TcsLib.h \
+ ../tcspk/tcs.h PointingOrigin.h Target.h RefSys.h Site.h TcsMutex.h \
+ ../slalib/slalib.h ICRSTarget.h TrackingTarget.h MountVt.h MountType.h \
+ PointingModel.h Trajectory.h TimeKeeper.h
+Coordinates.o: Coordinates.cpp Coordinates.h TcsLib.h ../tcspk/tcs.h
+DawdleFilter.o: DawdleFilter.cpp DawdleFilter.h Coordinates.h \
+ ../slalib/slalib.h
+FK5RefSys.o: FK5RefSys.cpp FK5RefSys.h ICRefSys.h ApptRefSys.h \
+ ApptTarget.h TrackingTarget.h Coordinates.h Target.h RefSys.h TcsLib.h \
+ ../tcspk/tcs.h Site.h TcsMutex.h ICRSTarget.h FK5Target.h \
+ ../slalib/slalib.h KernelFK5RefSys.h TcspkRefSys.h KernelRefSys.h
+FK5Target.o: FK5Target.cpp FK5Target.h TrackingTarget.h Coordinates.h \
+ Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h \
+ ../slalib/slalib.h FK5RefSys.h ICRefSys.h ApptRefSys.h ApptTarget.h \
+ ICRSTarget.h
+GalacticRefSys.o: GalacticRefSys.cpp GalacticRefSys.h ICRefSys.h \
+ ApptRefSys.h ApptTarget.h TrackingTarget.h Coordinates.h Target.h \
+ RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h ICRSTarget.h \
+ GalacticTarget.h ../slalib/slalib.h KernelGalacticRefSys.h \
+ KernelICRefSys.h TcspkRefSys.h KernelRefSys.h
+GalacticTarget.o: GalacticTarget.cpp GalacticTarget.h ICRSTarget.h \
+ TrackingTarget.h Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h \
+ Site.h TcsMutex.h ../slalib/slalib.h GalacticRefSys.h ICRefSys.h \
+ ApptRefSys.h ApptTarget.h
+ICRefSys.o: ICRefSys.cpp ICRefSys.h ApptRefSys.h ApptTarget.h \
+ TrackingTarget.h Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h \
+ Site.h TcsMutex.h ICRSTarget.h ../slalib/slalib.h FK5RefSys.h \
+ FK5Target.h KernelICRefSys.h TcspkRefSys.h KernelRefSys.h
+ICRSTarget.o: ICRSTarget.cpp ICRSTarget.h TrackingTarget.h Coordinates.h \
+ Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h \
+ ../slalib/slalib.h ApptRefSys.h ICRefSys.h ApptTarget.h AzElRefSys.h \
+ AzElTarget.h FK5RefSys.h FK5Target.h TopoApptRefSys.h GalacticRefSys.h \
+ GalacticTarget.h TopoApptTarget.h
+KalmanFilter.o: KalmanFilter.cpp KalmanFilter.h Filter.h TcsMutex.h
+KernelAzElRefSys.o: KernelAzElRefSys.cpp KernelAzElRefSys.h Coordinates.h \
+ AzElRefSys.h ApptRefSys.h ICRefSys.h RefSys.h TcsLib.h ../tcspk/tcs.h \
+ ICRSTarget.h TrackingTarget.h Target.h Site.h TcsMutex.h ApptTarget.h \
+ AzElTarget.h TcspkRefSys.h KernelRefSys.h
+Kernel.o: Kernel.cpp RefSys.h Coordinates.h TcsLib.h ../tcspk/tcs.h \
+ ICRefSys.h ApptRefSys.h ApptTarget.h TrackingTarget.h Target.h Site.h \
+ TcsMutex.h ICRSTarget.h
+KernelFK5RefSys.o: KernelFK5RefSys.cpp KernelFK5RefSys.h Coordinates.h \
+ FK5RefSys.h ICRefSys.h ApptRefSys.h ApptTarget.h TrackingTarget.h \
+ Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h ICRSTarget.h \
+ FK5Target.h TcspkRefSys.h KernelRefSys.h
+KernelGalacticRefSys.o: KernelGalacticRefSys.cpp KernelGalacticRefSys.h \
+ GalacticRefSys.h ICRefSys.h ApptRefSys.h ApptTarget.h TrackingTarget.h \
+ Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h \
+ TcsMutex.h ICRSTarget.h GalacticTarget.h KernelICRefSys.h TcspkRefSys.h \
+ KernelRefSys.h ../slalib/slalib.h
+KernelWcs.o: KernelWcs.cpp KernelWcs.h Wcs.h RefSys.h Coordinates.h \
+ TcsLib.h ../tcspk/tcs.h ../slalib/slalib.h BaseVt.h KernelRefSys.h \
+ PointingOrigin.h Target.h Site.h TcsMutex.h MountVt.h MountType.h \
+ PointingModel.h Trajectory.h Transform.h
+LimitCalc.o: LimitCalc.cpp LimitCalc.h Clock.h TcsLib.h Coordinates.h \
+ ../tcspk/tcs.h MountVt.h BaseVt.h KernelRefSys.h PointingOrigin.h \
+ Target.h RefSys.h Site.h TcsMutex.h MountType.h PointingModel.h \
+ Trajectory.h TimeKeeper.h
+MountVt.o: MountVt.cpp MountVt.h BaseVt.h Coordinates.h KernelRefSys.h \
+ TcsLib.h ../tcspk/tcs.h PointingOrigin.h Target.h RefSys.h Site.h \
+ TcsMutex.h MountType.h PointingModel.h Trajectory.h ../slalib/slalib.h \
+ DawdleFilter.h KernelAzElRefSys.h AzElRefSys.h ApptRefSys.h ICRefSys.h \
+ ICRSTarget.h TrackingTarget.h ApptTarget.h AzElTarget.h TcspkRefSys.h \
+ PointingLog.h PointingObs.h RotatorLoc.h TimeKeeper.h Transform.h
+OpticsVt.o: OpticsVt.cpp OpticsVt.h BaseVt.h Coordinates.h KernelRefSys.h \
+ TcsLib.h ../tcspk/tcs.h PointingOrigin.h Target.h RefSys.h Site.h \
+ TcsMutex.h Trajectory.h ../slalib/slalib.h MountVt.h MountType.h \
+ PointingModel.h TimeKeeper.h
+PiFilter2D.o: PiFilter2D.cpp Coordinates.h PiFilter2D.h Filter2D.h \
+ TcsMutex.h
+PiFilter.o: PiFilter.cpp PiFilter.h Filter.h TcsMutex.h
+Planet.o: Planet.cpp Planet.h SolSysTargets.h TopoApptTarget.h \
+ TrackingTarget.h Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h \
+ Site.h TcsMutex.h ../slalib/slalib.h
+PointCat.o: PointCat.cpp PointCat.h ../slalib/slalib.h FK5Target.h \
+ TrackingTarget.h Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h \
+ Site.h TcsMutex.h ICRefSys.h ApptRefSys.h ApptTarget.h ICRSTarget.h
+PointingControl.o: PointingControl.cpp PointingControl.h TcsMutex.h \
+ Coordinates.h TcsLib.h ../tcspk/tcs.h Filter.h MountVt.h BaseVt.h \
+ KernelRefSys.h PointingOrigin.h Target.h RefSys.h Site.h MountType.h \
+ PointingModel.h Trajectory.h
+PointingLog.o: PointingLog.cpp PointingLog.h PointingObs.h TcsLib.h \
+ Coordinates.h ../tcspk/tcs.h ../slalib/slalib.h ICRefSys.h ApptRefSys.h \
+ ApptTarget.h TrackingTarget.h Target.h RefSys.h Site.h TcsMutex.h \
+ ICRSTarget.h MountVt.h BaseVt.h KernelRefSys.h PointingOrigin.h \
+ MountType.h PointingModel.h Trajectory.h
+PointingModel.o: PointingModel.cpp PointingModel.h TcsLib.h Coordinates.h \
+ ../tcspk/tcs.h
+PointingObs.o: PointingObs.cpp PointingObs.h TcsLib.h Coordinates.h \
+ ../tcspk/tcs.h ../slalib/slalib.h ICRefSys.h ApptRefSys.h ApptTarget.h \
+ TrackingTarget.h Target.h RefSys.h Site.h TcsMutex.h ICRSTarget.h \
+ MountVt.h BaseVt.h KernelRefSys.h PointingOrigin.h MountType.h \
+ PointingModel.h Trajectory.h
+PointingOrigin.o: PointingOrigin.cpp PointingOrigin.h Coordinates.h \
+ Transform.h
+RotaryAxis.o: RotaryAxis.cpp RotaryAxis.h Trajectory.h TcsLib.h \
+ Coordinates.h ../tcspk/tcs.h WrapControl.h
+Site.o: Site.cpp Site.h TcsMutex.h ../slalib/slalib.h TcsLib.h \
+ Coordinates.h ../tcspk/tcs.h
+SolSysTargets.o: SolSysTargets.cpp SolSysTargets.h TopoApptTarget.h \
+ TrackingTarget.h Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h \
+ Site.h TcsMutex.h ../slalib/slalib.h ICRSTarget.h
+SpiralTarget.o: SpiralTarget.cpp SpiralTarget.h Target.h Coordinates.h \
+ RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h ../slalib/slalib.h
+Target.o: Target.cpp Target.h Coordinates.h RefSys.h TcsLib.h \
+ ../tcspk/tcs.h Site.h TcsMutex.h
+TclClock.o: TclClock.cpp TclClock.h Clock.h
+TcsLib.o: TcsLib.cpp TcsLib.h Coordinates.h ../tcspk/tcs.h \
+ ../tcspk/tcsmac.h
+TcspkRefSys.o: TcspkRefSys.cpp TcsLib.h Coordinates.h ../tcspk/tcs.h \
+ TcspkRefSys.h KernelRefSys.h
+TimeKeeper.o: TimeKeeper.cpp TimeKeeper.h TcsMutex.h ../slalib/slalib.h \
+ Clock.h Site.h TcsLib.h Coordinates.h ../tcspk/tcs.h
+TopoApptRefSys.o: TopoApptRefSys.cpp TopoApptRefSys.h ApptRefSys.h \
+ ICRefSys.h RefSys.h Coordinates.h TcsLib.h ../tcspk/tcs.h ICRSTarget.h \
+ TrackingTarget.h Target.h Site.h TcsMutex.h ApptTarget.h AzElRefSys.h \
+ AzElTarget.h FK5RefSys.h FK5Target.h GalacticRefSys.h GalacticTarget.h \
+ TopoApptTarget.h ../slalib/slalib.h KernelTopoApptRefSys.h TcspkRefSys.h \
+ KernelRefSys.h
+TopoApptTarget.o: TopoApptTarget.cpp TopoApptTarget.h TrackingTarget.h \
+ Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h \
+ TcsMutex.h ../slalib/slalib.h ApptRefSys.h ICRefSys.h ICRSTarget.h \
+ ApptTarget.h TopoApptRefSys.h AzElRefSys.h AzElTarget.h FK5RefSys.h \
+ FK5Target.h GalacticRefSys.h GalacticTarget.h
+TrackingTarget.o: TrackingTarget.cpp TrackingTarget.h Coordinates.h \
+ Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h TcsMutex.h \
+ ../slalib/slalib.h
+UnixClock.o: UnixClock.cpp UnixClock.h Clock.h
+Wcs.o: Wcs.cpp ICRefSys.h ApptRefSys.h ApptTarget.h TrackingTarget.h \
+ Coordinates.h Target.h RefSys.h TcsLib.h ../tcspk/tcs.h Site.h \
+ TcsMutex.h ICRSTarget.h FK5RefSys.h FK5Target.h TopoApptRefSys.h \
+ AzElRefSys.h AzElTarget.h GalacticRefSys.h GalacticTarget.h \
+ TopoApptTarget.h Wcs.h ../slalib/slalib.h
+WinClock.o: WinClock.cpp WinClock.h Clock.h
+WinMutex.o: WinMutex.cpp TcsMutex.h

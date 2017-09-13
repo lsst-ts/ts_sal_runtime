@@ -1,0 +1,5 @@
+base referer
+rect $d9/d38/classtpk_1_1_mount_type.html 7,56 121,83
+rect $d5/d42/classtpk_1_1_alt_az_mount_type.html 185,5 332,32
+rect $d1/d4e/classtpk_1_1_equatorial_mount_type.html 171,56 347,83
+rect $d5/d10/classtpk_1_1_gimbal_mount_type.html 180,107 337,133

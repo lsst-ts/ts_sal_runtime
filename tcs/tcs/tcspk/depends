@@ -1,0 +1,59 @@
+addtrm.o: addtrm.c tcs.h
+aim2enc.o: aim2enc.c tcs.h tcsmac.h
+aim2s_c.o: aim2s_c.c tcs.h tcsmac.h
+aim2xe.o: aim2xe.c tcs.h tcsmac.h
+aimtrk.o: aimtrk.c tcs.h tcsmac.h
+astup.o: astup.c ../slalib/slalib.h tcs.h tcsmac.h
+bs.o: bs.c tcs.h
+casspa.o: casspa.c tcs.h
+enc2aim.o: enc2aim.c tcs.h
+fast.o: fast.c tcs.h tcsmac.h
+g2po.o: g2po.c tcs.h
+g2tar.o: g2tar.c tcs.h ../slalib/slalib.h
+init2.o: init2.c ../slalib/slalib.h tcs.h tcsmac.h
+intpm.o: intpm.c tcs.h tcsmac.h
+iterm.o: iterm.c
+length.o: length.c
+medium.o: medium.c ../slalib/slalib.h tcs.h
+minit.o: minit.c
+pmt.o: pmt.c ../slalib/slalib.h tcs.h
+porup.o: porup.c
+posture.o: posture.c tcs.h
+probev.o: probev.c
+ptappl.o: ptappl.c
+pterm.o: pterm.c
+ptermg.o: ptermg.c
+pterml.o: pterml.c
+pterms.o: pterms.c
+ptpre.o: ptpre.c
+ptran.o: ptran.c ../slalib/slalib.h tcs.h
+ptrani.o: ptrani.c ../slalib/slalib.h tcs.h
+pup.o: pup.c ../slalib/slalib.h tcs.h
+refsub.o: refsub.c ../slalib/slalib.h tcs.h
+rotator.o: rotator.c tcs.h tcsmac.h
+scomp.o: scomp.c
+sky2a_c.o: sky2a_c.c tcs.h
+sky2aim.o: sky2aim.c tcs.h
+slow.o: slow.c ../slalib/slalib.h tcs.h
+spm.o: spm.c
+sterm.o: sterm.c
+targup.o: targup.c
+tartran.o: tartran.c ../slalib/slalib.h tcs.h
+tartr_c.o: tartr_c.c ../slalib/slalib.h tcs.h tcsmac.h
+term.o: term.c
+time.o: time.c
+track.o: track.c tcs.h
+track_c.o: track_c.c tcs.h
+trmgen.o: trmgen.c
+trmloc.o: trmloc.c
+trmstd.o: trmstd.c
+vtenc.o: vtenc.c tcs.h
+vtenc_c.o: vtenc_c.c tcs.h
+vtsky.o: vtsky.c tcs.h
+vtsky_c.o: vtsky_c.c tcs.h
+vtxe.o: vtxe.c tcs.h
+vtxe_c.o: vtxe_c.c tcs.h
+vtxy.o: vtxy.c tcs.h
+vtxy_c.o: vtxy_c.c tcs.h
+xe2xy.o: xe2xy.c tcs.h
+xy2xe.o: xy2xe.c tcs.h

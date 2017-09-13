@@ -1,0 +1,4 @@
+base referer
+rect $d9/d83/_avg_filter_8h.html 155,5 243,32
+rect $da/d2d/_filter_8h.html 292,5 353,32
+rect $d3/d51/_tcs_mutex_8h.html 403,5 496,32

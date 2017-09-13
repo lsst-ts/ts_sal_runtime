@@ -1,0 +1,16 @@
+base referer
+rect $d8/d3d/classtpk_1_1_target.html 5,183 93,209
+rect $d2/d84/classtpk_1_1_solar_system_target.html 143,107 305,133
+rect $d5/d6d/classtpk_1_1_spiral_target.html 164,183 284,209
+rect $d4/dc9/classtpk_1_1_tracking_target.html 155,284 293,311
+rect $db/d3c/classtpk_1_1_as_amajor_planet.html 377,5 521,32
+rect $d4/dc5/classtpk_1_1_minor_planet.html 389,56 509,83
+rect $d0/d9e/classtpk_1_1_minor_solar_system_body.html 356,107 543,133
+rect $de/d02/classtpk_1_1_planet.html 407,157 492,184
+rect $dc/d3d/classtpk_1_1_j_p_lmajor_planet.html 593,5 735,32
+rect $d6/d5e/classtpk_1_1_appt_target.html 392,208 507,235
+rect $d4/d2d/classtpk_1_1_az_el_target.html 392,259 507,285
+rect $d0/d3e/classtpk_1_1_f_k5_target.html 393,309 505,336
+rect $d2/dea/classtpk_1_1_i_c_r_s_target.html 389,360 509,387
+rect $df/ded/classtpk_1_1_topo_appt_target.html 377,411 521,437
+rect $d1/d52/classtpk_1_1_galactic_target.html 596,360 732,387

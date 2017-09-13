@@ -1,0 +1,24 @@
+#+
+# Makefile.build
+#
+# Builds a library.
+#
+# D L Terrett  16 January 2003
+#
+# Copyright CCLRC 2003
+#+
+
+include depends
+
+.SUFFIXES:
+.SUFFIXES: .c .o .a
+
+.c.o:
+	$(CC) -c $(include_path) $(CFLAGS) $<
+
+$(library): $(library_objects)
+	$(AR) -r $@ $?
+
+depends: $(sources)
+	$(CC) $(DFLAGS)  $(include_path) $? >> depends
+

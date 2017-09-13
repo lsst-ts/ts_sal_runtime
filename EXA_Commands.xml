@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://lsst-sal.tuc.noao.edu/schema/SALCommandSet.xsl"?>
+<SALCommandSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://lsst-sal.tuc.noao.edu/schema/SALCommandSet.xsd">
+
+<SALCommand>
+ <Subsystem>EXA</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>dmills</Author>
+ <EFDB_Topic>EXA_command_Example</EFDB_Topic>
+ <Alias>Example</Alias>
+ <Device></Device>
+ <Property></Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+     <item>
+	<EFDB_Name>param1</EFDB_Name>
+	<Description></Description>
+	<IDL_Type>double</IDL_Type>
+	<Units> </Units>
+	<Count>1</Count>
+    </item>   
+     <item>
+	<EFDB_Name>param2</EFDB_Name>
+	<Description></Description>
+	<IDL_Type>double</IDL_Type>
+	<Units> </Units>
+	<Count>1</Count>
+    </item>   
+</SALCommand>
+
+</SALCommandSet>

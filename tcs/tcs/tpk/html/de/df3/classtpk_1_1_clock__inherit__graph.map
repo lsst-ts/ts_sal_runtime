@@ -1,0 +1,3 @@
+<area shape="rect" href="$d5/d73/classtpk_1_1_tcl_clock.html" title="A Clock that reads the system clock using the Tcl API." alt="" coords="5,80,104,107">
+<area shape="rect" href="$d9/d40/classtpk_1_1_unix_clock.html" title="A Clock that reads the Unix system clock." alt="" coords="128,80,237,107">
+<area shape="rect" href="$da/dd7/classtpk_1_1_win_clock.html" title="A Clock that reads the Windows system clock." alt="" coords="261,80,365,107">

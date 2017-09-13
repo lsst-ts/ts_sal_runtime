@@ -1,0 +1,982 @@
+#if 0
+/*
+** - - - - - - -
+**  T R A I L S
+** - - - - - - -
+**
+** Common code for LSST trail tests.
+**
+** This revision:   19 January 2007
+**
+** Copyright P.T.Wallace.  All rights reserved.
+*/
+
+/*
+** -------------------------------------
+** Example of parameters defining a test
+** -------------------------------------
+*/
+
+#define YES 1
+#define NO 0
+
+#define VERBOSE YES           /* Full reporting */
+#define REP_HEAD YES          /* Head the report */
+
+#define MOUNT EQUAT           /* Mount type */
+#define RLOCN OTA             /* Instrument rotator location */
+#define SITE_LAT -31.0        /* Site latitude (deg) */
+#define SITE_HM 1300.0        /* Site elevation (m) */
+#define PMB 893.0             /* pressure (hPa) */
+
+#define FIELD (6.0*sqrt(2.0)) /* Field radius (deg) */
+#define F_CIRC NO             /* Circular (rather than square) field */
+#define FOCAL_L 3048.0        /* Focal length (mm) */
+
+#define TPS 1L                /* Ticks per second */
+#define T_SLOW (60L*TPS)      /* Ticks per slow update */
+#define T_MED (5L*TPS)        /* Ticks per medium update */
+
+#define PM_NOMINAL "schmidt.mod" /* Nominal pointing model */
+#define PM_TRUE PM_NOMINAL       /* True pointing model */
+#define DXI 0.0               /* Rotator axis error in xi (arcsec) */
+#define DETA 0.0              /* Rotator axis error in eta (arcsec) */
+#define PM_ENABLED YES        /* Pointing models enabled */
+
+#define RMA_PAR NO            /* Control rotator using parallactic angle */
+#define RMA_KECK NO           /* Control rotator using Keck formula */
+#define RMA_SLIT NO           /* Control rotator for slit case */
+#define RMA_FIXED YES         /* Rotator motion enabled */
+
+#define LEN_TEST (60L*60L*TPS) /* Duration of test (ticks) */
+#define LOG_INT (60L*TPS)      /* Ticks per line of report */
+
+#define REP_DIST NO          /* Whether to report distortions and shifts */
+#define REP_TRAIL YES        /* Whether to report trailed image positions */
+#define MAG 2000             /* Trail magnification */
+#define N_TOP YES            /* Whether north at the top */
+#define E_LEFT YES           /* Whether east at the left */
+#define LAT_INV NO           /* Whether to laterally invert trails */
+#define ONE_STAR YES         /* One star or multiple stars */
+
+#endif
+
+/* ---------------------------------------- */
+/* The live common code segment starts here */
+/* ---------------------------------------- */
+
+/* Euler angles wrt terrestrial [Az,El] for generalized gimbal case */
+#define GIM1Z 0.0        /* 1st rotation, about z-axis */
+#define GIM2Y 0.0        /* 2nd rotation, about y-axis */
+#define GIM3X 0.0        /* 3rd rotation, about x-axis */
+
+{
+
+/* ------------------------------------------ */
+/* Context for imperfectly-modelled telescope */
+/* ------------------------------------------ */
+
+#include "tcsctx.h"
+
+/* -------------------------- */
+/* Context for real telescope */
+/* -------------------------- */
+
+   static int model_true[MAXTRM];
+   static double coeffv_true[MAXTRM];
+   static int nterml_true;
+   static int ntermx_true;
+   static int nterms_true;
+   static char coeffn_true[NTROOM][9];
+   static char coform_true[NTROOM][9];
+   static double ia_true;
+   static double ib_true;
+   static double np_true;
+   static double xt_true;
+   static double yt_true;
+   static double zt_true;
+   static double ae2mt_true[3][3];
+   static double m_spm1_true[3][3][3][3], m_spm1_i_true[3][3][3][3],
+                 m_spm2_true[3][3][3][3], m_spm2_i_true[3][3][3][3];
+   static double r_spm1_true[3][3], r_spm1_i_true[3][3],
+                 r_spm2_true[3][3], r_spm2_i_true[3][3];
+
+/* ----------------------------------------- */
+/* Context for "topocentric az,el" telescope */
+/* ----------------------------------------- */
+
+   static int model_topo[MAXTRM];
+   static double coeffv_topo[MAXTRM];
+   static int nterml_topo;
+   static int ntermx_topo;
+   static int nterms_topo;
+   static char coeffn_topo[NTROOM][9];
+   static char coform_topo[NTROOM][9];
+   static double ia_topo;
+   static double ib_topo;
+   static double np_topo;
+   static double xt_topo;
+   static double yt_topo;
+   static double zt_topo;
+   static double ae2mt_topo[3][3];
+   static double m_spm1_topo[3][3], m_spm1_i_topo[3][3],
+                 m_spm2_topo[3][3], m_spm2_i_topo[3][3];
+   static double r_spm1_topo[3][3], r_spm1_i_topo[3][3],
+                 r_spm2_topo[3][3], r_spm2_i_topo[3][3];
+
+/* ------------------------- */
+/* End of telescope contexts */
+/* ------------------------- */
+
+
+/* Field halfwidth (radians). */
+   double hw = FIELD * D2R / sqrt(8.0);
+
+/* Minimum elevation (degrees). */
+   double elmin = 5.0*D2R;
+
+/* Array of test RA,Decs. */
+   double tp[3][3][2];
+
+/* Arrays of corresponding x,y positions. */
+   double xye[3][3][2], xym[3][3][2];
+
+/* Statistics. */
+   long n;
+   double sdr2, dr2max, sel;
+
+/* Affine transformation coefficients. */
+   double coeffs[6];
+
+   int istar, low, i, ix, iy, j, ih, im;
+   long itick, l;
+   char s, line[200];
+   double tai, vca, vnpae, ha, dec, t, rap, dap, hob, dob,
+          aia, st, az, el, sst, cst, x, y, z, theta, rota_p,
+          rtar, dtar, cd, xtar, ytar, ztar,
+          ru, sb, xu, yu, zu, xut, yut, zut, xst, yst, zst, rst,
+          xr, yr, zr, sq, cq, q, xi, rxy2, qc, rota_k, xiim, etaim,
+          xim, yim, dx, dy, xtrail, ytrail, dr2, xz, yz, xs, ys,
+          perp, orient, sec;
+
+
+/*
+** --------------------------
+** Report the test conditions
+** --------------------------
+*/
+
+#if VERBOSE && REP_HEAD
+   printf ( "Test circumstances:\n\n" );
+   printf ( "  mount type is %s\n", MOUNT == ALTAZ ? "altazimuth" :
+                                                     "equatorial" );
+   printf ( "  site longitude and height = %+g deg, %g m\n",
+                                                    SITE_LAT, SITE_HM );
+   printf ( "  pressure = %7.2f hPa\n", PMB );
+#if F_CIRC
+   printf ( "  field is %f deg (radius)\n", FIELD/2.0 );
+#else
+   printf ( "  field is %f x %f deg (%f radius)\n",
+                                            hw/D2R, hw/D2R, FIELD/2.0 );
+#endif
+   printf ( "  focal length = %g mm\n", FOCAL_L );
+   printf ( "  ticks per second = %d\n", (int) TPS );
+   printf ( "  slow update every %f sec\n", ( (double) T_SLOW ) /
+                                            ( (double) TPS ) );
+   printf ( "  medium update every %f sec\n", ( (double) T_MED ) /
+                                              ( (double) TPS ) );
+#if PM_ENABLED
+   printf ( "  pointing models (nominal, true) are in files %s, %s\n",
+            PM_NOMINAL, PM_TRUE );
+#else
+   printf ( "  pointing models disabled\n" );
+#endif
+#if RMA_PAR
+   printf ( "  rotator controlled by parallactic angle\n" );
+#elif RMA_KECK
+   printf ( "  rotator controlled by Keck formula\n" );
+#elif RMA_SLIT
+   printf ( "  rotator controlled for slit case\n" );
+#elif RMA_FIXED
+   printf ( "  rotator fixed\n" );
+#else
+   printf ( "  rotator controlled by TCSpk (2-axis)\n" );
+#endif
+   printf ( "  total duration of test in seconds = %g\n",
+                            ( (double) LEN_TEST ) / ( (double) TPS ) );
+   printf ( "  seconds per report = %g\n",
+                            ( (double) LOG_INT ) / ( (double) TPS ) );
+#if REP_DIST
+   printf ( "  trails will be logged as shifts and distortions\n" );
+#endif
+#if REP_TRAIL
+   printf ( "  trails will be logged as dX,dY magnified x%d, with \n", MAG );
+#if N_TOP
+   printf ( "  north" );
+#else
+   printf ( "  south" );
+#endif
+   printf ( " at the top and " );
+#if E_LEFT
+   printf ( "west" );
+#else
+   printf ( "east" );
+#endif
+   printf ( " at the right\n" );
+#endif
+#if ONE_STAR
+   printf ( "  results for one star only\n" );
+#else
+   printf ( "  results for multiple stars\n" );
+#endif
+   printf ( "\n" );
+#endif
+
+/*
+** --------------
+** Initialization
+** --------------
+**
+** n.b. C's default initialization to zero is assumed.
+*/
+
+/* No special refraction handling required. */
+   rfun = NULL;
+
+/* Site and telescope. */
+   tlongm = 0.0*D2R;
+   tlatm = SITE_LAT*D2R;
+   hm = SITE_HM;
+   fl = FOCAL_L;
+   rnogo = 0.05*D2R;
+   mount = MOUNT;
+   rotl = RLOCN;
+
+/* Time. */
+   delut = 0.746/86400.0;
+   delat = 29.0/86400.0;
+   ttmtai = 32.184/86400.0;
+   xpmr = 0.0*AS2R;
+   ypmr = 0.0*AS2R;
+
+/* Met. */
+   temp = 275.0;
+   press = PMB;
+   humid = 0.3;
+   tlr = 0.0065;
+   wavelr = 0.55;
+
+/* Mount above/below pole state. */
+   jbp = 0;
+
+/* Initial mount [roll,pitch] (arbitrary). */
+   roll = 0.0;
+   pitch = 1.0;
+
+/* Frames. */
+   m_cosys = FK5;
+   m_eqx = 2000.0;
+   m_wavel = 1.0;
+   r_cosys = m_cosys;
+   r_eqx = m_eqx;
+   r_wavel = m_wavel;
+
+/* Pointing models, nominal (used to control telescope), true and null. */
+#if PM_ENABLED
+   if ( tcsIntpm ( PM_NOMINAL, MAXTRM, NTROOM, model,
+                   &nterml, &ntermx, &nterms,
+                   coeffn, coform, coeffv ) ) return -1;
+   if ( tcsIntpm ( PM_TRUE, MAXTRM, NTROOM, model_true,
+                   &nterml_true, &ntermx_true, &nterms_true,
+                   coeffn_true, coform_true, coeffv_true ) ) return -1;
+#else
+   if ( tptMinit ( MAXTRM, NTROOM, model,
+                   &nterml, &ntermx, &nterms,
+                   coeffn ) ) return -1;
+   if ( tptMinit ( MAXTRM, NTROOM, model_true,
+                   &nterml_true, &ntermx_true, &nterms_true,
+                   coeffn_true ) ) return -1;
+#endif
+   if ( tptMinit ( MAXTRM, NTROOM, model_topo,
+                   &nterml_topo, &ntermx_topo, &nterms_topo,
+                   coeffn_topo ) ) return -1;
+
+/* Extract selected pointing coefficients. */
+   vca = 0.0;
+   vnpae = 0.0;
+   for ( i=0; model[i] > 0; i++ ) {
+      if ( ! strcmp ( "CA",   coeffn[model[i]-1] ) ) vca = coeffv[i];
+      if ( ! strcmp ( "NPAE", coeffn[model[i]-1] ) ) vnpae = coeffv[i];
+   }
+
+
+/* Guiding adjustments. */
+   ga = 0.0*AS2R;
+   gb = 0.0*AS2R;
+
+/* Secondary initialization. */
+   if ( tcsInit2 ( tlongm, tlatm, xpmr, ypmr, hm,
+                   mount, GIM1Z, GIM2Y, GIM3X, ae2nm,
+                   &tlong, &tlat, &uau, &vau, &ukm, &vkm, &diurab ) ) {
+      printf ( "\nSecondary initialization has failed.\n" );
+      return -1;
+   }
+
+/* Simulate hardware that by now would be running. */
+   rma = 0.0*D2R;    /* Rotator angle (n.b. achieved, NOT demanded) */
+   rmav = 0.0;       /* Velocity (achieved). */
+   rmat = 0.0;       /* Timestamp. */
+
+/* Target defaults. */
+   m_cosys = FK5;
+   m_eqx = 2000.0;
+   m_wavel = 0.55;
+   r_cosys = m_cosys;
+   r_eqx = m_eqx;
+   m_tar_dt [ 0 ] = 0.0;
+   m_tar_dt [ 1 ] = 0.0;
+   m_tar_t0 = 0.0;
+   m_tar_ob [ 0 ] [ 0 ] = 0.0;
+   m_tar_ob [ 0 ] [ 1 ] = 0.0;
+
+/*
+** ------------
+** Star by star
+** ------------
+*/
+   for ( ; ; ) {
+
+   /* The target. */
+      if ( gets ( line ) == NULL ) break;
+#if VERBOSE
+      printf ( "<%s>\n", line );
+#endif
+      sscanf ( line, "%lf %lf", &ha, &dec );
+      ha *= D2R;
+      dec *= D2R;
+
+   /*
+   ** ------------------------------------------------
+   ** Run the SLOW routine for the first of many times
+   ** ------------------------------------------------
+   */
+
+   /* Get the (approximate) current time. */
+      (void) tcsTime ( &tai );
+
+   /* Perform the slow update for that time. */
+      tcsSlow ( tai, delut, delat, ttmtai,
+                temp, press, humid, wavelr, tlong,
+                &t0, &st0, &tt0, &ttj, amprms, &refa, &refb );
+
+   /*
+   ** ------------------------------------------------
+   ** Obtain a star near the nominated HA,Dec mid-test
+   ** ------------------------------------------------
+   */
+
+      t = tai + ( (double) LEN_TEST ) / ( (double) TPS ) / 86400.0 / 2.0;
+      slaOap ( "H", ha, dec, t-delat, delut, tlong, tlat, hm, 0.0, 0.0,
+               temp, press, humid, wavelr, tlr, &rap, &dap );
+      slaAmp ( rap, dap, t, 2000.0, m_tar_p0, m_tar_p0+1 );
+
+   /*
+   ** --------------------------------------------------
+   ** Run the MEDIUM routine for the first of many times
+   ** --------------------------------------------------
+   */
+
+   /* Get the (approximate) current time. */
+      (void) tcsTime ( &tai );
+
+   /* Perform the medium update for that time. */
+      (void) tcsMedium ( tai, MAXTRM, model, coeffv, nterml, ntermx, nterms,
+                         coeffn, coform, mount, ae2nm, roll, pitch, jbp, aux,
+                         m_cosys, m_eqx, m_wavel, r_cosys, r_eqx, r_wavel,
+                         m_tar_p,
+                         t0, st0, ttj, temp, press, humid, tlr, wavelr,
+                         refa, refb, rfun, hm, tlat, diurab, amprms,
+                         &ia, &ib, &np, &xt, &yt, &zt, ae2mt,
+                         m_spm1, m_spm1_i, m_spm2, m_spm2_i,
+                         r_spm1, r_spm1_i, r_spm2, r_spm2_i );
+
+   /*
+   ** -----------------------------------------------
+   ** Set the field-orientation to something harmless
+   ** -----------------------------------------------
+   */
+
+      aia = 0.0;              /* IAA */
+
+      pai = 0.0;              /* IPA */
+      sia = sin ( aia );      /* sin(IAA) */
+      cia = cos ( aia );      /* cos(IAA) */
+
+#if RMA_SLIT
+
+   /* Rotator predictions slit-optimized. */
+      jf = 0;
+
+#else
+
+   /* Rotator predictions field-optimized. */
+      jf = 1;
+
+#endif
+
+   /* Tell the FAST routine. */
+      tcsFast ( PA, jbp, tai,
+                rotl, rmat, rma, rmav,
+                t0, st0,
+                ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                m_tar_t0, m_tar_op0, m_tar_dt,
+                fl, m_por_p,
+                sia, cia, pai, jf,
+                m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                &roll, &pitch, &rota );
+
+   /*
+   ** ----------------------------------------------
+   ** Set the pointing-origins to something harmless
+   ** ----------------------------------------------
+   */
+
+      npo = 1;
+      m_por_p0[npo][0] = 0.0;
+      m_por_p0[npo][1] = 0.0;
+      m_por_ob[npo][0][0] = 0.0;
+      m_por_ob[npo][0][1] = 0.0;
+
+   /* Incorporate the offsets from base. */
+      tcsPorup ( m_por_p0[npo], m_por_ob[npo], m_por_p );
+
+   /* Tell the FAST routine. */
+      tcsFast ( PO, jbp, tai,
+                rotl, rmat, rma, rmav,
+                t0, st0,
+                ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                m_tar_t0, m_tar_op0, m_tar_dt,
+                fl, m_por_p,
+                sia, cia, pai, jf,
+                m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                &roll, &pitch, &rota );
+
+   /* Tell the FAST routine about everything initialized so far. */
+      tcsFast ( ALL, jbp, tai,
+                rotl, rmat, rma, rmav,
+                t0, st0,
+                ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                m_tar_t0, m_tar_op0, m_tar_dt,
+                fl, m_por_p,
+                sia, cia, pai, jf,
+                m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                &roll, &pitch, &rota );
+
+   /* Get the (approximate) current time. */
+      (void) tcsTime ( &tai );
+
+   /* Calculate target position. */
+      tcsTargup ( tai, m_tar_t0, m_tar_p0, m_tar_dt, m_tar_ob,
+                  m_tar_op0, m_tar_p );
+
+   /* Now run the MEDIUM routine to generate the new pointing model */
+   /* and SPMs for mount tracking.                                  */
+      (void) tcsMedium ( tai, MAXTRM, model, coeffv, nterml, ntermx, nterms,
+                         coeffn, coform, mount, ae2nm, roll, pitch, jbp, aux,
+                         m_cosys, m_eqx, m_wavel, r_cosys, r_eqx, r_wavel,
+                         m_tar_p,
+                         t0, st0, ttj, temp, press, humid, tlr, wavelr,
+                         refa, refb, rfun, hm, tlat, diurab, amprms,
+                         &ia, &ib, &np, &xt, &yt, &zt, ae2mt,
+                         m_spm1, m_spm1_i, m_spm2, m_spm2_i,
+                         r_spm1, r_spm1_i, r_spm2, r_spm2_i );
+
+   /* Tell the FAST routine about the new target and mount SPMs. */
+      tcsFast ( TARGET + TRANSFORM + MODEL, jbp, tai,
+                rotl, rmat, rma, rmav,
+                t0, st0,
+                ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                m_tar_t0, m_tar_op0, m_tar_dt,
+                fl, m_por_p,
+                sia, cia, pai, jf,
+                m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                &roll, &pitch, &rota );
+
+   /*
+   ** -----------------------------------------------------
+   ** Run the FAST routine every tick for the test duration
+   ** -----------------------------------------------------
+   */
+
+   /* Reset "went below elevation limit" flag. */
+      low = 0;
+
+   /* Initialize the image trailing statistics. */
+      n = 0;
+      sdr2 = 0.0;
+      dr2max = 0.0;
+      sel = 0.0;
+
+   /* Initialize the clock. */
+      (void) tcsTime ( &tai );
+
+   /* Simulate successive calls to FAST. */
+      for ( itick = -T_SLOW; itick <= LEN_TEST; itick++ ) {
+
+      /* TAI (MJD). */
+         t = tai + ( (double) itick ) / ( (double) TPS ) / 86400.0;
+
+      /* Perform the SLOW update if due. */
+         if ( ! ( itick % T_SLOW ) ) {
+            tcsSlow ( t, delut, delat, ttmtai,
+                      temp, press, humid, wavelr, tlong,
+                      &t0, &st0, &tt0, &ttj, amprms, &refa, &refb );
+         }
+
+      /* Perform the nominal and null pointing-model medium updates if due. */
+         if ( ! ( itick % T_MED ) ) {
+
+         /* SPMs for nominal pointing model. */
+            (void) tcsMedium (
+                      t, MAXTRM,
+                      model,
+                      coeffv,
+                      nterml,
+                      ntermx,
+                      nterms,
+                      coeffn,
+                      coform,
+                      mount, ae2nm, roll, pitch, jbp, aux,
+                      m_cosys, m_eqx, m_wavel, r_cosys, r_eqx, r_wavel,
+                      m_tar_p,
+                      t0, st0, ttj, temp, press, humid, tlr, wavelr,
+                      refa, refb, rfun, hm, tlat, diurab, amprms,
+                      &ia,
+                      &ib,
+                      &np,
+                      &xt,
+                      &yt,
+                      &zt,
+                      ae2mt,
+                      m_spm1,
+                      m_spm1_i,
+                      m_spm2,
+                      m_spm2_i,
+                      r_spm1,
+                      r_spm1_i,
+                      r_spm2,
+                      r_spm2_i );
+
+         /* SPMs for null pointing model and no refraction. */
+            (void) tcsMedium (
+                      t, MAXTRM,
+                      model_topo,
+                      coeffv_topo,
+                      nterml_topo,
+                      ntermx_topo,
+                      nterms_topo,
+                      coeffn_topo,
+                      coform_topo,
+                      mount, ae2nm, roll, pitch, jbp, aux,
+                      m_cosys, m_eqx, m_wavel, r_cosys, r_eqx, r_wavel,
+                      m_tar_p,
+                      t0, st0, ttj, 0.0, 0.0, 0.0, 0.0, 0.0,
+                      0.0, 0.0, rfun, hm, tlat, diurab, amprms,
+                      &ia_topo,
+                      &ib_topo,
+                      &np_topo,
+                      &xt_topo,
+                      &yt_topo,
+                      &zt_topo,
+                      ae2mt_topo,
+                      m_spm1_topo,
+                      m_spm1_i_topo,
+                      m_spm2_topo,
+                      m_spm2_i_topo,
+                      r_spm1_topo,
+                      r_spm1_i_topo,
+                      r_spm2_topo,
+                      r_spm2_i_topo );
+         }
+
+      /* Tell the FAST routine about everything that has changed. */
+         tcsFast ( 127, jbp, t,
+                   rotl, rmat, rma, rmav,
+                   t0, st0,
+                   ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                   m_tar_t0, m_tar_op0, m_tar_dt,
+                   fl, m_por_p,
+                   sia, cia, pai, jf,
+                   m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                   &roll, &pitch, &rota );
+
+      /* Ask the FAST routine to calculate new demands. */
+         tcsFast ( 0, jbp, t,
+                   rotl, rmat, rma, rmav,
+                   t0, st0,
+                   ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                   m_tar_t0, m_tar_op0, m_tar_dt,
+                   fl, m_por_p,
+                   sia, cia, pai, jf,
+                   m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                   &roll, &pitch, &rota );
+
+      /* Prepare for other rotator predictions. */
+
+         rtar = m_tar_op0[0];
+         dtar = m_tar_op0[1];
+         cd = cos(dtar);
+         xtar = cos(rtar)*cd;
+         ytar = sin(rtar)*cd;
+         ztar = sin(dtar);
+         st = st0 + ( t - t0 ) * STRPD;
+         sst = sin ( st );
+         cst = cos ( st );
+
+      /* Parallactic angle, calculated from topocentric az,el. */
+
+         tcsSky2a_c ( xtar, ytar, ztar,
+                      m_spm1_topo, m_cosys, sst, cst, m_spm2_topo,
+                      &x, &y, &z );
+         az = x != 0.0 || y != 0.0 ? atan2 ( y, -x ) : 0.0;
+         el = atan2 ( z, sqrt ( x*x + y*y ) );
+         slaDh2e ( az, el, tlat, &hob, &dob );
+         theta = slaPa ( hob, dob, tlat );
+         rota_p = PI - theta;
+
+      /* Keck algorithm. */
+
+         ru = sqrt ( xtar*xtar + ytar*ytar );
+         sb = ztar / ( ru > 1e-10 ? ru : 1e-10 );
+         xu = -xtar*sb;
+         yu = -ytar*sb;
+         zu = ru;
+         tcsSky2a_c ( xu, yu, zu,
+                      m_spm1, m_cosys, sst, cst, m_spm2,
+                      &xut, &yut, &zut );
+         tcsSky2a_c ( xtar, ytar, ztar,
+                      m_spm1, m_cosys, sst, cst, m_spm2,
+                      &xst, &yst, &zst );
+         rxy2 = xst*xst + yst*yst;
+         rst = sqrt ( rxy2 );
+         sb = zst / ( rst > 1e-10 ? rst : 1e-10 );
+         xr = -xst*sb;
+         yr = -yst*sb;
+         zr = rst;
+         sq = xst*yr*zut + yst*zr*xut + zst*xr*yut
+            - zst*yr*xut - xst*zr*yut - yst*xr*zut;
+         cq = xr*xut + yr*yut + zr*zut;
+         q = atan2 ( sq, cq );
+         xi = - ( vca + vnpae*zst );
+         qc = q - z*atan2(xi,sqrt(rxy2-xi*xi)) + vnpae*sqrt(rxy2);
+         rota_k = PI - qc;
+
+/* Select which rotator prediction override to use. */
+
+#if RMA_PAR
+
+      /* Parallactic angle based. */
+         rota = rota_p;
+
+#elif RMA_KECK
+
+      /* Keck algorithm. */
+         rota = rota_k;
+
+#elif RMA_FIXED
+
+      /* Rotator not tracking. */
+         rota = rma;
+
+#endif
+
+      /* Put rotator demand into the normal range (0-2pi). */
+         rota = slaDranrm ( rota );
+
+      /* Make the rotator follow the demands. */
+         rmav = slaDrange ( rota - rma ) * 86400.0 * ( (double) TPS );
+         rma = rota;
+         rmat = t;
+
+      /* Tell the FAST routine about it. */
+         tcsFast ( 1, jbp, t,
+                   rotl, rmat, rma, rmav,
+                   t0, st0,
+                   ia, ib, np, xt, yt, zt, ga, gb, rnogo,
+                   m_tar_t0, m_tar_op0, m_tar_dt,
+                   fl, m_por_p,
+                   sia, cia, pai, jf,
+                   m_cosys, m_spm1, m_spm2, r_cosys, r_spm1_i, r_spm2_i,
+                   &roll, &pitch, &rota );
+
+      /* Is it time to log? */
+         if ( ! ( itick % LOG_INT ) ) {
+
+         /* Yes: obtain LAST. */
+            st = st0 + ( t - t0 ) * STRPD;
+
+         /* Obtain (approximate topocentric) az,el. */
+            slaMapqkz ( m_tar_p[0], m_tar_p[1], amprms, &rap, &dap );
+            slaDe2h ( st - rap, dap, tlatm, &az, &el );
+
+         /* Abandon this star if too low or too near pole of mounting. */
+            if ( el < elmin || pitch > D90-rnogo ) {
+               low = 1;
+               break;
+            }
+
+         /* Is the run in progress yet? */
+            if ( itick >= 0L ) {
+
+            /* Yes.  Functions of LAST. */
+               sst = sin ( st );
+               cst = cos ( st );
+
+            /* Is this the very start of the run? */
+               if ( ! itick ) {
+
+               /* Yes.  Create the pattern of test points. */
+                  for ( iy = 0; iy < 3; iy++ ) {
+                     for ( ix = 0; ix < 3; ix++ ) {
+
+                     /* Image x,y (radians). */
+                        xye[ix][iy][0] = ( (double) ( ix - 1 ) ) * hw;
+                        xye[ix][iy][1] = ( (double) ( iy - 1 ) ) * hw;
+#if F_CIRC
+                        if ( !(ix%2) && !(iy%2) ) {
+                           xye[ix][iy][0] /= sqrt(2.0);
+                           xye[ix][iy][1] /= sqrt(2.0);
+                        }
+#endif
+
+                     /* Exact x,y to approximate sky RA,Dec. */
+                        tcsVTsky ( roll, pitch, rotl, rma,
+                                   xye[ix][iy][0], xye[ix][iy][1],
+                                   m_spm1_i, m_cosys, sst, cst, m_spm2_i,
+                                   ia, ib, np, xt, yt, zt, ga, gb,
+                                   &tp[ix][iy][0], &tp[ix][iy][1] );
+
+                     /* SPMs for this star and true pointing model. */
+                        (void) tcsMedium (
+                           t, MAXTRM,
+                           model_true,
+                           coeffv_true,
+                           nterml_true,
+                           ntermx_true,
+                           nterms_true,
+                           coeffn_true,
+                           coform_true,
+                           mount, ae2nm, roll, pitch, jbp, aux,
+                           m_cosys, m_eqx, m_wavel,
+                           r_cosys, r_eqx, r_wavel,
+                           tp[ix][iy],
+                           t0, st0, ttj, temp, press, humid, tlr, wavelr,
+                           refa, refb, rfun, hm, tlat, diurab, amprms,
+                           &ia_true,
+                           &ib_true,
+                           &np_true,
+                           &xt_true,
+                           &yt_true,
+                           &zt_true,
+                           ae2mt_true,
+                           m_spm1_true[ix][iy],
+                           m_spm1_i_true[ix][iy],
+                           m_spm2_true[ix][iy],
+                           m_spm2_i_true[ix][iy],
+                           r_spm1_true,
+                           r_spm1_i_true,
+                           r_spm2_true,
+                           r_spm2_i_true
+                                         );
+
+                     /* Use the SPMs to get slightly revised x,y.*/
+                        tcsVTxy ( tp[ix][iy][0], tp[ix][iy][1],
+                                  m_spm1_true[ix][iy],
+                                  m_cosys, sst, cst,
+                                  m_spm2_true[ix][iy],
+                                  rotl, rma, roll, pitch,
+                                  ia_true,
+                                  ib_true,
+                                  np_true,
+                                  xt_true,
+                                  yt_true,
+                                  zt_true, ga, gb,
+                                  &xye[ix][iy][0], &xye[ix][iy][1], &j );
+
+                     /* Scale to mm. */
+                        for ( i = 0; i < 2; i++ ) {
+                           xye[ix][iy][i] *= fl;
+                        }
+                     }
+                  }
+               /* End of "start of run" code. */
+               }
+
+            /* Time to log, and run in progress. */
+
+            /* Time for MEDIUM update? */
+               if ( ! ( itick % T_MED ) ) {
+
+               /* Yes: SPMs for each star and true pointing model. */
+                  for ( iy = 0; iy < 3; iy++ ) {
+                     for ( ix = 0; ix < 3; ix++ ) {
+                        (void) tcsMedium (
+                           t, MAXTRM,
+                           model_true,
+                           coeffv_true,
+                           nterml_true,
+                           ntermx_true,
+                           nterms_true,
+                           coeffn_true,
+                           coform_true,
+                           mount, ae2nm, roll, pitch, jbp, aux,
+                           m_cosys, m_eqx, m_wavel,
+                           r_cosys, r_eqx, r_wavel,
+                           tp[ix][iy],
+                           t0, st0, ttj, temp, press, humid, tlr, wavelr,
+                           refa, refb, rfun, hm, tlat, diurab, amprms,
+                           &ia_true,
+                           &ib_true,
+                           &np_true,
+                           &xt_true,
+                           &yt_true,
+                           &zt_true,
+                           ae2mt_true,
+                           m_spm1_true[ix][iy],
+                           m_spm1_i_true[ix][iy],
+                           m_spm2_true[ix][iy],
+                           m_spm2_i_true[ix][iy],
+                           r_spm1_true,
+                           r_spm1_i_true,
+                           r_spm2_true,
+                           r_spm2_i_true
+                                         );
+                     }
+                  }
+
+               /* MEDIUM update complete. */
+               }
+
+            /* Time to log, and run in progress. */
+
+            /* Compute true image x,y positions. */
+               for ( iy = 0; iy < 3; iy++ ) {
+                  for ( ix = 0; ix < 3; ix++ ) {
+
+                  /* Start by getting (non-rotating) xi,eta. */
+                     tcsVTxe ( tp[ix][iy][0], tp[ix][iy][1],
+                               m_spm1_true[ix][iy],
+                               m_cosys, sst, cst,
+                               m_spm2_true[ix][iy],
+                               roll, pitch,
+                               ia_true,
+                               ib_true,
+                               np_true,
+                               xt_true,
+                               yt_true,
+                               zt_true, ga, gb,
+                               &xiim, &etaim, &j );
+
+#if PM_ENABLED
+                  /* Introduce rotator axis error. */
+                     xiim += DXI * AS2R;
+                     etaim += DETA * AS2R;
+#endif
+
+                  /* Transform into (rotating) x,y. */
+                     tcsXe2xy ( xiim, etaim, rotl, rma, roll, pitch,
+                                &xym[ix][iy][0], &xym[ix][iy][1] );
+
+
+                     for ( i = 0; i < 2; i++ ) {
+                        xym[ix][iy][i] *= fl;
+
+                     /* If start of run, note. */
+                        if ( ! itick ) {
+                           xye[ix][iy][i] = xym[ix][iy][i];
+                        }
+                     }
+
+                  /* Update the trail statistics. */
+                     dx = xym[ix][iy][0]-xye[ix][iy][0];
+                     dy = xym[ix][iy][1]-xye[ix][iy][1];
+                     dr2 = dx*dx + dy*dy;
+                     sdr2 += dr2;
+                     dr2max = dr2max > dr2 ? dr2max : dr2;
+                     sel += el;
+                     n++;
+                  }
+               }
+
+#if REP_DIST
+            /* Report distortions and shifts. */
+               slaFitxy ( 6, 9, (double(*)[2]) xye,
+                                (double(*)[2]) xym, coeffs, &j );
+               printf("%7.2f",(t-tai)*86400.0);
+               slaDcmpf ( coeffs, &xz, &yz, &xs, &ys, &perp, &orient );
+               printf ( "%9.5f %9.5f %9.5f %9.5f %9.5f %9.5f %8.2f\n",
+                        xz, yz, xs, ys, perp/D2R, orient/D2R, pitch/D2R );
+#endif
+
+#if REP_TRAIL
+            /* Report trailed image positions. */
+               for ( iy = 0; iy < 3; iy++ ) {
+                  for ( ix = 0; ix < 3; ix++ ) {
+                     dx = xym[ix][iy][0]-xye[ix][iy][0];
+                     dy = xym[ix][iy][1]-xye[ix][iy][1];
+
+                     l = itick;
+                     ih = (int) ( l / ( 3600L * TPS ) );
+                     l = l % ( 3600L * TPS );
+                     im = (int) ( l / ( 60L * TPS ) );
+                     l = l % ( 60L * TPS );
+                     sec = ( (double) l ) / ( (double) TPS );
+
+                     xtrail = xye[ix][iy][0] + dx * ( (double) MAG );
+                     ytrail = xye[ix][iy][1] + dy * ( (double) MAG );
+#if N_TOP == NO
+                     ytrail = -ytrail;
+#endif
+#if E_RIGHT
+                     xtrail = -xtrail;
+#endif
+
+                     printf (
+   "%+12.6f %+12.6f %+10.6f %+10.6f %2d %2d %2.2d %2.2d %05.2f %6.1f %5.1f\n",
+                              xtrail, ytrail,
+                              dx, dy,
+                              ix-1, iy-1, ih, im, sec,
+                              az/D2R, el/D2R );
+                  }
+               }
+#endif
+
+            /* End of "run in progress" code. */
+            }
+
+         /* End of "time to log" code. */
+         }
+
+      /* End of "running" code. */
+      }
+
+#if VERBOSE
+   /* Report statistics. */
+      if ( ! low ) {
+         printf (
+    "\nMax trail = %5.3f arcsec, RMS = %5.3f arcsec, mean el = %4.1f.\n",
+                     sqrt ( dr2max ) / ( AS2R * fl ),
+                     sqrt ( sdr2 / ( (double) n ) ) / ( AS2R * fl ),
+                     sel / ( (double) n ) / D2R
+                );
+      }
+#endif
+
+   /* Next simulation, using a new star (if any). */
+      if ( ONE_STAR ) break;
+   }
+
+/* Finished. */
+   return 0;
+
+}

@@ -1,0 +1,14 @@
+base referer
+rect $d7/dcd/_base_vt_8h.html 199,243 273,269
+rect $de/de4/tpk_8h.html 545,116 596,143
+rect $d8/d7c/_base_vt_8cpp.html 525,369 616,396
+rect $de/d03/_mount_vt_8cpp.html 523,445 619,472
+rect $dc/d89/_optics_vt_8cpp.html 521,40 620,67
+rect $d1/d3f/_pointing_origin_8cpp.html 171,496 301,523
+rect $df/de5/_auto_guider_8h.html 351,192 452,219
+rect $d1/ddf/_mount_vt_8h.html 360,243 443,269
+rect $de/d1b/_kernel_wcs_8cpp.html 515,319 627,345
+rect $d0/dc0/_optics_vt_8h.html 360,40 443,67
+rect $de/d5c/_auto_guider_8cpp.html 513,167 628,193
+rect $db/def/_pointing_control_8cpp.html 501,217 640,244
+rect $de/d0a/_pointing_log_8cpp.html 512,268 629,295

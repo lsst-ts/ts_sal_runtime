@@ -1,0 +1,332 @@
+#include "tcs.h"
+#include "tcsmac.h"
+
+void tcsRotator ( double xa, double ya, double za,
+                  ROTLOC rotl, double rdp, int jbp, double ad, double bd,
+                  double xpo, double ypo,
+                  double ia, double ib, double np,
+                  double xt, double yt, double zt,
+                  double ga, double gb,
+                  double sia, double cia,
+                  double r_spm1_i[3][3],
+                  FRAMETYPE r_frame, double sst, double cst,
+                  double r_spm2_i[3][3], double pai, int jf,
+                  double *rd, int *j )
+
+/*
+**  - - - - - - - - - - -
+**   t c s R o t a t o r
+**  - - - - - - - - - - -
+**
+**  Use "virtual telescope" techniques to predict the rotator angle
+**  demand.
+**
+**  Given:
+**     xa          double        AIM x-coordinate (Note 1)
+**     ya          double        AIM y-coordinate (Note 1)
+**     za          double        AIM z-coordinate (Note 1)
+**     rotl        ROTLOC        rotator location
+**     rdp         double        predicted rotator demand
+**     jbp         int           FALSE/TRUE = above/below pole (Note 2)
+**     ad          double        demand roll (Note 2)
+**     bd          double        demand pitch (Note 2)
+**     xpo         double        pointing-origin x (in focal lengths)
+**     ypo         double        pointing-origin y (in focal lengths)
+**     ia          double        roll zero point
+**     ib          double        pitch zero point
+**     np          double        nonperpendicularity
+**     xt          double        telescope vector, x-component (Note 3)
+**     yt          double        telescope vector, y-component (Note 3)
+**     zt          double        telescope vector, z-component (Note 3)
+**     ga          double        guiding adjustment, collimation
+**     gb          double        guiding adjustment, pitch
+**     sia         double        sine of Instrument Alignment Angle
+**     cia         double        cosine of Instrument Alignment Angle
+**     r_spm1_i    double[3][3]  inverse SPM #1 for the rotator frame
+**     r_frame     FRAMETYPE     rotator tracking frame ID
+**     sst         double        sine of sidereal time (Note 5)
+**     cst         double        cosine of sidereal time (Note 5)
+**     r_spm2_i    double[3][3]  inverse SPM #2 for the rotator frame
+**     pai         double        requested Instrument Position Angle
+**     jf          int           true = optimize for field (Note 6)
+**
+**  Returned:
+**     rd          double        required rotator mechanical angle
+**     j           int           status:  0 = OK
+**                                       -1 = internal error (Note 8)
+**
+**  Defined in tcs.h:
+**     FRAMETYPE   enum          frame types
+**     ROTLOC      enum          rotator locations
+**
+**  Defined in tcsmac.h:
+**     PI2         double        2Pi
+**
+**  Called:  tcsAim2enc, tcsVTsky_c
+**
+**  Notes:
+**
+**  1  A "virtual telescope" is a group of transformations that link
+**     three sets of coordinates:
+**
+**       (i)  the target (where in the sky the source is);
+**
+**      (ii)  the pointing-origin (where in the focal plane the image
+**            appears);
+**
+**     (iii)  the mount encoder readings (that cause the image of the
+**            target to fall in the specified place in the focal plane).
+**
+**     The transformations are specified by various time-dependent
+**     rotation matrices, pointing corrections, functions of rotator
+**     angle and so on.  They form a chain:
+**
+**
+**                [ TARGET ]             <- target [a,b]
+**                     |
+**        astronomical transformations   <- time, site
+**                     |
+**                 refraction            <- weather
+**                     |
+**              mount orientation        <- ae2mt
+**                     |
+**                  [ AIM ]
+**                     |
+**                   roll                <- encoder a, and ia
+**                     |
+**            roll/pitch nonperp         <- np
+**                     |
+**                   pitch               <- encoder b, and ib
+**                     |
+**               [ BORESIGHT ]
+**                     |
+**                  guiding              <- ga, gb
+**                     |
+**               pointing origin         <- [x,y] and rotator angle
+**                     |
+**               [ TELESCOPE ]
+**                     |
+**                   flop                <- vertical deflection terms
+**                     |
+**             tel/pitch nonperp         <- collimation terms
+**                     |
+**                 [ 1,0,0 ]
+**
+**
+**     Given any two of the three sets of coordinates (sky, pointing-
+**     origin, mount), the missing coordinates can be deduced.  There is
+**     only one mount, and hence all the virtual telescopes must share
+**     the same encoder demands, namely those generated by the main
+**     "mount tracking" virtual telescope.  The remaining virtual
+**     telescopes implement such features as autoguiding and tip/tilt
+**     secondary optics, either by deducing the image position for a
+**     given target, or deducing the sky coordinates that correspond to
+**     a given place in the focal plane.
+**
+**     In the present case, virtual telescope techniques are used to
+**     project from the focal plane to the sky and thereby establish
+**     the field orientation.
+**
+**  2  The predicted demand roll and pitch, ad and bd, are for the time
+**     for which the rotator demand is required.  If the call to
+**     tcsRotator immediately follows a call to tcsTrack, which is
+**     commonly the case, then ad and bd are simply the roll and pitch
+**     demands just calculated.  The above/below pole flag, jbp, is in
+**     principle superfluous, because it can be deduced from the demand
+**     pitch.  However, it is in practice more convenient to treat the
+**     flag and the predicted demands as separate entities.  The result
+**     is in any case insensitive to the precise vaues of ad and bd
+**     supplied.
+**
+**  3  The TELESCOPE vector [xt,yt,zt] is in this frame:
+**
+**       x-axis:  at right angles to both the roll and pitch axes
+**       y-axis:  along the pitch axis
+**       z-axis:  at right angles to the other two axes
+**
+**     In the absence of either collimation error or vertical deflection
+**     the TELESCOPE vector is [1,0,0].
+**
+**  4  The basic method is as follows.  First a partial sky-to-encoders
+**     transformation is performed, starting with the AIM vector and
+**     using as the rotator angle the estimated demand for the time in
+**     question, and predicting the corresponding encoder readings.
+**     Then, transformations back up to target coordinates (in the
+**     rotator tracking frame) are performed for small displacements
+**     of the pointing-origin lying along the user's specified
+**     Instrument Principal Direction (IPD).  The disposition of these
+**     points on the sky therefore defines the IPD's position-angle for
+**     the predicted demand rotator angle.  The error, i.e. the
+**     difference between the requested and actual demand rotator angle,
+**     is calculated.  The new rotator demand is simply the estimated
+**     demand minus the error.
+**
+**     Repeated calls to this routine, using the new demand as the
+**     estimated demand for the next iteration, will lead to
+**     convergence.  Explicit iteration is unlikely to be needed
+**     operationally if the rotator calculation is being performed
+**     as part of the regular tracking updates, say at 20Hz.
+**
+**  5  The arguments sst and cst are the sine and cosine of the local
+**     apparent sidereal time.  Neither is used if the target frame is
+**     topocentric Az/El.
+**
+**  6  The basic algorithm predicts the rotator angle that fixes the IPD
+**     on the sky.  This is optimal for a slit instrument (assuming that
+**     the slit is chosen as the IPD).  The jf argument allows an
+**     alternative compromise to be made that minimizes the field
+**     rotation overall, rather than favouring the IPD.  For jf=0, the
+**     "slit" optimization is selected;  otherwise "field" optimization
+**     is selected.  (Field optimization is accomplished by sampling the
+**     rotation a second time, at right angles to the IPD, and averaging
+**     the two results.)
+**
+**  7  This routine is optimized for speed, and accordingly no
+**     validation of the arguments is performed.  It is the caller's
+**     responsibility to supply sensible values.
+**
+**  8  Bad status (j<0) should not be possible if the TCS application
+**     has taken measures to ensure that the AIM vector does not lie in
+**     the inaccessible region near the roll pole of the mount.  If the
+**     condition does occur for some reason, a harmless result will be
+**     returned.
+**
+**  Last revision:   4 May 2005
+**
+**  Copyright P.T.Wallace.  All rights reserved.
+*/
+
+/* dmod(A,B) - A modulo B (double) */
+#define dmod(A,B) ((B)!=0.0?((A)*(B)>0.0?(A)-(B)*floor((A)/(B))\
+                                        :(A)+(B)*floor(-(A)/(B))):(A))
+
+#define DELTA 1e-5         /* Pointing-origin test displacement */
+
+{
+   double x_r[2], y_r[2], z_r[2];  /* Projected rotator trial points */
+
+   int i;
+   double a1, b1, a2, b2, a, b, delta, x, y, w, sq, cq, sqn, cqn;
+
+
+
+/* AIM to ENCODER transformation for the expected demand RMA. */
+   tcsAim2enc ( xa, ya, za, rotl, rdp, ad, bd, xpo, ypo,
+                ia, ib, np, xt, yt, zt, ga, gb, &a1, &b1, &a2, &b2, j );
+
+/* Choose the appropriate solution. */
+   a = jbp ? a2 : a1;
+   b = jbp ? b2 : b1;
+
+/*
+** Calculate the sky coordinates of two trial points in the focal
+** plane displaced a small distance either side of the pointing-origin
+** along the Instrument Principal Direction (IPD).  The orientation of
+** the IPD with respect to the +y direction is the Instrument Alignment
+** Angle (IAA), sine and cosine of which are sia, cia.
+*/
+
+/* Displacement distance. */
+   delta = DELTA;
+
+/* Two trial points. */
+   for ( i = 0; i < 2; i++ ) {
+      delta = -delta;
+
+   /* Displaced pointing-origin position. */
+      x = xpo + delta * sia;
+      y = ypo + delta * cia;
+
+   /* Encoders to sky (rotator frame). */
+      tcsVTsky_c ( a, b, rotl, rdp, x, y,
+                   r_spm1_i, r_frame, sst, cst, r_spm2_i,
+                   ia, ib, np, xt, yt, zt, ga, gb,
+                   &x_r[i], &y_r[i], &z_r[i] );
+   }
+
+/* Which of the two points is nearest the pole of the rotator frame? */
+   if ( ( x_r[0] * x_r[0] + y_r[0] * y_r[0] ) <
+        ( x_r[1] * x_r[1] + y_r[1] * y_r[1] ) ) {
+
+   /* The first one;  remember. */
+      w = 1.0;
+
+   } else {
+
+   /* The second one;  swap and remember. */
+      w = x_r[0];
+      x_r[0] = x_r[1];
+      x_r[1] = w;
+      w = y_r[0];
+      y_r[0] = y_r[1];
+      y_r[1] = w;
+      w = z_r[0];
+      z_r[0] = z_r[1];
+      z_r[1] = w;
+      w = -1.0;
+   }
+
+/* Find the mean. */
+   x_r[0] = ( x_r[0] + x_r[1] ) / 2.0;
+   y_r[0] = ( y_r[0] + y_r[1] ) / 2.0;
+   z_r[0] = ( z_r[0] + z_r[1] ) / 2.0;
+
+/* Components of the IPD's sky position-angle wrt the rotator frame. */
+   sq = w * ( y_r[1] * x_r[0] - x_r[1] * y_r[0] );
+   cq = w * ( z_r[1] * ( x_r[0] * x_r[0] + y_r[0] * y_r[0] )
+            - z_r[0] * ( x_r[1] * x_r[0] + y_r[1] * y_r[0] ) );
+
+/* If field optimization has been specified, follow a similar */
+/* procedure but for IPA-90 and IPD-90, then average the two  */
+/* slightly different results.                                */
+
+   if ( jf ) {
+      for ( i = 0; i < 2; i++ ) {
+         delta = -delta;
+         x = xpo - delta * cia;
+         y = ypo + delta * sia;
+         tcsVTsky_c ( a, b, rotl, rdp, x, y,
+                      r_spm1_i, r_frame, sst, cst, r_spm2_i,
+                      ia, ib, np, xt, yt, zt, ga, gb,
+                      &x_r[i], &y_r[i], &z_r[i] );
+      }
+      if ( ( x_r[0] * x_r[0] + y_r[0] * y_r[0] ) <
+           ( x_r[1] * x_r[1] + y_r[1] * y_r[1] ) ) {
+         w = 1.0;
+      } else {
+         w = x_r[0];
+         x_r[0] = x_r[1];
+         x_r[1] = w;
+         w = y_r[0];
+         y_r[0] = y_r[1];
+         y_r[1] = w;
+         w = z_r[0];
+         z_r[0] = z_r[1];
+         z_r[1] = w;
+         w = -1.0;
+      }
+      x_r[0] = ( x_r[0] + x_r[1] ) / 2.0;
+      y_r[0] = ( y_r[0] + y_r[1] ) / 2.0;
+      z_r[0] = ( z_r[0] + z_r[1] ) / 2.0;
+      cqn = - w * ( y_r[1] * x_r[0] - x_r[1] * y_r[0] );
+      sqn =   w * ( z_r[1] * ( x_r[0] * x_r[0] + y_r[0] * y_r[0] )
+                  - z_r[0] * ( x_r[1] * x_r[0] + y_r[1] * y_r[0] ) );
+      sq = ( sq + sqn ) / 2.0;
+      cq = ( cq + cqn ) / 2.0;
+
+   }
+
+/*
+** We now have the actual IPD position-angle for the trial RMA, namely
+** the previous demand.  Subtract it from the requested IPD position-
+** angle (IPA) and add the result to the trial RMA to give the new
+** demand.
+*/
+
+   *rd = rdp + pai - ( sq != 0.0 || cq != 0.0 ? atan2 ( sq, cq ) : 0.0 );
+
+/* Express in the conventional range. */
+   *rd = dmod ( *rd, PI2 );
+   if ( *rd < 0.0 ) *rd += PI2;
+
+}

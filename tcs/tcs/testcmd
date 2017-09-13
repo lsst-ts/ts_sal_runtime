@@ -1,0 +1,22 @@
+proc dovisits { {n 0} } {
+global NVISIT
+   if { $n > 0 } {set NVISIT $n}
+   if { $NVISIT > 0 } {
+      puts stdout "Start a visit"
+      incr NVISIT -1
+      after 10 "slew s1"
+      after 40000 "slew s2"
+      after 80000 dovisits
+   }
+}
+
+set NVISIT 1
+target create icrs "0 0 0 -60 0 0" s1
+target create icrs "0 0 12 -60 0 0" s2
+target create icrs "0 0 0 -70 0 0" s3
+axis azimuth enable
+axis elevation enable
+axis rotator enable
+pointingmodel create {IA 10} test
+pointingmodel set sky test
+guide guider enable

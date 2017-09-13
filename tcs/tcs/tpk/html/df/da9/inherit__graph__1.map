@@ -1,0 +1,4 @@
+<area shape="rect" href="$d0/d52/classtpk_1_1_clock.html" title="Pure virtual base class for clocks." alt="" coords="5,56,88,83">
+<area shape="rect" href="$d5/d73/classtpk_1_1_tcl_clock.html" title="A Clock that reads the system clock using the Tcl API." alt="" coords="141,5,240,32">
+<area shape="rect" href="$d9/d40/classtpk_1_1_unix_clock.html" title="A Clock that reads the Unix system clock." alt="" coords="136,56,245,83">
+<area shape="rect" href="$da/dd7/classtpk_1_1_win_clock.html" title="A Clock that reads the Windows system clock." alt="" coords="139,107,243,133">

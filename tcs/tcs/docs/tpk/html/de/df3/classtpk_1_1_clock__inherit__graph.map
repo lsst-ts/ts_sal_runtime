@@ -1,0 +1,4 @@
+base referer
+rect $d5/d73/classtpk_1_1_tcl_clock.html 5,80 104,107
+rect $d9/d40/classtpk_1_1_unix_clock.html 128,80 237,107
+rect $da/dd7/classtpk_1_1_win_clock.html 261,80 365,107

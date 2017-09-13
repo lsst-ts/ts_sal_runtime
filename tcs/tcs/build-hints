@@ -1,0 +1,41 @@
+cd slalib
+make clean
+make
+ranlib libsla.a
+cp libsla.a ../lib/.
+cd ../tcspk
+make clean 
+make
+ranlib libtcs.a
+cp libtcs.a ../lib/.
+cd ../tpk
+make clean
+make
+ranlib libtpk.a
+cp libtpk.a ../lib/.
+
+
+cd ../extern/thread2.6.5
+./configure --with-tcl=/usr/lib64 --exec-prefix=/opt/lsstsal
+make clean 
+make install
+
+
+cd ../tile-0.7.8
+./configure --with-tcl=/usr/lib64 --with-tk=/usr/lib64 --exec-prefix=/opt/
+lsstsal --prefix=/opt/lsstsal
+make
+make install
+
+rm ../tcspk/obj/tcs_dsa.o ../tcspk/obj/tcs_equ.o ../tcspk/obj/tcs_pa.o ../tcspk/obj/tcs_test.o ../tcspk/obj/tcs_tpt.o ../tcspk/obj/tcs_zt.o
+
+cd ../../demo
+make
+cp tpkDemo.so ../bin/.
+cd ../utilities
+make clean
+make install
+
+mv tpkDemo.so ../bin/.
+
+

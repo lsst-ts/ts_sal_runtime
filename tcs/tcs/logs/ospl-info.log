@@ -1,0 +1,680 @@
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : u_domainNew:Database allocated on heap
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : spliced 7f9554310700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1452290499.398598411
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : spliced 7f9554310700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1452290499.408074099
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : spliced 7f9554310700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1452290499.409164322
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : SOAP service is reachable via port 41563
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : cmsoap 7f9550731700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1452290499.411093262
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : using network interface eth1 (140.252.32.246) selected arbitrarily from: eth1, vmnet1, vmnet8
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : ddsi2 7f951ffff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1452290499.415347912
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : cmsoap 7f9550731700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1452290499.415400471
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : ddsi2 7f951ffff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1452290499.422790157
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:39 MST 2016
+Description : The durability service can by identified by ID: 2089179776
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : durability 7f95503d2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1452290499.627149360
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:01:56 MST 2016
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : durability 7f95503d2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1452290516.643166376
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:21 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1239291974. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290541.417038016
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:23 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 262771336. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290543.426238321
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:25 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader fa99288:136:1:104 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290545.459101787
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:25 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader fa99288:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290545.459176217
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:27 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 483685963. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290547.423154350
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:31 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 710799856. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290551.421406153
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 678991465. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290559.419586711
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:02:45 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1702947294. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290565.428039145
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:31 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1610235126. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290731.429301019
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:37 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1918120400. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290737.433686186
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1824036416. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290739.422428223
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:40 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 6cb89640:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290740.623367285
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:43 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 97199861. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290743.438246763
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:47 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 472379261. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290747.434496112
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:05:55 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 46880699. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290755.426694175
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:01 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 503321464. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290761.432245484
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:23 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 941077365. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290783.439737753
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:25 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1607649143. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290785.428718978
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:26 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 5fd2c777:136:1:104 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290786.174932091
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:26 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 5fd2c777:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290786.174999315
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:29 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 523105747. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290789.425148025
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:33 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 341686958. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290793.443992913
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:41 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 690132797. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290801.441521173
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:06:47 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 529937775. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290807.428994126
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:19 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 2047667337. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290839.428479771
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:21 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1690723119. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290841.436552471
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:21 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 64c6632f:135:1:104 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290841.820186602
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:21 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 64c6632f:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290841.820221093
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:23 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 2097870752. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290843.444908011
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:27 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 423492566. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290847.442361340
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:35 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1352547434. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290855.434665440
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:07:45 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 452771960. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290865.441896010
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:09 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 835173345. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290889.430492687
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:11 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1887462423. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290891.439943097
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:12 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 70806417:13c:1:104 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290892.421253883
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:12 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 70806417:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290892.421315446
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:13 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 982852160. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290893.449104659
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:17 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 525331587. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290897.448407178
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:27 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1374142495. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290907.432959423
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:08:33 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1531598628. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290913.441543414
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:01 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1150622877. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290941.449302125
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:03 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 2935d632:13d:1:104 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290943.026670635
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:03 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 2935d632:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290943.026736901
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:03 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 691394098. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290943.438835388
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:07 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1549959160. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290947.437525872
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:09 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1843795033. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290949.446936572
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:19 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 186034395. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290959.433080002
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:25 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 2011206813. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290965.443716401
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:53 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 188427889. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290993.452975678
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:55 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 251427046. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290995.442681568
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:56 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader efc78e6:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452290996.154421796
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:09:59 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 460671335. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452290999.441505790
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:03 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1473230924. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291003.440388242
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:11 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 2006338175. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291011.437995515
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:17 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 744226932. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291017.446755261
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:45 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1525683801. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291045.454794429
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:48 MST 2016
+Description : writer 7c865a80:132:1:203 considering reader 2acd5ba6:63:1:a04 non-responsive
+
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : xmit.user 7f951fcdf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1452291048.528055409
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:49 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 718101414. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291049.453482540
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:51 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 641743891. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291051.443153553
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:10:55 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1445042401. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291055.441807258
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:03 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1760484324. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291063.438808497
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:09 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 4429487. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291069.447354161
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 29663023. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.446965243
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 109490068. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.467581394
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 446503785. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.488057048
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 630634698. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.508513833
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1128930056. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.528990467
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1154934633. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.549465738
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1669624635. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.569967429
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:39 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 2029730450. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291099.590456433
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 08 15:11:41 MST 2016
+Description : Missed heartbeat for node - heartbeat id : 1185063079. (DCPSPublication state 1)
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : OSPL Garbage Collector 7f9550c33700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1452291101.459805976
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 08 15:11:43 MST 2016
+Description : Termination request (signal 2) received from PID 10250 (self), UID 1001
+Node        : mway.tuc.noao.edu
+Process     : sacpp_rotator_ctrl <10250>
+Thread      : signalHandler 7f9551240700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1452291103.347102321

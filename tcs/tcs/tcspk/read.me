@@ -1,0 +1,399 @@
+------------------------------------------------
+TCSpk - TELESCOPE CONTROL SYSTEM POINTING KERNEL
+------------------------------------------------
+
+November 26, 2006.  Copyright (C) Tpoint Software.  All rights reserved.
+
+Version 7.4
+
+
+INTRODUCTION
+
+The TCS pointing kernel which is described here is a development of the
+systems which control the Keck, Gemini and ESO VLT telescopes.  Compared
+with these earlier systems, TCSpk uses a more rigorous formulation for
+the telescope and mount geometry.  The only capabilities that have been
+left out are some that depend a great deal on the precise configuration
+of the telescope (and moreover may be absent on smaller-scale
+telescopes).  The features in question include (i) blind offset-guiding,
+(ii) chopping, (iii) rapid subreflector tip-tilt corrections and
+(iv) independent control of mount and subreflectors.  These capabilities
+can, however, readily be implemented by using the TCSpk "virtual
+telescope" subroutines.
+
+TCSpk includes the following features:
+
+  . Equatorial and altazimuth (and in fact a "gimbal" mount at any
+    orientation), both with instrument-rotator control, and including
+    provision for Nasmyth and coude configurations.
+
+  . No-compromise positional-astronomy.
+
+  . Super-efficient implementation, suitable for low-power processors
+    and DSPs.
+
+  . The entire TPOINT pointing-correction repertoire is built in, and
+    the pointing model can be initialized by reading a TPOINT model
+    file.
+
+  . Tracking is based upon position alone:  there is no drift due to
+    rounding errors.
+
+  . Tracking-rate varies to match the changing pointing-corrections.
+
+  . The rotator control allows for mount misalignment, differential
+    refraction etc.  Altazimuth telescopes that simply use text-book
+    parallactic angle predictors experience poor results near the
+    zenith, where the pointing corrections call for subtantial azimuth
+    adjustments and consequent unwanted rotation of the field.
+
+  . Choice of user-frames (Bxxxx, Jxxxx, apparent place, topocentric
+    Az/El) for tracking and (independently) field-orientation.
+
+  . Differential track-rates (for Moon and planets etc.).
+
+  . Adjustable pointing-origin (for multiple CCDs, finders etc.).
+
+  . Offsets from base (to support scanning, dithering etc.).
+
+  . Option of handling refraction in custom code (e.g. for dealing
+    with extremely low elevations).
+
+
+HEADER FILES
+
+   tcs.h           typedefs
+   tcsmac.h        macros
+   tcsctx.h        context: static data present in application only
+   dsactx.h        similar to tcsctx.h but for tcs_dsa.c application
+
+
+POINTING-KERNEL SOURCE CODE
+
+   addtrm.c        operational
+   aim2enc.c       operational
+   aim2s_c.c       operational
+   aim2xe.c        operational
+   aimtrk.c        operational
+   astup.c         operational
+   bs.c            operational
+   casspa.c        operational
+   enc2aim.c       operational
+   fast.c          operational, runnable in a separate CPU (e.g. a DSP)
+   g2po.c          operational
+   g2tar.c         operational
+   init2.c         operational
+   intpm.c         operational
+   iterm.c         operational
+   medium.c        operational
+   pmt.c           operational
+   porup.c         operational
+   posture.c       operational
+   probev.c        operational
+   ptran.c         operational
+   ptrani.c        operational
+   pup.c           operational
+   refsub.c        example (also refsub1.c and refsub2.c)
+   rotator.c       operational
+   sky2aim.c       operational
+   sky2a_c.c       operational
+   slow.c          operational
+   spm.c           operational
+   sterm.c         operational
+   targup.c        operational
+   tartr_c.c       operational
+   tartran.c       operational
+   tcs_demo.c      demonstration application (main program)
+   tcs_dsa.c       demonstration application (main program)
+   tcs_equ.c       demonstration application (main program)
+   tcs_pa.c        demonstration application (main program)
+   tcs_test.c      demonstration application (main program)
+   tcs_tpt.c       demonstration application (main program)
+   tcs_zt.c        demonstration application (main program)
+   time.c          stub, returns fixed value
+   track.c         operational
+   track_c.c       operational
+   vtenc.c         operational
+   vtenc_c.c       operational
+   vtsky.c         operational
+   vtsky_c.c       operational
+   vtxe.c          operational
+   vtxe_c.c        operational
+   vtxy.c          operational
+   vtxy_c.c        operational
+   xe2xy.c         operational
+   xy2xe.c         operational
+
+TPOINT SOURCE CODE USED ALSO IN TCS
+
+   length.c
+   minit.c
+   ptappl.c
+   pterm.c
+   ptermg.c
+   pterml.c
+   pterms.c
+   ptpre.c
+   scomp.c
+   term.c
+   trmgen.c
+   trmloc.c
+   trmstd.c
+
+ALSO
+
+   specimen.mod    example of TPOINT model file
+
+
+BUILDING THE FULL DEMONSTRATION
+
+   There is a main program (tcs_demo.c) and a number of functions.
+   There are no data files.  The application outputs a report to stdio
+   but requires no input.
+
+   Some of the functions include header files (tcs.h and tcsmac.h).
+   These header file define macros and prototypes.  Apart from these two
+   private header files there are references only to slalib.h and the
+   usual RTL header files.
+
+   Compiling and linking the program is straightforward.  The only
+   special requirement is that SLALIB be available.  (The application
+   uses certain TPOINT routines but copies of these are provided, as
+   listed above.  They are all self-contained and require no additional
+   header files.)
+
+   The demonstration can be for either an altazimuth or an equatorial
+   mount.  This is selected at source-code level by editing the
+   definition MTYPE in tcs_demo.c.
+
+   For the equatorial case, the model is initialized from a TPOINT file;
+   for the altazimuth case, explicit function calls are used.  However,
+   either method can be used for either mount type.
+
+   A site on Mauna Kea, Hawaii, is used.  The same target star is used
+   in each case, one that is in transit close to the zenith.  The
+   optical configuration can be selected by editing the definition ROTL
+   in tcs_demo.  The usual choice is "OTA", which applies to prime
+   focus, Cassegrain (straight-through and "bent"), Newtonian etc.  Also
+   supported are Nasmyth and coude, both of which come in "left" and
+   "right" variants.
+
+
+BUILDING THE SIMPLIFIED DEMONSTRATION
+
+   Another main program (tcs_equ.c) is supplied, dealing with the
+   simpler case of an equatorial telescope with no instrument rotator
+   and no provision for multiple pointing origins.  It should be
+   compiled and linked in the normal way.  The SLALIB library is a
+   prerequisite.
+
+
+ANOTHER SIMPLIFIED DEMONSTRATION
+
+   The main program tcs_dsa.c deals with another relatively simple case,
+   that of an altazimuth deep-space tracking dish.  There is no
+   instrument rotator and no provision for pointing origins, but there
+   is provision for executing scan patterns.  The program should be
+   compiled and linked in the normal way.  The SLALIB library is a
+   prerequisite.  A special header file, dsactx.h, is required.  The
+   demonstration uses a special refraction routine, refsub.c;
+   alternative versions are supplied in files refsub1.c and refsub2.c.
+
+
+WRITING A REAL TCS
+
+   A real TCS would, of course, include a large amount of software not
+   present in these demonstrations, to support user interfaces, manage
+   interlocks, provide logging, access star catalogues and planetary
+   ephemerides and so on.  However, a simple system that did no more
+   than point and track a star using an equatorial mount would require
+   only the following:
+
+   * It is up to the application to perform primary initialization,
+     as is done in tcsdemo.c.  This will require knowledge of the
+     site longitude and latitude, plus some meteorological and time
+     parameters.  In addition, arrangements need to be made to set
+     up the TPOINT pointing model. Either the term names and
+     coefficient values can be provided by the application, or
+     alternatively the tptIntpm function can be called to read a
+     model file written by TPOINT's OUTMOD command.
+
+   * There needs to be provision for obtaining absolute time, for
+     example a version of tcsTime that reads the system clock.  This
+     requires careful attention as (i) accurate time is required in
+     order to get consistent pointing and tracking and (ii) TAI is
+     required, and neither local time nor UTC will do.
+
+   * There will need to be operational routines that accept a target
+     [RA,Dec] from the user in some convenient format (optionally
+     supporting multiple reference frames, though it would be
+     permissible to work exclusively in FK5 J2000, effectively the
+     same thing as ICRS).  The code in tcs_demo.c shows what to do
+     with the target information.
+
+   * As necessary, operational routines will be needed to allow the user
+     to specify the field orientation and where in the focal plane the
+     image is to fall.  Again, tcs_demo.c contains code illustrating
+     how this information is passed into the system.  (These features
+     may be omitted on telescopes with no instrument rotator, such as
+     small-scale equatorials, or where multiple pointing origins are
+     not required.  The tcs_equ.c main program demonstrates this.)
+
+   * Apart from access to time, the most challenging aspect to engineer
+     is the scheduling of the various activities:
+
+     . operator activity (new targets etc.)
+     . slow (periodic update of slowly-changing target-independent
+       items)
+     . medium (frequent updates to pointing corrections and
+       transformations)
+     . fast (the tracking loop, running at 10 Hz or more)
+     . servo (what generates motor torques to maintain alignment)
+
+     To reduce the need for semaphores, lock sets etc., it is permissible
+     to run the operator, slow and medium activities as part of one
+     thread.
+
+     However, it is desirable to run the fast loop at a higher priority,
+     pre-empting the slower activities as required and maintaining an
+     uninterrupted and even stream of mount demands for the servo to
+     use.  A robust and reliable mechanism is required which allows this
+     to take place while locations in the private context are changed
+     piecemeal, so that it is impossible to use an internally
+     inconsistent context, even briefly.
+
+     The tcsFast implementation supplied maintains a private copy of the
+     relevant items from the main application's context.  This private
+     context can be updated by calls to tcsFast.  Various convenient
+     groups of items are identified which when updated as a unit leave
+     the private context internally consistent.  The updating is, by its
+     nature, fast, and there should be no need to run tcsFast itself in
+     a multi-threaded way.
+
+     Some care needs to be taken with the start-up arrangements to
+     prevent things happening in the wrong order.  Primary and secondary
+     initialization must happen in that order and before any of the
+     other routines are executed.  In particular, tcsFast must not
+     execute its "compute demand position" routine until the whole of
+     its internal context has been initialized.  This needs special
+     attention, given that tcsFast will be driven by some form of timer
+     interrupt and may be executing in a different processor.
+
+
+RUNNING THE FAST PROCESS IN A SEPARATE PROCESSOR
+
+   The tcsFast function has been designed to runnable in a processor
+   that is separate from the one running the rest of the application.
+   The measures taken include the following:
+
+   . Self-contained:  no global context; everything is passed through
+     arguments;  local context is updated by calls, which prevent
+     multi-thread use and consequent risk of internal inconsistency.
+
+   . No I/O.
+
+   . Fast and predictable - no loops, no error conditions, and all
+     heavy processing is done outside tcsFast asynchronously.
+
+   . Time is passed in as an argument.
+
+   . The same code supports both equatorial and altazimuth mounts.  (In
+     fact tcsFast is a generalized gimbal routine and could support
+     other designs such as alt-alt.)
+
+   When tcsFast is run in a separate processor, it is up to the
+   implementor to provide a means for the arguments to be exchanged over
+   a network or interprocessor link.  Where there is a fast link, it may
+   be most convenient to pass the entire context into tcsFast on a
+   quasi-continuous basis.  Conversely, if the only link is a simple
+   RS-232 connection it may be better to pass the information piecemeal
+   as various items (for example the pointing updates) become available.
+   The context-update options in tcsFast identify the various groups
+   that can be passed in this way while maintaining internal
+   consistency.
+
+
+SERVO CONSIDERATIONS
+
+   The servo (one per axis) is expected to monitor the stream of
+   timestamped demands and remember just the last two.  It can then use
+   these two samples to predict, by simple linear interpolation/
+   extrapolation, the demand position for any time.  Its job is then to
+   command the motor so as to bring the axis into alignment with the
+   demanded locus.  As well as the feedback loop itself (for DC motors,
+   a PI servo with sqrt(P) slewing, velocity feedforward and anti-wind-
+   up is recommended), the servo will need to do any required glitch-
+   suppression, signal-shaping, axis coordination and obstacle
+   avoidance.  Note particularly that tcsFast cannot support crude
+   techniques such as precomputed ramps;  the servo routine must be
+   capable of accepting what amount to random numbers.
+
+   When interpolating the stream of timestamped position demands, care
+   must be taken never to extrapolate backwards from an abrupt
+   transition, such as occurs when switching to a new star;  at least
+   one of the position demands used in the interpolation or
+   extrapolation must lie in the past.  An alternative approach, which
+   communicates more information to the servo at the expense of
+   increased processing, is to generate a fresh pair of timestamped
+   positions each time, guaranteed not to lie astride a context change.
+   The pair can be sent to the servo as they are, completely replacing
+   the pair sent previously, or alternatively can be averaged and
+   differenced and sent to the servo as a timestamped position and
+   velocity.
+
+   For equatorials, it is recommended that during slews the closer axis
+   be constrained to a lower maximum speed than the further axis, such
+   that the two axes reach their respective demands at about the same
+   time.  This has the effect of avoiding inadvertent en-route dips
+   below the low-elevation limit.
+
+   Sun-avoidance may be important for telescopes that may be used during
+   the day.  This requires code not supplied as part of the
+   demonstration.
+
+   The tcsFast function does not generate demands that are "below the
+   pole", "beyond the zenith", "the other side of the pier" etc., nor
+   ones that take into account greater-than 360 deg ranges, cable-wraps
+   etc.  These aspects, which are highly telescope-dependent, are the
+   province of the host application.  Note, however, that the
+   calculation of pointing corrections needs this information, and
+   arrangements must be made to set appropriately the context items jbp,
+   the "below pole" flag and, in some cases, aux, the auxiliary readings
+   array.  This is an important aspect of controlling GEM or cross-axis
+   mounts.
+
+
+GUIDING
+
+   TCSpk interprets guiding as correcting errors in the pointing model.
+   The star [RA,Dec] remains unchanged, while the position of the
+   telescope moves in response to adjustments to the pointing model.
+   The adjustments are inserted in such a way that the rotator axis
+   moves in the focal plane.  This mechanism functions whether or not
+   there is a rotator and whether or not the pointing-origin feature is
+   being used.
+
+   The TCS implementation itself needs to decide when to reset to zero
+   the guiding corrections, for example when moving to a new target.
+   If the current guiding correction is to be preserved, for example
+   after a start-of-night calibration, one way to do this is to transfer
+   the corrections to the collimation error and pitch index error
+   pointing parameters (CA and IE in the case of an altazimuth mount,
+   CH and ID in the case of an equatorial).  The star image will not
+   move to any material extent as this action occurs.
+
+
+UPSTREAM TRANSFORMATIONS
+
+   It is possible to write a control system that never uses "upstream"
+   (i.e. encoder to sky) transformations.  Where the telescope has been
+   commanded to go is where it ought to be pointing, and the fact that
+   it is en route can just as easily be signalled by a status light as a
+   position readout.  However, users do like to see the progress of a
+   slew, either as numbers or as a mark on a sky display, and the
+   tcsVTsky function supports this requirement.
+
+   Note that tcsVTsky is context-free and can, if required, be run in a
+   separate processor, for example the one where tcsFast is executing.
+
+-------------------------------------------------------------------------------

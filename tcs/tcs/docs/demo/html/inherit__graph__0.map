@@ -1,0 +1,3 @@
+base referer
+rect $class_axis.html 7,5 55,32
+rect $class_wrap_axis.html 105,5 185,32

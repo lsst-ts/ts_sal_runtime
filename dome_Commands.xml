@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://lsst-sal.tuc.noao.edu/schema/SALCommandSet.xsl"?>
+<SALCommandSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://lsst-sal.tuc.noao.edu/schema/SALCommandSet.xsd">
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_Crawl</EFDB_Topic>
+ <Alias>Crawl</Alias>
+ <Device>target</Device>
+ <Property>velocity</Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+     <item>
+	<EFDB_Name>azPosition</EFDB_Name>
+	<Description></Description>
+	<IDL_Type>double</IDL_Type>
+	<Units> </Units>
+	<Count>1</Count>
+    </item>   
+     <item>
+	<EFDB_Name>elPosition</EFDB_Name>
+	<Description></Description>
+	<IDL_Type>double</IDL_Type>
+	<Units> </Units>
+	<Count>1</Count>
+    </item>   
+     <item>
+	<EFDB_Name>demandTime</EFDB_Name>
+	<Description></Description>
+	<IDL_Type>long</IDL_Type>
+	<Units> </Units>
+	<Count>1</Count>
+    </item>   
+</SALCommand>
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_Move</EFDB_Topic>
+ <Alias>Move</Alias>
+ <Device>target</Device>
+ <Property>position</Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+    <item>
+      <EFDB_Name>azimuth</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>double</IDL_Type>
+      <Units> </Units>
+      <Count>1</Count>
+    </item>
+    <item>
+      <EFDB_Name>elevation</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>double</IDL_Type>
+      <Units> </Units>
+      <Count>1</Count>
+    </item>
+</SALCommand>
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_Park</EFDB_Topic>
+ <Alias>Park</Alias>
+ <Device>target</Device>
+ <Property>position</Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+    <item>
+      <EFDB_Name>state</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>boolean</IDL_Type>
+      <Units> </Units>
+      <Count>1</Count>
+    </item>
+</SALCommand>
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_SetLouvers</EFDB_Topic>
+ <Alias>SetLouvers</Alias>
+ <Device>louvers</Device>
+ <Property>position</Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+    <item>
+      <EFDB_Name>position</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>int</IDL_Type>
+      <Units> </Units>
+      <Count>34</Count>
+    </item>
+</SALCommand>
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_CloseShutter</EFDB_Topic>
+ <Alias>CloseShutter</Alias>
+ <Device>aps</Device>
+ <Property>position</Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+    <item>
+      <EFDB_Name>state</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>boolean</IDL_Type>
+      <Units> </Units>
+      <Count>1</Count>
+    </item>
+</SALCommand>
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_OpenShutter</EFDB_Topic>
+ <Alias>OpenShutter</Alias>
+ <Device>aps</Device>
+ <Property>position</Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+    <item>
+      <EFDB_Name>state</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>boolean</IDL_Type>
+      <Units> </Units>
+      <Count>1</Count>
+    </item>
+</SALCommand>
+
+<SALCommand>
+ <Subsystem>dome</Subsystem>
+ <Version>3.5.0</Version>
+ <Author>ebragante</Author>
+ <EFDB_Topic>dome_command_StopShutter</EFDB_Topic>
+ <Alias>StopShutter</Alias>
+ <Device>aps</Device>
+ <Property></Property>
+ <Action></Action>
+ <Value></Value>
+ <Explanation></Explanation>
+    <item>
+      <EFDB_Name>state</EFDB_Name>
+      <Description> </Description>
+       <IDL_Type>boolean</IDL_Type>
+      <Units> </Units>
+      <Count>1</Count>
+    </item>
+</SALCommand>
+
+</SALCommandSet>
