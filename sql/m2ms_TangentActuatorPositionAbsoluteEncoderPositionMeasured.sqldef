@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS m2ms_TangentActuatorPositionAbsoluteEncoderPositionMeasured;
+CREATE TABLE m2ms_TangentActuatorPositionAbsoluteEncoderPositionMeasured (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  tangentLink_0deg_absoluteEncoderPositionMeasured double,
+  tangentLink_60deg_absoluteEncoderPositionMeasured double,
+  tangentLink_120deg_absoluteEncoderPositionMeasured double,
+  tangentLink_180deg_absoluteEncoderPositionMeasured double,
+  tangentLink_240deg_absoluteEncoderPositionMeasured double,
+  tangentLink_300deg_absoluteEncoderPositionMeasured double,
+  PRIMARY KEY (date_time)
+);

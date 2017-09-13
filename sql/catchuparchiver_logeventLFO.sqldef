@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS catchuparchiver_logeventLFO;
+CREATE TABLE catchuparchiver_logeventLFO (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  alias varchar(128),
+  URL varchar(128),
+  Generator varchar(128),
+  Version varchar(32),
+  Checksum char(32),
+  Mime_Type varchar(64),
+  Byte_Size long,
+  PRIMARY KEY (date_time)
+);
+

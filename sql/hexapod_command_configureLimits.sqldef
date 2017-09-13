@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS hexapod_command_configureLimits;
+CREATE TABLE hexapod_command_configureLimits (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  xmin int,
+  xmax int,
+  ymin int,
+  ymax int,
+  zmin int,
+  zmax int,
+  umin int,
+  umax int,
+  vmin int,
+  vmax int,
+  wwmin int,
+  wmax int,
+  PRIMARY KEY (date_time)
+);

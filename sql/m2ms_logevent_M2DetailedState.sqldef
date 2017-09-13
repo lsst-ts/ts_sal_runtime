@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS m2ms_logevent_M2DetailedState;
+CREATE TABLE m2ms_logevent_M2DetailedState (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state smallint,
+  priority int,
+  PRIMARY KEY (date_time)
+);

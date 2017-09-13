@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS camera_PCMS;
+CREATE TABLE camera_PCMS (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Bias_Status smallint,
+  Bias_current float,
+  Bias_voltage float,
+  Clock_Status smallint,
+  Clock_current float,
+  Clock_voltage float,
+  FPGA_Status smallint,
+  FPGA_current float,
+  FPGA_voltage float,
+  Low_Status smallint,
+  Low_current float,
+  Low_voltage float,
+  OD_Status smallint,
+  OD_current float,
+  OD_voltage float,
+  REB_ID smallint,
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS hexapod_logevent_tempError;
+CREATE TABLE hexapod_logevent_tempError (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  axis varchar(32),
+  device varchar(32),
+  severity int,
+  temp double,
+  priority int,
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,24 @@
+DROP TABLE IF EXISTS MTMount_Bal;
+CREATE TABLE MTMount_Bal (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Pos_Set double,
+  Pos_Actual double,
+  Positive_Directional_Limit_Switch tinyint,
+  Negative_Directional_Limit_Switch tinyint,
+  Axis_Status int,
+  Curr_Actual_1 double,
+  Curr_Actual_2 double,
+  Curr_Actual_3 double,
+  Curr_Actual_4 double,
+  Drive_Status_1 int,
+  Drive_Status_2 int,
+  Drive_Status_3 int,
+  Drive_Status_4 int,
+  PRIMARY KEY (date_time)
+);

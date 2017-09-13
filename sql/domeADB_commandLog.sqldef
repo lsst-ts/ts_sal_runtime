@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS domeADB_commandLog;
+CREATE TABLE domeADB_commandLog (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  name varchar(128),
+  ack int,
+  error int,
+  PRIMARY KEY (date_time)
+);
+

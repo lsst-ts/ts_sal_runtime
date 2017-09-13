@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS tcs_kernel_TrackingTarget;
+CREATE TABLE tcs_kernel_TrackingTarget (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  PositionX float,
+  PositionY float,
+  T0 float,
+  VelocityX float,
+  VelocityY float,
+  PRIMARY KEY (date_time)
+);

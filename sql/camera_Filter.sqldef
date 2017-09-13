@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS camera_Filter;
+CREATE TABLE camera_Filter (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Loader_telemetry int,
+  REB_ID smallint,
+  PRIMARY KEY (date_time)
+);

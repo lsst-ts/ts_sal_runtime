@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS domeTHCS_status;
+CREATE TABLE domeTHCS_status (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  setpoint_1 float,
+  setpoint_2 float,
+  setpoint_3 float,
+  setpoint_4 float,
+  setpoint_5 float,
+  setpoint_6 float,
+  setpoint_7 float,
+  setpoint_8 float,
+  setpoint_9 float,
+  setpoint_10 float,
+  setpoint_11 float,
+  setpoint_12 float,
+  setpoint_13 float,
+  setpoint_14 float,
+  setpoint_15 float,
+  setpoint_16 float,
+  PRIMARY KEY (date_time)
+);

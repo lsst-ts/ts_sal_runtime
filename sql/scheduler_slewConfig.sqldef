@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS scheduler_slewConfig;
+CREATE TABLE scheduler_slewConfig (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  prereq_domalt varchar(32),
+  prereq_domaz varchar(32),
+  prereq_domazsettle varchar(32),
+  prereq_telalt varchar(32),
+  prereq_telaz varchar(32),
+  prereq_telopticsopenloop varchar(32),
+  prereq_telopticsclosedloop varchar(32),
+  prereq_telsettle varchar(32),
+  prereq_telrot varchar(32),
+  prereq_filter varchar(32),
+  prereq_exposures varchar(32),
+  prereq_readout varchar(32),
+  prereq_adc varchar(32),
+  prereq_ins_optics varchar(32),
+  prereq_guider_pos varchar(32),
+  prereq_guider_adq varchar(32),
+  PRIMARY KEY (date_time)
+);

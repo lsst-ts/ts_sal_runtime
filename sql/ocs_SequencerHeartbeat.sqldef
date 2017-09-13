@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS ocs_SequencerHeartbeat;
+CREATE TABLE ocs_SequencerHeartbeat (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Name varchar(32),
+  Identifier float,
+  Timestamp varchar(32),
+  PRIMARY KEY (date_time)
+);

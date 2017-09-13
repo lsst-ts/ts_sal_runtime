@@ -1,0 +1,291 @@
+DROP TABLE IF EXISTS domeTHCS_logevent_ErrorCode;
+CREATE TABLE domeTHCS_logevent_ErrorCode (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  errorCode int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_exitControl;
+CREATE TABLE domeTHCS_command_exitControl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_abort;
+CREATE TABLE domeTHCS_command_abort (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_start;
+CREATE TABLE domeTHCS_command_start (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  configuration varchar(32),
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_MovementPrevented;
+CREATE TABLE domeTHCS_logevent_MovementPrevented (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  causeId varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_disable;
+CREATE TABLE domeTHCS_command_disable (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_stop;
+CREATE TABLE domeTHCS_command_stop (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_StateChanged;
+CREATE TABLE domeTHCS_logevent_StateChanged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  newState int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_EchoResponse;
+CREATE TABLE domeTHCS_logevent_EchoResponse (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  response varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_standby;
+CREATE TABLE domeTHCS_command_standby (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logeventLFO;
+CREATE TABLE domeTHCS_logeventLFO (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  alias varchar(128),
+  URL varchar(128),
+  Generator varchar(128),
+  Version varchar(32),
+  Checksum char(32),
+  Mime_Type varchar(64),
+  Byte_Size long,
+  PRIMARY KEY (date_time)
+);
+
+DROP TABLE IF EXISTS domeTHCS_command_enable;
+CREATE TABLE domeTHCS_command_enable (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_commandLog;
+CREATE TABLE domeTHCS_commandLog (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  name varchar(128),
+  ack int,
+  error int,
+  PRIMARY KEY (date_time)
+);
+
+DROP TABLE IF EXISTS domeTHCS_logevent_AppliedSettingsMatchStart;
+CREATE TABLE domeTHCS_logevent_AppliedSettingsMatchStart (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  appliedSettingsMatchStartIsTrue tinyint,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_SettingVersions;
+CREATE TABLE domeTHCS_logevent_SettingVersions (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  recommendedSettingVersion varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_MovementEnabled;
+CREATE TABLE domeTHCS_logevent_MovementEnabled (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_SubsystemError;
+CREATE TABLE domeTHCS_logevent_SubsystemError (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  errorCode varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_status;
+CREATE TABLE domeTHCS_status (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  setpoint_1 float,
+  setpoint_2 float,
+  setpoint_3 float,
+  setpoint_4 float,
+  setpoint_5 float,
+  setpoint_6 float,
+  setpoint_7 float,
+  setpoint_8 float,
+  setpoint_9 float,
+  setpoint_10 float,
+  setpoint_11 float,
+  setpoint_12 float,
+  setpoint_13 float,
+  setpoint_14 float,
+  setpoint_15 float,
+  setpoint_16 float,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_enterControl;
+CREATE TABLE domeTHCS_command_enterControl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_logevent_SummaryState;
+CREATE TABLE domeTHCS_logevent_SummaryState (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  SummaryStateValue int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_SetValue;
+CREATE TABLE domeTHCS_command_SetValue (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  json_parameters varchar(32),
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeTHCS_command_Echo;
+CREATE TABLE domeTHCS_command_Echo (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  status int,
+  PRIMARY KEY (date_time)
+);

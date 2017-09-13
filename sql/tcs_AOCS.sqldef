@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS tcs_AOCS;
+CREATE TABLE tcs_AOCS (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  result varchar(32),
+  PRIMARY KEY (date_time)
+);

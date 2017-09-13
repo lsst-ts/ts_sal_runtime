@@ -1,0 +1,28 @@
+DROP TABLE IF EXISTS camera_Purge;
+CREATE TABLE camera_Purge (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Accelerometer_1 float,
+  Accelerometer_2 float,
+  Accelerometer_3 float,
+  Accelerometer_4 float,
+  Accelerometer_5 float,
+  Accelerometer_6 float,
+  Blower_setting float,
+  Blower_speed float,
+  Body_Flow_meter float,
+  Body_Temp float,
+  Heater_current float,
+  Heaters float,
+  Microphone int,
+  Trunk_Flow_meter float,
+  Trunk_Temp float,
+  Valve_setting int,
+  Valves int,
+  PRIMARY KEY (date_time)
+);

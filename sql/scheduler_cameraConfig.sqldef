@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS scheduler_cameraConfig;
+CREATE TABLE scheduler_cameraConfig (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  readout_time double,
+  shutter_time double,
+  filter_mount_time double,
+  filter_change_time double,
+  filter_max_changes_burst_num int,
+  filter_max_changes_burst_time double,
+  filter_max_changes_avg_num int,
+  filter_max_changes_avg_time double,
+  filter_mounted varchar(32),
+  filter_pos varchar(32),
+  filter_removable varchar(32),
+  filter_unmounted varchar(32),
+  PRIMARY KEY (date_time)
+);

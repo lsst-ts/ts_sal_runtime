@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS environment_weather;
+CREATE TABLE environment_weather (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  ambient_temp double,
+  humidity double,
+  pressure double,
+  PRIMARY KEY (date_time)
+);

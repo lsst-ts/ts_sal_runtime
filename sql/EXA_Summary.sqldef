@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS EXA_Summary;
+CREATE TABLE EXA_Summary (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  EXAmple_1 tinyint,
+  EXAmple_2 tinyint,
+  EXAmple_3 tinyint,
+  EXAmple_4 tinyint,
+  EXAmple_5 tinyint,
+  EXAmple_6 tinyint,
+  EXAmple_7 tinyint,
+  EXAmple_8 tinyint,
+  EXAmple_9 tinyint,
+  EXAmple_10 tinyint,
+  EXAmple_11 tinyint,
+  EXAmple_12 tinyint,
+  EXAmple_13 tinyint,
+  EXAmple_14 tinyint,
+  EXAmple_15 tinyint,
+  EXAmple_16 tinyint,
+  PRIMARY KEY (date_time)
+);

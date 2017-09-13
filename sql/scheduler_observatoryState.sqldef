@@ -1,0 +1,28 @@
+DROP TABLE IF EXISTS scheduler_observatoryState;
+CREATE TABLE scheduler_observatoryState (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  timestamp double,
+  pointing_ra double,
+  pointing_dec double,
+  pointing_angle double,
+  pointing_altitude double,
+  pointing_azimuth double,
+  pointing_pa double,
+  pointing_rot double,
+  tracking tinyint,
+  telescope_altitude double,
+  telescope_azimuth double,
+  telescope_rotator double,
+  dome_altitude double,
+  dome_azimuth double,
+  filter_position varchar(32),
+  filter_mounted varchar(32),
+  filter_unmounted varchar(32),
+  PRIMARY KEY (date_time)
+);

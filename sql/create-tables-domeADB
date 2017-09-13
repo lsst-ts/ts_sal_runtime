@@ -1,0 +1,537 @@
+DROP TABLE IF EXISTS domeADB_logevent_AppliedSettingsMatchStart;
+CREATE TABLE domeADB_logevent_AppliedSettingsMatchStart (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  appliedSettingsMatchStartIsTrue tinyint,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_DriveEnabled;
+CREATE TABLE domeADB_logevent_DriveEnabled (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  driveId int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_LockingPinDisengaged;
+CREATE TABLE domeADB_logevent_LockingPinDisengaged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_disable;
+CREATE TABLE domeADB_command_disable (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_DriveReady;
+CREATE TABLE domeADB_logevent_DriveReady (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  driveId int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_Crawl;
+CREATE TABLE domeADB_command_Crawl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  angle double,
+  demandTime int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_EchoResponse;
+CREATE TABLE domeADB_logevent_EchoResponse (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  response varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_BrakeEngaged;
+CREATE TABLE domeADB_logevent_BrakeEngaged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  brakeId int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_DriveFault;
+CREATE TABLE domeADB_logevent_DriveFault (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  driveId int,
+  errorCode varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_DriveOverTemp;
+CREATE TABLE domeADB_logevent_DriveOverTemp (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  driveId int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_DriveDisabled;
+CREATE TABLE domeADB_logevent_DriveDisabled (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  driveId int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_commandLog;
+CREATE TABLE domeADB_commandLog (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  name varchar(128),
+  ack int,
+  error int,
+  PRIMARY KEY (date_time)
+);
+
+DROP TABLE IF EXISTS domeADB_logevent_RotationPrevented;
+CREATE TABLE domeADB_logevent_RotationPrevented (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  causeId varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_AccelerationLimitReached;
+CREATE TABLE domeADB_logevent_AccelerationLimitReached (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_BrakeDisengaged;
+CREATE TABLE domeADB_logevent_BrakeDisengaged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  brakeId int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_LockingPinEngaged;
+CREATE TABLE domeADB_logevent_LockingPinEngaged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_AccelerationLimitSubsided;
+CREATE TABLE domeADB_logevent_AccelerationLimitSubsided (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_MotionModeChanged;
+CREATE TABLE domeADB_logevent_MotionModeChanged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  newMode int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_SpeedLimitSubsided;
+CREATE TABLE domeADB_logevent_SpeedLimitSubsided (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_Echo;
+CREATE TABLE domeADB_command_Echo (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  status int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_exitControl;
+CREATE TABLE domeADB_command_exitControl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_SummaryState;
+CREATE TABLE domeADB_logevent_SummaryState (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  SummaryStateValue int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_VelocityMove;
+CREATE TABLE domeADB_command_VelocityMove (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  direction int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_SubsystemError;
+CREATE TABLE domeADB_logevent_SubsystemError (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  errorCode varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_stop;
+CREATE TABLE domeADB_command_stop (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_RotationEnabled;
+CREATE TABLE domeADB_logevent_RotationEnabled (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_enable;
+CREATE TABLE domeADB_command_enable (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_enterControl;
+CREATE TABLE domeADB_command_enterControl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_SettingVersions;
+CREATE TABLE domeADB_logevent_SettingVersions (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  recommendedSettingVersion varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_SetValue;
+CREATE TABLE domeADB_command_SetValue (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  json_parameters varchar(32),
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_ErrorCode;
+CREATE TABLE domeADB_logevent_ErrorCode (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  errorCode int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_status;
+CREATE TABLE domeADB_status (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  position_error float,
+  position_actual float,
+  position_cmd float,
+  drive_torque_actual_1 float,
+  drive_torque_actual_2 float,
+  drive_torque_actual_3 float,
+  drive_torque_actual_4 float,
+  drive_torque_actual_5 float,
+  drive_torque_error_1 float,
+  drive_torque_error_2 float,
+  drive_torque_error_3 float,
+  drive_torque_error_4 float,
+  drive_torque_error_5 float,
+  drive_torque_cmd_1 float,
+  drive_torque_cmd_2 float,
+  drive_torque_cmd_3 float,
+  drive_torque_cmd_4 float,
+  drive_torque_cmd_5 float,
+  drive_current_actual_1 float,
+  drive_current_actual_2 float,
+  drive_current_actual_3 float,
+  drive_current_actual_4 float,
+  drive_current_actual_5 float,
+  drive_temp_actual_1 float,
+  drive_temp_actual_2 float,
+  drive_temp_actual_3 float,
+  drive_temp_actual_4 float,
+  drive_temp_actual_5 float,
+  encoder_head_raw_1 float,
+  encoder_head_raw_2 float,
+  encoder_head_raw_3 float,
+  encoder_head_raw_4 float,
+  encoder_head_raw_5 float,
+  encoder_head_calibrated_1 float,
+  encoder_head_calibrated_2 float,
+  encoder_head_calibrated_3 float,
+  encoder_head_calibrated_4 float,
+  encoder_head_calibrated_5 float,
+  resolver_raw_1 float,
+  resolver_raw_2 float,
+  resolver_raw_3 float,
+  resolver_raw_4 float,
+  resolver_raw_5 float,
+  resolver_calibrated_1 float,
+  resolver_calibrated_2 float,
+  resolver_calibrated_3 float,
+  resolver_calibrated_4 float,
+  resolver_calibrated_5 float,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_StateChanged;
+CREATE TABLE domeADB_logevent_StateChanged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  newState int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_Move;
+CREATE TABLE domeADB_command_Move (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  angle double,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_start;
+CREATE TABLE domeADB_command_start (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  configuration varchar(32),
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logeventLFO;
+CREATE TABLE domeADB_logeventLFO (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  alias varchar(128),
+  URL varchar(128),
+  Generator varchar(128),
+  Version varchar(32),
+  Checksum char(32),
+  Mime_Type varchar(64),
+  Byte_Size long,
+  PRIMARY KEY (date_time)
+);
+
+DROP TABLE IF EXISTS domeADB_command_standby;
+CREATE TABLE domeADB_command_standby (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_logevent_SpeedLimitReached;
+CREATE TABLE domeADB_logevent_SpeedLimitReached (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS domeADB_command_abort;
+CREATE TABLE domeADB_command_abort (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,24 @@
+DROP TABLE IF EXISTS scheduler_driverConfig;
+CREATE TABLE scheduler_driverConfig (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  coadd_values tinyint,
+  time_balancing tinyint,
+  timecost_time_max double,
+  timecost_time_ref double,
+  timecost_cost_ref double,
+  timecost_weight double,
+  filtercost_weight double,
+  night_boundary double,
+  new_moon_phase_threshold double,
+  ignore_sky_brightness tinyint,
+  ignore_airmass tinyint,
+  ignore_clouds tinyint,
+  ignore_seeing tinyint,
+  PRIMARY KEY (date_time)
+);

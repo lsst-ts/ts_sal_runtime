@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS dome_Summary;
+CREATE TABLE dome_Summary (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  example_1 tinyint,
+  example_2 tinyint,
+  example_3 tinyint,
+  example_4 tinyint,
+  example_5 tinyint,
+  example_6 tinyint,
+  example_7 tinyint,
+  example_8 tinyint,
+  example_9 tinyint,
+  example_10 tinyint,
+  example_11 tinyint,
+  example_12 tinyint,
+  example_13 tinyint,
+  example_14 tinyint,
+  example_15 tinyint,
+  example_16 tinyint,
+  PRIMARY KEY (date_time)
+);

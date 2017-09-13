@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS m2ms_MirrorPositionMeasured;
+CREATE TABLE m2ms_MirrorPositionMeasured (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  xTilt double,
+  yTilt double,
+  piston double,
+  xPosition double,
+  yPosition double,
+  theta_z_position double,
+  PRIMARY KEY (date_time)
+);

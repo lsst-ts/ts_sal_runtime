@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS scheduler_field;
+CREATE TABLE scheduler_field (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  ID int,
+  fov double,
+  ra double,
+  dec double,
+  gl double,
+  gb double,
+  el double,
+  eb double,
+  PRIMARY KEY (date_time)
+);

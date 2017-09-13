@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS MTMount_MotionParameters;
+CREATE TABLE MTMount_MotionParameters (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Azimuth_Position double,
+  Azimuth_Velocity double,
+  Azimuth_Acceleration double,
+  Azimuth_Jerk double,
+  Elevation_Position double,
+  Elevation_Velocity double,
+  Elevation_Acceleration double,
+  ElevationJerk double,
+  PRIMARY KEY (date_time)
+);

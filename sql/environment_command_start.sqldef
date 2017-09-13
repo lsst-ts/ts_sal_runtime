@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS environment_command_start;
+CREATE TABLE environment_command_start (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  configuration varchar(32),
+  PRIMARY KEY (date_time)
+);

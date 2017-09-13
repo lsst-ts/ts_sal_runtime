@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS m2ms_TangentForcesMeasured;
+CREATE TABLE m2ms_TangentForcesMeasured (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  tangentLink_0deg_forceMeasured double,
+  tangentLink_60deg_forceMeasured double,
+  tangentLink_120deg_forceMeasured double,
+  tangentLink_180deg_forceMeasured double,
+  tangentLink_240deg_forceMeasured double,
+  tangentLink_300deg_forceMeasured double,
+  PRIMARY KEY (date_time)
+);

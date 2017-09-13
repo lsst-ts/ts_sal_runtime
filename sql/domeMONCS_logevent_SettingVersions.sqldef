@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS domeMONCS_logevent_SettingVersions;
+CREATE TABLE domeMONCS_logevent_SettingVersions (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  recommendedSettingVersion varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS ocs_logevent_ocsScriptError;
+CREATE TABLE ocs_logevent_ocsScriptError (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  ocsScriptIdentifier double,
+  ocsScriptLineNumber int,
+  ocsScriptErrorCode int,
+  priority int,
+  PRIMARY KEY (date_time)
+);

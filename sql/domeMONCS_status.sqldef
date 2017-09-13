@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS domeMONCS_status;
+CREATE TABLE domeMONCS_status (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  data_1 float,
+  data_2 float,
+  data_3 float,
+  data_4 float,
+  data_5 float,
+  data_6 float,
+  data_7 float,
+  data_8 float,
+  data_9 float,
+  data_10 float,
+  data_11 float,
+  data_12 float,
+  data_13 float,
+  data_14 float,
+  data_15 float,
+  data_16 float,
+  PRIMARY KEY (date_time)
+);

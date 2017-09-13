@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS tcs_LoopTime_ms;
+CREATE TABLE tcs_LoopTime_ms (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  LoopTime_ms double,
+  PRIMARY KEY (date_time)
+);

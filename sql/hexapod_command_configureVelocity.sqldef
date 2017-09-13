@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS hexapod_command_configureVelocity;
+CREATE TABLE hexapod_command_configureVelocity (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  xmin double,
+  xmax double,
+  ymin double,
+  ymax double,
+  zmin double,
+  zmax double,
+  umin double,
+  umax double,
+  vmin double,
+  vmax double,
+  wmin double,
+  wmax double,
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS MTMount_Alt_TC;
+CREATE TABLE MTMount_Alt_TC (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Drive_Surface_Temperature_1 double,
+  Drive_Surface_Temperature_2 double,
+  Motor_Surface_Temperature_1 double,
+  Motor_Surface_Temperature_2 double,
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS catchuparchiver_logevent_catchuparchiverEntitySummaryState;
+CREATE TABLE catchuparchiver_logevent_catchuparchiverEntitySummaryState (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Identifier double,
+  Address int,
+  priority int,
+  PRIMARY KEY (date_time)
+);

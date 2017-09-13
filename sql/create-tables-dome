@@ -1,0 +1,348 @@
+DROP TABLE IF EXISTS dome_command_StopShutter;
+CREATE TABLE dome_command_StopShutter (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_start;
+CREATE TABLE dome_command_start (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  configuration varchar(32),
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_logevent_SummaryState;
+CREATE TABLE dome_logevent_SummaryState (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  SummaryStateValue int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_logeventLFO;
+CREATE TABLE dome_logeventLFO (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  alias varchar(128),
+  URL varchar(128),
+  Generator varchar(128),
+  Version varchar(32),
+  Checksum char(32),
+  Mime_Type varchar(64),
+  Byte_Size long,
+  PRIMARY KEY (date_time)
+);
+
+DROP TABLE IF EXISTS dome_command_SetLouvers;
+CREATE TABLE dome_command_SetLouvers (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  position_1 int,
+  position_2 int,
+  position_3 int,
+  position_4 int,
+  position_5 int,
+  position_6 int,
+  position_7 int,
+  position_8 int,
+  position_9 int,
+  position_10 int,
+  position_11 int,
+  position_12 int,
+  position_13 int,
+  position_14 int,
+  position_15 int,
+  position_16 int,
+  position_17 int,
+  position_18 int,
+  position_19 int,
+  position_20 int,
+  position_21 int,
+  position_22 int,
+  position_23 int,
+  position_24 int,
+  position_25 int,
+  position_26 int,
+  position_27 int,
+  position_28 int,
+  position_29 int,
+  position_30 int,
+  position_31 int,
+  position_32 int,
+  position_33 int,
+  position_34 int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_Summary;
+CREATE TABLE dome_Summary (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  example_1 tinyint,
+  example_2 tinyint,
+  example_3 tinyint,
+  example_4 tinyint,
+  example_5 tinyint,
+  example_6 tinyint,
+  example_7 tinyint,
+  example_8 tinyint,
+  example_9 tinyint,
+  example_10 tinyint,
+  example_11 tinyint,
+  example_12 tinyint,
+  example_13 tinyint,
+  example_14 tinyint,
+  example_15 tinyint,
+  example_16 tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_CloseShutter;
+CREATE TABLE dome_command_CloseShutter (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_Crawl;
+CREATE TABLE dome_command_Crawl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  azPosition double,
+  elPosition double,
+  demandTime int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_logevent_AppliedSettingsMatchStart;
+CREATE TABLE dome_logevent_AppliedSettingsMatchStart (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  appliedSettingsMatchStartIsTrue tinyint,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_OpenShutter;
+CREATE TABLE dome_command_OpenShutter (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_logevent_SettingVersions;
+CREATE TABLE dome_logevent_SettingVersions (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  recommendedSettingVersion varchar(32),
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_abort;
+CREATE TABLE dome_command_abort (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_commandLog;
+CREATE TABLE dome_commandLog (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_seqNum int,
+  name varchar(128),
+  ack int,
+  error int,
+  PRIMARY KEY (date_time)
+);
+
+DROP TABLE IF EXISTS dome_command_disable;
+CREATE TABLE dome_command_disable (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_logevent_StateChanged;
+CREATE TABLE dome_logevent_StateChanged (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  newState int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_standby;
+CREATE TABLE dome_command_standby (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_exitControl;
+CREATE TABLE dome_command_exitControl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_logevent_ErrorCode;
+CREATE TABLE dome_logevent_ErrorCode (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  errorCode int,
+  priority int,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_Move;
+CREATE TABLE dome_command_Move (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  azimuth double,
+  elevation double,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_enable;
+CREATE TABLE dome_command_enable (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_enterControl;
+CREATE TABLE dome_command_enterControl (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_stop;
+CREATE TABLE dome_command_stop (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_Park;
+CREATE TABLE dome_command_Park (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  state tinyint,
+  PRIMARY KEY (date_time)
+);
+DROP TABLE IF EXISTS dome_command_SetValue;
+CREATE TABLE dome_command_SetValue (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  json_parameters varchar(32),
+  PRIMARY KEY (date_time)
+);

@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS archiver_logevent_ErrorCode;
+CREATE TABLE archiver_logevent_ErrorCode (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  errorCode int,
+  priority int,
+  PRIMARY KEY (date_time)
+);

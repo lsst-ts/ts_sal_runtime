@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS scheduler_command_SetValue;
+CREATE TABLE scheduler_command_SetValue (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  json_parameters varchar(32),
+  PRIMARY KEY (date_time)
+);

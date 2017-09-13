@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS MTMount_command_trackTarget;
+CREATE TABLE MTMount_command_trackTarget (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  az_angle double,
+  az_velocity double,
+  el_angle double,
+  el_velocity double,
+  time double,
+  cablewrap_orientation varchar(32),
+  PRIMARY KEY (date_time)
+);

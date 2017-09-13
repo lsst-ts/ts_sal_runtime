@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS tcs_kernel_Target;
+CREATE TABLE tcs_kernel_Target (
+  date_time DATETIME(6),
+  private_revCode char(32),
+  private_sndStamp double precision,
+  private_rcvStamp double precision,
+  private_seqNum int,
+  private_origin int,
+  private_host int,
+  Humid float,
+  Press float,
+  TLR float,
+  Tai float,
+  Temp float,
+  Wavel float,
+  XOffset float,
+  YOffset float,
+  az float,
+  azdot float,
+  el float,
+  eldot float,
+  focalplaneX float,
+  focalplaneY float,
+  t0 float,
+  PRIMARY KEY (date_time)
+);
