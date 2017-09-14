@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/safe_queue.h
+boost/thread.hpp
+-
+queue
+-
+
+/home/dmills/sal/test/lsst-master/tma_management/test/test-safe_queue.cpp
+boost/thread/thread.hpp
+-
+boost/timer/timer.hpp
+-
+safe_queue.h
+/home/dmills/sal/test/lsst-master/tma_management/test/safe_queue.h
+

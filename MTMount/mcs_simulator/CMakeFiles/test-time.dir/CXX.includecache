@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmills/sal/test/lsst-master/tma_management/test/test-time.cpp
+boost/date_time.hpp
+-
+iostream
+-
+sstream
+-
+string
+-
+

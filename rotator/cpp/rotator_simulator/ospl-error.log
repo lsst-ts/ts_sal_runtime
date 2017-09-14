@@ -1,0 +1,1350 @@
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:40:39 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <22466>
+Thread      : ddsi2 7fb14c226700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553239.373961857
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:40:43 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <22545>
+Thread      : ddsi2 7fa348b7d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553243.267963001
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:40:44 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <22593>
+Thread      : ddsi2 7f1285e25700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553244.077871076
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:40:45 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <22626>
+Thread      : ddsi2 7f7ca9541700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553245.138504947
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:40:46 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <22659>
+Thread      : ddsi2 7f7930772700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553246.000002012
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:40:47 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <22695>
+Thread      : ddsi2 7f16dcac0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553247.090407458
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:56 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23544>
+Thread      : main thread 7f386beac700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553436.449314283
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:56 CLST 2017
+Description : Operation failed: mutex 0x64001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23544>
+Thread      : 7f386b6ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553436.451823111
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:56 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23544>
+Thread      : 7f386b6ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553436.451858649
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:56 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23544>
+Thread      : 7f386b6ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553436.451896832
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:56 CLST 2017
+Description : Operation failed: mutex 0x64001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23544>
+Thread      : 7f386b6ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553436.451913725
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:59 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23551>
+Thread      : main thread 7f5e4a1a2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553439.278567792
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:59 CLST 2017
+Description : Operation failed: mutex 0x44001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23551>
+Thread      : 7f5e499a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553439.283237659
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:59 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23551>
+Thread      : 7f5e499a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553439.283286048
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:59 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23551>
+Thread      : 7f5e499a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553439.283331657
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:43:59 CLST 2017
+Description : Operation failed: mutex 0x44001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23551>
+Thread      : 7f5e499a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553439.283341302
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:00 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23558>
+Thread      : main thread 7f2b3ecaa700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553440.066390599
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:00 CLST 2017
+Description : Operation failed: mutex 0x30001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23558>
+Thread      : 7f2b3f4ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553440.066586021
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:00 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23558>
+Thread      : 7f2b3f4ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553440.066611039
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:00 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23558>
+Thread      : 7f2b3f4ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553440.066645263
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:00 CLST 2017
+Description : Operation failed: mutex 0x30001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23558>
+Thread      : 7f2b3f4ab700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553440.066653639
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23565>
+Thread      : main thread 7f4d585b9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553442.091717390
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Operation failed: mutex 0x48001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23565>
+Thread      : 7f4d58dba700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553442.091963793
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23565>
+Thread      : 7f4d58dba700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553442.091993959
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23565>
+Thread      : 7f4d58dba700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553442.092029771
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Operation failed: mutex 0x48001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23565>
+Thread      : 7f4d58dba700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553442.092039979
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23572>
+Thread      : main thread 7ff1fe68e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553442.699620105
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Operation failed: mutex 0xf0001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23572>
+Thread      : 7ff1fee8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553442.699733976
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23572>
+Thread      : 7ff1fee8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553442.699842763
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23572>
+Thread      : 7ff1fee8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553442.699894056
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Operation failed: mutex 0xf0001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23572>
+Thread      : 7ff1fee8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553442.699903280
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23579>
+Thread      : 7f1b11619700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553442.967338643
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Operation failed: mutex 0xc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23579>
+Thread      : main thread 7f1b10e18700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553442.967599334
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23579>
+Thread      : main thread 7f1b10e18700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553442.967647028
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23579>
+Thread      : main thread 7f1b10e18700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553442.967675930
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:02 CLST 2017
+Description : Operation failed: mutex 0xc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23579>
+Thread      : main thread 7f1b10e18700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553442.967687905
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23586>
+Thread      : main thread 7f66f0574700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553443.228793936
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Operation failed: mutex 0xe8001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23586>
+Thread      : 7f66efd73700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553443.229097085
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23586>
+Thread      : 7f66efd73700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553443.229118371
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23586>
+Thread      : 7f66efd73700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553443.229145614
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Operation failed: mutex 0xe8001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23586>
+Thread      : 7f66efd73700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553443.229153625
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23593>
+Thread      : main thread 7fc7e382a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553443.468176622
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Operation failed: mutex 0xdc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23593>
+Thread      : 7fc7e402b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553443.468366996
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23593>
+Thread      : 7fc7e402b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553443.468380049
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23593>
+Thread      : 7fc7e402b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553443.468404666
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:03 CLST 2017
+Description : Operation failed: mutex 0xdc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23593>
+Thread      : 7fc7e402b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553443.468412512
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23600>
+Thread      : main thread 7f680469b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553444.092831454
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Operation failed: mutex 0xfc001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23600>
+Thread      : 7f6803e9a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553444.093178546
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23600>
+Thread      : 7f6803e9a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553444.093204602
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23600>
+Thread      : 7f6803e9a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553444.093285686
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Operation failed: mutex 0xfc001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23600>
+Thread      : 7f6803e9a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553444.093352884
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23607>
+Thread      : 7f93e4667700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553444.426945686
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Operation failed: mutex 0xdc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23607>
+Thread      : main thread 7f93e3e66700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553444.427071833
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23607>
+Thread      : main thread 7f93e3e66700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553444.427085166
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23607>
+Thread      : main thread 7f93e3e66700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553444.427110094
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:04 CLST 2017
+Description : Operation failed: mutex 0xdc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23607>
+Thread      : main thread 7f93e3e66700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553444.427126319
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:10 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23680>
+Thread      : main thread 7fe90b4d7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553450.959925944
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:10 CLST 2017
+Description : Operation failed: mutex 0x4001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23680>
+Thread      : 7fe90acd6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553450.960254859
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:10 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23680>
+Thread      : 7fe90acd6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553450.960272686
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:10 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23680>
+Thread      : 7fe90acd6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553450.960354015
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:10 CLST 2017
+Description : Operation failed: mutex 0x4001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23680>
+Thread      : 7fe90acd6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553450.960364873
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:13 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23738>
+Thread      : main thread 7f7734794700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553453.529366548
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:13 CLST 2017
+Description : Operation failed: mutex 0x24001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23738>
+Thread      : 7f7734f95700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553453.529648666
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:13 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23738>
+Thread      : 7f7734f95700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553453.529671417
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:13 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23738>
+Thread      : 7f7734f95700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553453.529711666
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:13 CLST 2017
+Description : Operation failed: mutex 0x24001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23738>
+Thread      : 7f7734f95700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553453.529721415
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23748>
+Thread      : main thread 7f248ba03700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553454.221958731
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Operation failed: mutex 0x84001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23748>
+Thread      : 7f248b202700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553454.222207644
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23748>
+Thread      : 7f248b202700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553454.222229134
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23748>
+Thread      : 7f248b202700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553454.222260051
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Operation failed: mutex 0x84001e18, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23748>
+Thread      : 7f248b202700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553454.222269015
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23755>
+Thread      : main thread 7f3acb29a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553454.935792451
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Operation failed: mutex 0xbc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23755>
+Thread      : 7f3acba9b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexLock/os_mutex.c/209/0/1494553454.936038276
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : User layer not initialized
+Node        : localhost.localdomain
+Process     : rotator_simulator <23755>
+Thread      : 7f3acba9b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/User Layer/u_user.c/118/0/1494553454.936064641
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Failed to connect to/create the default domain
+Node        : localhost.localdomain
+Process     : rotator_simulator <23755>
+Thread      : 7f3acba9b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi::gapi_domainParticipantFactory::gapi_domainParticipantFactory_create_participant/gapi_domainParticipantFactory.c/280/0/1494553454.936145288
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:14 CLST 2017
+Description : Operation failed: mutex 0xbc001d88, result = Invalid argument
+Node        : localhost.localdomain
+Process     : rotator_simulator <23755>
+Thread      : 7f3acba9b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/os_mutexUnlock/os_mutex.c/284/0/1494553454.936160491
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:39 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <23862>
+Thread      : ddsi2 7fef9d98f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553479.943041970
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:44:46 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <23929>
+Thread      : ddsi2 7fe2e4cc3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553486.558390153
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:11 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24377>
+Thread      : ddsi2 7fabab80f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553571.789628159
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:14 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24417>
+Thread      : ddsi2 7ffa1db83700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553574.307454960
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:15 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24477>
+Thread      : ddsi2 7f2696be3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553575.042008927
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:15 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24507>
+Thread      : ddsi2 7f7f608dd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553575.619752568
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:16 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24548>
+Thread      : ddsi2 7f5a65d48700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553576.199039273
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:17 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24621>
+Thread      : ddsi2 7f3aaba2f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553577.696342603
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:19 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24646>
+Thread      : ddsi2 7f375a968700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553579.350618335
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:19 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24678>
+Thread      : ddsi2 7f7842dfb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553579.804216233
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:20 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24712>
+Thread      : ddsi2 7f377e478700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553580.045813087
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:20 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24741>
+Thread      : ddsi2 7fa7c91de700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553580.282131801
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:20 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24775>
+Thread      : ddsi2 7f7733220700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553580.514847981
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:20 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24804>
+Thread      : ddsi2 7f1340949700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553580.807282856
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:21 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24833>
+Thread      : ddsi2 7ff65a742700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553581.080220285
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:21 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24867>
+Thread      : ddsi2 7f71394a7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553581.281541755
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:21 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24896>
+Thread      : ddsi2 7fb000185700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553581.572840109
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:21 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24930>
+Thread      : ddsi2 7f16fbc8d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553581.818473190
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24964>
+Thread      : ddsi2 7ff07f02b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553582.008145675
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <24996>
+Thread      : ddsi2 7fe557c8d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553582.176042287
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25025>
+Thread      : ddsi2 7fb11102a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553582.402811880
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25059>
+Thread      : ddsi2 7f9b8f820700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553582.618671672
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25090>
+Thread      : ddsi2 7f5e3e5d2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553582.760631710
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25124>
+Thread      : ddsi2 7f5d8aaa4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553582.976960249
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:23 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25158>
+Thread      : ddsi2 7f65f9ec7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553583.163117456
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:23 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25182>
+Thread      : ddsi2 7f49b5ec5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553583.868026801
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:24 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25216>
+Thread      : ddsi2 7efc55356700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553584.339833596
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:25 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25250>
+Thread      : ddsi2 7fe5eee1f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553585.025779392
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:25 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25279>
+Thread      : ddsi2 7fa7a8da5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553585.522250376
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:25 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25313>
+Thread      : ddsi2 7f498dcd8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553585.741235852
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:25 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25337>
+Thread      : ddsi2 7efcde877700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553585.977932777
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25369>
+Thread      : ddsi2 7fc23c416700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553586.172180888
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25403>
+Thread      : ddsi2 7f3a023fd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553586.326652096
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25435>
+Thread      : ddsi2 7f57b0b97700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553586.490917667
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25469>
+Thread      : ddsi2 7f0cc3a2f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553586.647065430
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25501>
+Thread      : ddsi2 7fe525313700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553586.849798554
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:27 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25535>
+Thread      : ddsi2 7f26fc621700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553587.042240341
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:27 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25569>
+Thread      : ddsi2 7f1fe86b8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553587.193554107
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:27 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25601>
+Thread      : ddsi2 7f9689f7c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553587.414023176
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:27 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25635>
+Thread      : ddsi2 7efe00972700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553587.599948431
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:27 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25669>
+Thread      : ddsi2 7f24222a9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553587.781040412
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:27 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25703>
+Thread      : ddsi2 7fa9d81b3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553587.939964490
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:28 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25737>
+Thread      : ddsi2 7f93b12ee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553588.147460128
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:28 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25771>
+Thread      : ddsi2 7f6ec4783700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553588.330416010
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:28 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25803>
+Thread      : ddsi2 7fcf058c8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553588.496256417
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:28 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25837>
+Thread      : ddsi2 7fc8e1770700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553588.692244140
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:28 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25861>
+Thread      : ddsi2 7ff743b30700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553588.890196867
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:29 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25895>
+Thread      : ddsi2 7f30f41cd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553589.086737018
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:29 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <25929>
+Thread      : ddsi2 7efc1f71f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553589.237613751
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:54 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26183>
+Thread      : ddsi2 7f19eb1ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553614.668212711
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:58 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26224>
+Thread      : ddsi2 7f38bfc8d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553618.756826425
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:46:59 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26256>
+Thread      : ddsi2 7f4196027700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553619.894820478
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:00 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26290>
+Thread      : ddsi2 7f05ee7aa700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553620.516365909
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:00 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26324>
+Thread      : ddsi2 7f6667c8d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553620.824233208
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:01 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26358>
+Thread      : ddsi2 7fac77a2f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553621.198923324
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:01 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26392>
+Thread      : ddsi2 7fed084c3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553621.431792918
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:01 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26424>
+Thread      : ddsi2 7f5b86a14700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553621.650827528
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:01 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26458>
+Thread      : ddsi2 7fb7e30ac700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553621.844441673
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:02 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26492>
+Thread      : ddsi2 7f44ffa2f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553622.008365346
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:02 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26526>
+Thread      : ddsi2 7f560b42c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553622.227986031
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:02 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26550>
+Thread      : ddsi2 7fbfb96cb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553622.392405000
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:02 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26582>
+Thread      : ddsi2 7face0ecc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553622.590714498
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:02 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26616>
+Thread      : ddsi2 7fd56a141700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553622.759658526
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:02 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26648>
+Thread      : ddsi2 7fb09f2a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553622.968030040
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:03 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26682>
+Thread      : ddsi2 7fe524e6d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553623.131528234
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:03 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26714>
+Thread      : ddsi2 7f126ae8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553623.322037512
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:03 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26748>
+Thread      : ddsi2 7fa7415e6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553623.494891217
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:03 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26777>
+Thread      : ddsi2 7f14103d1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553623.709625347
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:03 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26813>
+Thread      : ddsi2 7f42b7d8e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553623.885140901
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:04 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26845>
+Thread      : ddsi2 7f6ced409700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553624.087728793
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:04 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26874>
+Thread      : ddsi2 7fa89d813700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553624.268050923
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:04 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26898>
+Thread      : ddsi2 7f772dd58700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553624.541605847
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:04 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26932>
+Thread      : ddsi2 7f93efd8e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553624.686554733
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:04 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <26964>
+Thread      : ddsi2 7f2822312700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553624.876693664
+========================================================================================
+Report      : ERROR
+Date        : Thu May 11 22:47:29 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <27162>
+Thread      : ddsi2 7f86bf6bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494553649.878551416
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 09:45:29 CLST 2017
+Description : Exception occurred, will detach user-layer from domain.
+Node        : localhost.localdomain
+Process     : rotator_simulator <5034>
+Thread      : signalHandler 7f0af55af700
+Internals   : V6.4.140320OSS/24b1387/24b1387/u__userExceptionCallbackWrapper/u_user.c/360/0/1494593129.674169825
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 09:54:16 CLST 2017
+Description : Exception occurred, will detach user-layer from domain.
+Node        : localhost.localdomain
+Process     : rotator_simulator <5259>
+Thread      : signalHandler 7f855cdac700
+Internals   : V6.4.140320OSS/24b1387/24b1387/u__userExceptionCallbackWrapper/u_user.c/360/0/1494593656.837900437
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 10:12:22 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <7063>
+Thread      : ddsi2 7f0e8c7a0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494594742.389651267
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 10:12:25 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <7116>
+Thread      : ddsi2 7f26b792e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494594745.435177664
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 10:12:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <7142>
+Thread      : ddsi2 7f394b0ac700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494594746.293695535
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 10:12:26 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <7172>
+Thread      : ddsi2 7f0bd41ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494594746.880625702
+========================================================================================
+Report      : ERROR
+Date        : Fri May 12 10:21:56 CLST 2017
+Description : rtps_init: failed to find a free participant index for domain 0
+
+Node        : localhost.localdomain
+Process     : rotator_simulator <9187>
+Thread      : ddsi2 7fee34b86700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_init.c/540/0/1494595316.725066366

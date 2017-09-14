@@ -1,0 +1,3661 @@
+command_sent: angle:78.6844; velocity:-0.00463191; tai:1.49461e+09
+command_received: angle=0.078684
+command_sent: angle:78.684; velocity:-0.00462948; tai:1.49461e+09
+command_received: angle=0.157290
+command_sent: angle:78.6835; velocity:-0.00462708; tai:1.49461e+09
+command_received: angle=0.235816
+command_sent: angle:78.683; velocity:-0.00462453; tai:1.49461e+09
+command_received: angle=0.314263
+command_sent: angle:78.6825; velocity:-0.00462201; tai:1.49461e+09
+command_received: angle=0.392631
+command_sent: angle:78.682; velocity:-0.0046196; tai:1.49461e+09
+command_received: angle=0.470921
+command_sent: angle:78.6816; velocity:-0.00461709; tai:1.49461e+09
+command_received: angle=0.549131
+command_sent: angle:78.6811; velocity:-0.00461457; tai:1.49461e+09
+command_received: angle=0.627263
+command_sent: angle:78.6806; velocity:-0.00461212; tai:1.49461e+09
+command_received: angle=0.705317
+command_sent: angle:78.6802; velocity:-0.00460967; tai:1.49461e+09
+command_received: angle=0.783292
+command_sent: angle:78.6797; velocity:-0.00460724; tai:1.49461e+09
+command_received: angle=0.861188
+command_sent: angle:78.6792; velocity:-0.00460478; tai:1.49461e+09
+command_received: angle=0.939006
+command_sent: angle:78.6787; velocity:-0.0046022; tai:1.49461e+09
+command_received: angle=1.016746
+command_sent: angle:78.6783; velocity:-0.00459971; tai:1.49461e+09
+command_received: angle=1.094407
+command_sent: angle:78.6778; velocity:-0.0045972; tai:1.49461e+09
+command_received: angle=1.171991
+command_sent: angle:78.6773; velocity:-0.00459471; tai:1.49461e+09
+command_received: angle=1.249496
+command_sent: angle:78.6768; velocity:-0.00459219; tai:1.49461e+09
+command_received: angle=1.326923
+command_sent: angle:78.6764; velocity:-0.00458968; tai:1.49461e+09
+command_received: angle=1.404273
+command_sent: angle:78.6759; velocity:-0.0045872; tai:1.49461e+09
+command_received: angle=1.481544
+command_sent: angle:78.6754; velocity:-0.00458464; tai:1.49461e+09
+command_received: angle=1.558738
+command_sent: angle:78.675; velocity:-0.0045821; tai:1.49461e+09
+command_received: angle=1.635854
+command_sent: angle:78.6745; velocity:-0.00457958; tai:1.49461e+09
+command_received: angle=1.712893
+command_sent: angle:78.674; velocity:-0.00457707; tai:1.49461e+09
+command_received: angle=1.789854
+command_sent: angle:78.6736; velocity:-0.00457455; tai:1.49461e+09
+command_received: angle=1.866738
+command_sent: angle:78.6731; velocity:-0.00457202; tai:1.49461e+09
+command_received: angle=1.943544
+command_sent: angle:78.6726; velocity:-0.00456947; tai:1.49461e+09
+command_received: angle=2.020273
+command_sent: angle:78.6722; velocity:-0.00456686; tai:1.49461e+09
+command_received: angle=2.096925
+command_sent: angle:78.6717; velocity:-0.00456433; tai:1.49461e+09
+command_received: angle=2.173500
+command_sent: angle:78.6712; velocity:-0.00456181; tai:1.49461e+09
+command_received: angle=2.249998
+command_sent: angle:78.6708; velocity:-0.00455915; tai:1.49461e+09
+command_received: angle=2.326419
+command_sent: angle:78.6703; velocity:-0.00455662; tai:1.49461e+09
+command_received: angle=2.402762
+command_sent: angle:78.6698; velocity:-0.00455388; tai:1.49461e+09
+command_received: angle=2.479029
+command_sent: angle:78.6693; velocity:-0.00455135; tai:1.49461e+09
+command_received: angle=2.555220
+command_sent: angle:78.6689; velocity:-0.00454872; tai:1.49461e+09
+command_received: angle=2.631333
+command_sent: angle:78.6684; velocity:-0.00454615; tai:1.49461e+09
+command_received: angle=2.707370
+command_sent: angle:78.6679; velocity:-0.00454361; tai:1.49461e+09
+command_received: angle=2.783331
+command_sent: angle:78.6675; velocity:-0.00454102; tai:1.49461e+09
+command_received: angle=2.859215
+command_sent: angle:78.667; velocity:-0.00453846; tai:1.49461e+09
+command_received: angle=2.935023
+command_sent: angle:78.6665; velocity:-0.00453592; tai:1.49461e+09
+command_received: angle=3.010754
+command_sent: angle:78.666; velocity:-0.00453285; tai:1.49461e+09
+command_received: angle=3.086410
+command_sent: angle:78.6656; velocity:-0.0045303; tai:1.49461e+09
+command_received: angle=3.161989
+command_sent: angle:78.6651; velocity:-0.00452773; tai:1.49461e+09
+command_received: angle=3.237492
+command_sent: angle:78.6646; velocity:-0.00452515; tai:1.49461e+09
+command_received: angle=3.312919
+command_sent: angle:78.6642; velocity:-0.00452251; tai:1.49461e+09
+command_received: angle=3.388270
+command_sent: angle:78.6637; velocity:-0.00451992; tai:1.49461e+09
+command_received: angle=3.463546
+command_sent: angle:78.6632; velocity:-0.00451733; tai:1.49461e+09
+command_received: angle=3.538745
+command_sent: angle:78.6628; velocity:-0.00451475; tai:1.49461e+09
+command_received: angle=3.613869
+command_sent: angle:78.6623; velocity:-0.00451217; tai:1.49461e+09
+command_received: angle=3.688918
+command_sent: angle:78.6619; velocity:-0.00450958; tai:1.49461e+09
+command_received: angle=3.763891
+command_sent: angle:78.6614; velocity:-0.00450693; tai:1.49461e+09
+command_received: angle=3.838788
+command_sent: angle:78.6609; velocity:-0.00450428; tai:1.49461e+09
+command_received: angle=3.913611
+command_sent: angle:78.6605; velocity:-0.00450169; tai:1.49461e+09
+command_received: angle=3.988357
+command_sent: angle:78.66; velocity:-0.00449908; tai:1.49461e+09
+command_received: angle=4.063029
+command_sent: angle:78.6596; velocity:-0.00449648; tai:1.49461e+09
+command_received: angle=4.137626
+command_sent: angle:78.6591; velocity:-0.00449388; tai:1.49461e+09
+command_received: angle=4.212147
+command_sent: angle:78.6587; velocity:-0.00449128; tai:1.49461e+09
+command_received: angle=4.286594
+command_sent: angle:78.6582; velocity:-0.00448866; tai:1.49461e+09
+command_received: angle=4.360965
+command_sent: angle:78.6578; velocity:-0.00448593; tai:1.49461e+09
+command_received: angle=4.435262
+command_sent: angle:78.6573; velocity:-0.00448333; tai:1.49461e+09
+command_received: angle=4.509484
+command_sent: angle:78.6568; velocity:-0.00448072; tai:1.49461e+09
+command_received: angle=4.583631
+command_sent: angle:78.6564; velocity:-0.00447805; tai:1.49461e+09
+command_received: angle=4.657704
+command_sent: angle:78.6559; velocity:-0.00447543; tai:1.49461e+09
+command_received: angle=4.731702
+command_sent: angle:78.6554; velocity:-0.00447267; tai:1.49461e+09
+command_received: angle=4.805626
+command_sent: angle:78.6549; velocity:-0.00446996; tai:1.49461e+09
+command_received: angle=4.879475
+command_sent: angle:78.6545; velocity:-0.00446717; tai:1.49461e+09
+command_received: angle=4.953250
+command_sent: angle:78.654; velocity:-0.00446455; tai:1.49461e+09
+command_received: angle=5.026951
+command_sent: angle:78.6536; velocity:-0.00446177; tai:1.49461e+09
+command_received: angle=5.100578
+command_sent: angle:78.6531; velocity:-0.00445915; tai:1.49461e+09
+command_received: angle=5.174130
+command_sent: angle:78.6527; velocity:-0.00445651; tai:1.49461e+09
+command_received: angle=5.247609
+command_sent: angle:78.6522; velocity:-0.00445388; tai:1.49461e+09
+command_received: angle=5.321014
+command_sent: angle:78.6517; velocity:-0.0044512; tai:1.49461e+09
+command_received: angle=5.394344
+command_sent: angle:78.6513; velocity:-0.00444851; tai:1.49461e+09
+command_received: angle=5.467601
+command_sent: angle:78.6508; velocity:-0.00444558; tai:1.49461e+09
+command_received: angle=5.540784
+command_sent: angle:78.6504; velocity:-0.00444284; tai:1.49461e+09
+command_received: angle=5.613894
+command_sent: angle:78.6499; velocity:-0.0044402; tai:1.49461e+09
+command_received: angle=5.686930
+command_sent: angle:78.6495; velocity:-0.00443754; tai:1.49461e+09
+command_received: angle=5.759893
+command_sent: angle:78.649; velocity:-0.0044349; tai:1.49461e+09
+command_received: angle=5.832782
+command_sent: angle:78.6485; velocity:-0.00443218; tai:1.49461e+09
+command_received: angle=5.905597
+command_sent: angle:78.6481; velocity:-0.00442946; tai:1.49461e+09
+command_received: angle=5.978340
+command_sent: angle:78.6476; velocity:-0.00442677; tai:1.49461e+09
+command_received: angle=6.051009
+command_sent: angle:78.6472; velocity:-0.00442412; tai:1.49461e+09
+command_received: angle=6.123605
+command_sent: angle:78.6467; velocity:-0.00442148; tai:1.49461e+09
+command_received: angle=6.196128
+command_sent: angle:78.6462; velocity:-0.00441846; tai:1.49461e+09
+command_received: angle=6.268579
+command_sent: angle:78.6458; velocity:-0.00441582; tai:1.49461e+09
+command_received: angle=6.340956
+command_sent: angle:78.6453; velocity:-0.00441317; tai:1.49461e+09
+command_received: angle=6.413260
+command_sent: angle:78.6449; velocity:-0.00441052; tai:1.49461e+09
+command_received: angle=6.485492
+command_sent: angle:78.6444; velocity:-0.00440779; tai:1.49461e+09
+command_received: angle=6.557651
+command_sent: angle:78.644; velocity:-0.0044051; tai:1.49461e+09
+command_received: angle=6.629737
+command_sent: angle:78.6435; velocity:-0.00440243; tai:1.49461e+09
+command_received: angle=6.701751
+command_sent: angle:78.6431; velocity:-0.00439969; tai:1.49461e+09
+command_received: angle=6.773692
+command_sent: angle:78.6426; velocity:-0.00439694; tai:1.49461e+09
+command_received: angle=6.845561
+command_sent: angle:78.6422; velocity:-0.00439426; tai:1.49461e+09
+command_received: angle=6.917358
+command_sent: angle:78.6417; velocity:-0.00439155; tai:1.49461e+09
+command_received: angle=6.989082
+command_sent: angle:78.6412; velocity:-0.00438874; tai:1.49461e+09
+command_received: angle=7.060734
+command_sent: angle:78.6408; velocity:-0.0043861; tai:1.49461e+09
+command_received: angle=7.132314
+command_sent: angle:78.6404; velocity:-0.00438346; tai:1.49461e+09
+command_received: angle=7.203822
+command_sent: angle:78.6399; velocity:-0.00438079; tai:1.49461e+09
+command_received: angle=7.275258
+command_sent: angle:78.6395; velocity:-0.00437811; tai:1.49461e+09
+command_received: angle=7.346623
+command_sent: angle:78.639; velocity:-0.00437545; tai:1.49461e+09
+command_received: angle=7.417915
+command_sent: angle:78.6386; velocity:-0.0043728; tai:1.49461e+09
+command_received: angle=7.489136
+command_sent: angle:78.6381; velocity:-0.00437011; tai:1.49461e+09
+command_received: angle=7.560285
+command_sent: angle:78.6377; velocity:-0.00436747; tai:1.49461e+09
+command_received: angle=7.631362
+command_sent: angle:78.6372; velocity:-0.00436481; tai:1.49461e+09
+command_received: angle=7.702368
+command_sent: angle:78.6368; velocity:-0.00436214; tai:1.49461e+09
+command_received: angle=7.773302
+command_sent: angle:78.6364; velocity:-0.00435947; tai:1.49461e+09
+command_received: angle=7.844165
+command_sent: angle:78.6359; velocity:-0.00435675; tai:1.49461e+09
+command_received: angle=7.914957
+command_sent: angle:78.6354; velocity:-0.00435397; tai:1.49461e+09
+command_received: angle=7.985678
+command_sent: angle:78.635; velocity:-0.00435117; tai:1.49461e+09
+command_received: angle=8.056327
+command_sent: angle:78.6346; velocity:-0.00434851; tai:1.49461e+09
+command_received: angle=8.126905
+command_sent: angle:78.6341; velocity:-0.00434587; tai:1.49461e+09
+command_received: angle=8.197412
+command_sent: angle:78.6337; velocity:-0.00434318; tai:1.49461e+09
+command_received: angle=8.267849
+command_sent: angle:78.6332; velocity:-0.00434044; tai:1.49461e+09
+command_received: angle=8.338214
+command_sent: angle:78.6327; velocity:-0.00433774; tai:1.49461e+09
+command_received: angle=8.408508
+command_sent: angle:78.6323; velocity:-0.00433484; tai:1.49461e+09
+command_received: angle=8.478732
+command_sent: angle:78.6319; velocity:-0.00433217; tai:1.49461e+09
+command_received: angle=8.548885
+command_sent: angle:78.6314; velocity:-0.00432952; tai:1.49461e+09
+command_received: angle=8.618968
+command_sent: angle:78.631; velocity:-0.0043268; tai:1.49461e+09
+command_received: angle=8.688980
+command_sent: angle:78.6305; velocity:-0.00432411; tai:1.49461e+09
+command_received: angle=8.758921
+command_sent: angle:78.6301; velocity:-0.00432144; tai:1.49461e+09
+command_received: angle=8.828793
+command_sent: angle:78.6296; velocity:-0.00431874; tai:1.49461e+09
+command_received: angle=8.898593
+command_sent: angle:78.6292; velocity:-0.00431603; tai:1.49461e+09
+command_received: angle=8.968324
+command_sent: angle:78.6288; velocity:-0.00431336; tai:1.49461e+09
+command_received: angle=9.037984
+command_sent: angle:78.6283; velocity:-0.00431062; tai:1.49461e+09
+command_received: angle=9.107575
+command_sent: angle:78.6279; velocity:-0.00430796; tai:1.49461e+09
+command_received: angle=9.177095
+command_sent: angle:78.6274; velocity:-0.00430527; tai:1.49461e+09
+command_received: angle=9.246545
+command_sent: angle:78.627; velocity:-0.00430258; tai:1.49461e+09
+command_received: angle=9.315926
+command_sent: angle:78.6265; velocity:-0.00429976; tai:1.49461e+09
+command_received: angle=9.385237
+command_sent: angle:78.6261; velocity:-0.00429704; tai:1.49461e+09
+command_received: angle=9.454477
+command_sent: angle:78.6257; velocity:-0.00429436; tai:1.49461e+09
+command_received: angle=9.523649
+command_sent: angle:78.6252; velocity:-0.00429163; tai:1.49461e+09
+command_received: angle=9.592750
+command_sent: angle:78.6248; velocity:-0.00428896; tai:1.49461e+09
+command_received: angle=9.661782
+command_sent: angle:78.6244; velocity:-0.00428628; tai:1.49461e+09
+command_received: angle=9.730745
+command_sent: angle:78.6239; velocity:-0.00428361; tai:1.49461e+09
+command_received: angle=9.799638
+command_sent: angle:78.6235; velocity:-0.00428094; tai:1.49461e+09
+command_received: angle=9.868462
+command_sent: angle:78.623; velocity:-0.0042782; tai:1.49461e+09
+command_received: angle=9.937216
+command_sent: angle:78.6226; velocity:-0.00427551; tai:1.49461e+09
+command_received: angle=10.005902
+command_sent: angle:78.6222; velocity:-0.00427276; tai:1.49461e+09
+command_received: angle=10.074518
+command_sent: angle:78.6217; velocity:-0.00427009; tai:1.49461e+09
+command_received: angle=10.143065
+command_sent: angle:78.6213; velocity:-0.00426742; tai:1.49461e+09
+command_received: angle=10.211543
+command_sent: angle:78.6209; velocity:-0.00426472; tai:1.49461e+09
+command_received: angle=10.279953
+command_sent: angle:78.6204; velocity:-0.00426205; tai:1.49461e+09
+command_received: angle=10.348293
+command_sent: angle:78.62; velocity:-0.00425929; tai:1.49461e+09
+command_received: angle=10.416565
+command_sent: angle:78.6195; velocity:-0.00425662; tai:1.49461e+09
+command_received: angle=10.484768
+command_sent: angle:78.6191; velocity:-0.00425393; tai:1.49461e+09
+command_received: angle=10.552902
+command_sent: angle:78.6187; velocity:-0.00425126; tai:1.49461e+09
+command_received: angle=10.620968
+command_sent: angle:78.6182; velocity:-0.00424854; tai:1.49461e+09
+command_received: angle=10.688965
+command_sent: angle:78.6178; velocity:-0.00424585; tai:1.49461e+09
+command_received: angle=10.756894
+command_sent: angle:78.6174; velocity:-0.00424318; tai:1.49461e+09
+command_received: angle=10.824755
+command_sent: angle:78.617; velocity:-0.00424051; tai:1.49461e+09
+command_received: angle=10.892547
+command_sent: angle:78.6165; velocity:-0.00423785; tai:1.49461e+09
+command_received: angle=10.960271
+command_sent: angle:78.6161; velocity:-0.00423517; tai:1.49461e+09
+command_received: angle=11.027927
+command_sent: angle:78.6157; velocity:-0.0042325; tai:1.49461e+09
+command_received: angle=11.095514
+command_sent: angle:78.6152; velocity:-0.00422984; tai:1.49461e+09
+command_received: angle=11.163034
+command_sent: angle:78.6148; velocity:-0.00422716; tai:1.49461e+09
+command_received: angle=11.230486
+command_sent: angle:78.6144; velocity:-0.00422449; tai:1.49461e+09
+command_received: angle=11.297870
+command_sent: angle:78.6139; velocity:-0.00422161; tai:1.49461e+09
+command_received: angle=11.365186
+command_sent: angle:78.6135; velocity:-0.00421892; tai:1.49461e+09
+command_received: angle=11.432434
+command_sent: angle:78.6131; velocity:-0.00421625; tai:1.49461e+09
+command_received: angle=11.499615
+command_sent: angle:78.6126; velocity:-0.00421355; tai:1.49461e+09
+command_received: angle=11.566728
+command_sent: angle:78.6122; velocity:-0.00421086; tai:1.49461e+09
+command_received: angle=11.633773
+command_sent: angle:78.6118; velocity:-0.00420817; tai:1.49461e+09
+command_received: angle=11.700751
+command_sent: angle:78.6113; velocity:-0.00420547; tai:1.49461e+09
+command_received: angle=11.767662
+command_sent: angle:78.6109; velocity:-0.0042028; tai:1.49461e+09
+command_received: angle=11.834505
+command_sent: angle:78.6104; velocity:-0.00420011; tai:1.49461e+09
+command_received: angle=11.901281
+command_sent: angle:78.6099; velocity:-0.00419676; tai:1.49461e+09
+command_received: angle=11.967990
+command_sent: angle:78.6095; velocity:-0.00419397; tai:1.49461e+09
+command_received: angle=12.034631
+command_sent: angle:78.6091; velocity:-0.00419129; tai:1.49461e+09
+command_received: angle=12.101206
+command_sent: angle:78.6087; velocity:-0.00418861; tai:1.49461e+09
+command_received: angle=12.167713
+command_sent: angle:78.6082; velocity:-0.00418592; tai:1.49461e+09
+command_received: angle=12.234154
+command_sent: angle:78.6078; velocity:-0.00418326; tai:1.49461e+09
+command_received: angle=12.300527
+command_sent: angle:78.6074; velocity:-0.00418055; tai:1.49461e+09
+command_received: angle=12.366834
+command_sent: angle:78.607; velocity:-0.00417787; tai:1.49461e+09
+command_received: angle=12.433074
+command_sent: angle:78.6065; velocity:-0.00417521; tai:1.49461e+09
+command_received: angle=12.499248
+command_sent: angle:78.6061; velocity:-0.00417255; tai:1.49461e+09
+command_received: angle=12.565355
+command_sent: angle:78.6057; velocity:-0.00416989; tai:1.49461e+09
+command_received: angle=12.631395
+command_sent: angle:78.6052; velocity:-0.00416704; tai:1.49461e+09
+command_received: angle=12.697369
+command_sent: angle:78.6048; velocity:-0.00416435; tai:1.49461e+09
+command_received: angle=12.763276
+command_sent: angle:78.6044; velocity:-0.00416169; tai:1.49461e+09
+command_received: angle=12.829117
+command_sent: angle:78.6039; velocity:-0.00415038; tai:1.49461e+09
+command_received: angle=12.894892
+command_sent: angle:78.6035; velocity:-0.00414967; tai:1.49461e+09
+command_received: angle=12.960601
+command_sent: angle:78.6031; velocity:-0.00415402; tai:1.49461e+09
+command_received: angle=13.026243
+command_sent: angle:78.6027; velocity:-0.00415224; tai:1.49461e+09
+command_received: angle=13.091820
+command_sent: angle:78.6022; velocity:-0.00415069; tai:1.49461e+09
+command_received: angle=13.157330
+command_sent: angle:78.6018; velocity:-0.00415014; tai:1.49461e+09
+command_received: angle=13.222775
+command_sent: angle:78.6014; velocity:-0.00414831; tai:1.49461e+09
+command_received: angle=13.288153
+command_sent: angle:78.601; velocity:-0.00414674; tai:1.49461e+09
+command_received: angle=13.353466
+command_sent: angle:78.6005; velocity:-0.00414495; tai:1.49461e+09
+command_received: angle=13.418713
+command_sent: angle:78.6001; velocity:-0.00414294; tai:1.49461e+09
+command_received: angle=13.483894
+command_sent: angle:78.5997; velocity:-0.00414078; tai:1.49461e+09
+command_received: angle=13.549010
+command_sent: angle:78.5993; velocity:-0.00413864; tai:1.49461e+09
+command_received: angle=13.614060
+command_sent: angle:78.5988; velocity:-0.00413608; tai:1.49461e+09
+command_received: angle=13.679045
+command_sent: angle:78.5984; velocity:-0.00410955; tai:1.49461e+09
+command_received: angle=13.743965
+command_sent: angle:78.598; velocity:-0.00410773; tai:1.49461e+09
+command_received: angle=13.808819
+command_sent: angle:78.5976; velocity:-0.00410314; tai:1.49461e+09
+command_received: angle=13.873607
+command_sent: angle:78.5971; velocity:-0.00410915; tai:1.49461e+09
+command_received: angle=13.938331
+command_sent: angle:78.5967; velocity:-0.00410892; tai:1.49461e+09
+command_received: angle=14.002989
+command_sent: angle:78.5963; velocity:-0.00410914; tai:1.49461e+09
+command_received: angle=14.067583
+command_sent: angle:78.5959; velocity:-0.00410923; tai:1.49461e+09
+command_received: angle=14.132111
+command_sent: angle:78.5954; velocity:-0.00410935; tai:1.49461e+09
+command_received: angle=14.196574
+command_sent: angle:78.595; velocity:-0.00410945; tai:1.49461e+09
+command_received: angle=14.260973
+command_sent: angle:78.5946; velocity:-0.00410955; tai:1.49461e+09
+command_received: angle=14.325306
+command_sent: angle:78.5942; velocity:-0.00410964; tai:1.49461e+09
+command_received: angle=14.389575
+command_sent: angle:78.5937; velocity:-0.00410972; tai:1.49461e+09
+command_received: angle=14.453779
+command_sent: angle:78.5933; velocity:-0.00410979; tai:1.49461e+09
+command_received: angle=14.517919
+command_sent: angle:78.5929; velocity:-0.00410986; tai:1.49461e+09
+command_received: angle=14.581994
+command_sent: angle:78.5925; velocity:-0.00410992; tai:1.49461e+09
+command_received: angle=14.646004
+command_sent: angle:78.5921; velocity:-0.00410997; tai:1.49461e+09
+command_received: angle=14.709950
+command_sent: angle:78.5917; velocity:-0.00411002; tai:1.49461e+09
+command_received: angle=14.773832
+command_sent: angle:78.5912; velocity:-0.00411005; tai:1.49461e+09
+command_received: angle=14.837649
+command_sent: angle:78.5908; velocity:-0.00411008; tai:1.49461e+09
+command_received: angle=14.901403
+command_sent: angle:78.5904; velocity:-0.0041101; tai:1.49461e+09
+command_received: angle=14.965092
+command_sent: angle:78.5899; velocity:-0.00411012; tai:1.49461e+09
+command_received: angle=15.028716
+command_sent: angle:78.5895; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=15.092277
+command_sent: angle:78.5891; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=15.155774
+command_sent: angle:78.5887; velocity:-0.00411014; tai:1.49461e+09
+command_received: angle=15.219207
+command_sent: angle:78.5883; velocity:-0.00411014; tai:1.49461e+09
+command_received: angle=15.282576
+command_sent: angle:78.5878; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=15.345881
+command_sent: angle:78.5874; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=15.409123
+command_sent: angle:78.587; velocity:-0.00411011; tai:1.49461e+09
+command_received: angle=15.472301
+command_sent: angle:78.5866; velocity:-0.0041101; tai:1.49461e+09
+command_received: angle=15.535415
+command_sent: angle:78.5862; velocity:-0.00411008; tai:1.49461e+09
+command_received: angle=15.598466
+command_sent: angle:78.5857; velocity:-0.00410801; tai:1.49461e+09
+command_received: angle=15.661453
+command_sent: angle:78.5853; velocity:-0.00410862; tai:1.49461e+09
+command_received: angle=15.724377
+command_sent: angle:78.5849; velocity:-0.00410865; tai:1.49461e+09
+command_received: angle=15.787237
+command_sent: angle:78.5845; velocity:-0.0041088; tai:1.49461e+09
+command_received: angle=15.850035
+command_sent: angle:78.5841; velocity:-0.00410893; tai:1.49461e+09
+command_received: angle=15.912769
+command_sent: angle:78.5836; velocity:-0.00410905; tai:1.49461e+09
+command_received: angle=15.975439
+command_sent: angle:78.5832; velocity:-0.00410917; tai:1.49461e+09
+command_received: angle=16.038047
+command_sent: angle:78.5828; velocity:-0.00410928; tai:1.49461e+09
+command_received: angle=16.100592
+command_sent: angle:78.5824; velocity:-0.00410939; tai:1.49461e+09
+command_received: angle=16.163074
+command_sent: angle:78.5819; velocity:-0.00410949; tai:1.49461e+09
+command_received: angle=16.225493
+command_sent: angle:78.5815; velocity:-0.00410958; tai:1.49461e+09
+command_received: angle=16.287849
+command_sent: angle:78.5811; velocity:-0.00410966; tai:1.49461e+09
+command_received: angle=16.350142
+command_sent: angle:78.5807; velocity:-0.00410974; tai:1.49461e+09
+command_received: angle=16.412372
+command_sent: angle:78.5803; velocity:-0.00410981; tai:1.49461e+09
+command_received: angle=16.474540
+command_sent: angle:78.5797; velocity:-0.00410988; tai:1.49461e+09
+command_received: angle=16.536646
+command_sent: angle:78.5793; velocity:-0.00410992; tai:1.49461e+09
+command_received: angle=16.598688
+command_sent: angle:78.5789; velocity:-0.00410999; tai:1.49461e+09
+command_received: angle=16.660668
+command_sent: angle:78.5785; velocity:-0.00411003; tai:1.49461e+09
+command_received: angle=16.722586
+command_sent: angle:78.578; velocity:-0.00411007; tai:1.49461e+09
+command_received: angle=16.784442
+command_sent: angle:78.5776; velocity:-0.0041101; tai:1.49461e+09
+command_received: angle=16.846235
+command_sent: angle:78.5772; velocity:-0.00411012; tai:1.49461e+09
+command_received: angle=16.907966
+command_sent: angle:78.5768; velocity:-0.00411014; tai:1.49461e+09
+command_received: angle=16.969635
+command_sent: angle:78.5764; velocity:-0.00411016; tai:1.49461e+09
+command_received: angle=17.031241
+command_sent: angle:78.5759; velocity:-0.00411017; tai:1.49461e+09
+command_received: angle=17.092786
+command_sent: angle:78.5755; velocity:-0.00411018; tai:1.49461e+09
+command_received: angle=17.154269
+command_sent: angle:78.5751; velocity:-0.00411018; tai:1.49461e+09
+command_received: angle=17.215690
+command_sent: angle:78.5746; velocity:-0.00411016; tai:1.49461e+09
+command_received: angle=17.277049
+command_sent: angle:78.5742; velocity:-0.00411017; tai:1.49461e+09
+command_received: angle=17.338346
+command_sent: angle:78.5738; velocity:-0.00411016; tai:1.49461e+09
+command_received: angle=17.399581
+command_sent: angle:78.5734; velocity:-0.00411014; tai:1.49461e+09
+command_received: angle=17.460755
+command_sent: angle:78.573; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=17.521867
+command_sent: angle:78.5725; velocity:-0.00410811; tai:1.49461e+09
+command_received: angle=17.582918
+command_sent: angle:78.5721; velocity:-0.00410871; tai:1.49461e+09
+command_received: angle=17.643907
+command_sent: angle:78.5717; velocity:-0.00410876; tai:1.49461e+09
+command_received: angle=17.704835
+command_sent: angle:78.5713; velocity:-0.0041089; tai:1.49461e+09
+command_received: angle=17.765701
+command_sent: angle:78.5708; velocity:-0.00410902; tai:1.49461e+09
+command_received: angle=17.826506
+command_sent: angle:78.5704; velocity:-0.00410915; tai:1.49461e+09
+command_received: angle=17.887250
+command_sent: angle:78.57; velocity:-0.00410927; tai:1.49461e+09
+command_received: angle=17.947933
+command_sent: angle:78.5696; velocity:-0.00410938; tai:1.49461e+09
+command_received: angle=18.008555
+command_sent: angle:78.5691; velocity:-0.00410948; tai:1.49461e+09
+command_received: angle=18.069115
+command_sent: angle:78.5687; velocity:-0.00410958; tai:1.49461e+09
+command_received: angle=18.129615
+command_sent: angle:78.5683; velocity:-0.00410967; tai:1.49461e+09
+command_received: angle=18.190054
+command_sent: angle:78.5679; velocity:-0.00410976; tai:1.49461e+09
+command_received: angle=18.250431
+command_sent: angle:78.5675; velocity:-0.00410984; tai:1.49461e+09
+command_received: angle=18.310748
+command_sent: angle:78.567; velocity:-0.00410991; tai:1.49461e+09
+command_received: angle=18.371005
+command_sent: angle:78.5666; velocity:-0.00410997; tai:1.49461e+09
+command_received: angle=18.431200
+command_sent: angle:78.5662; velocity:-0.00411003; tai:1.49461e+09
+command_received: angle=18.491335
+command_sent: angle:78.5658; velocity:-0.00411008; tai:1.49461e+09
+command_received: angle=18.551410
+command_sent: angle:78.5653; velocity:-0.00411012; tai:1.49461e+09
+command_received: angle=18.611424
+command_sent: angle:78.5649; velocity:-0.00411016; tai:1.49461e+09
+command_received: angle=18.671377
+command_sent: angle:78.5645; velocity:-0.00411019; tai:1.49461e+09
+command_received: angle=18.731270
+command_sent: angle:78.5641; velocity:-0.00411021; tai:1.49461e+09
+command_received: angle=18.791103
+command_sent: angle:78.5636; velocity:-0.00411024; tai:1.49461e+09
+command_received: angle=18.850876
+command_sent: angle:78.5632; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=18.910588
+command_sent: angle:78.5628; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=18.970240
+command_sent: angle:78.5624; velocity:-0.00411026; tai:1.49461e+09
+command_received: angle=19.029832
+command_sent: angle:78.5619; velocity:-0.00411027; tai:1.49461e+09
+command_received: angle=19.089364
+command_sent: angle:78.5615; velocity:-0.00411026; tai:1.49461e+09
+command_received: angle=19.148836
+command_sent: angle:78.5611; velocity:-0.00411026; tai:1.49461e+09
+command_received: angle=19.208249
+command_sent: angle:78.5607; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=19.267601
+command_sent: angle:78.5603; velocity:-0.00411023; tai:1.49461e+09
+command_received: angle=19.326894
+command_sent: angle:78.5598; velocity:-0.00411022; tai:1.49461e+09
+command_received: angle=19.386127
+command_sent: angle:78.5594; velocity:-0.0041082; tai:1.49461e+09
+command_received: angle=19.445300
+command_sent: angle:78.559; velocity:-0.00410881; tai:1.49461e+09
+command_received: angle=19.504414
+command_sent: angle:78.5585; velocity:-0.00410883; tai:1.49461e+09
+command_received: angle=19.563468
+command_sent: angle:78.5581; velocity:-0.004109; tai:1.49461e+09
+command_received: angle=19.622462
+command_sent: angle:78.5577; velocity:-0.00410912; tai:1.49461e+09
+command_received: angle=19.681398
+command_sent: angle:78.5573; velocity:-0.00410924; tai:1.49461e+09
+command_received: angle=19.740274
+command_sent: angle:78.5568; velocity:-0.00410936; tai:1.49461e+09
+command_received: angle=19.799090
+command_sent: angle:78.5564; velocity:-0.00410947; tai:1.49461e+09
+command_received: angle=19.857847
+command_sent: angle:78.556; velocity:-0.00410957; tai:1.49461e+09
+command_received: angle=19.916546
+command_sent: angle:78.5556; velocity:-0.00410967; tai:1.49461e+09
+command_received: angle=19.975185
+command_sent: angle:78.5551; velocity:-0.00410976; tai:1.49461e+09
+command_received: angle=20.033765
+command_sent: angle:78.5547; velocity:-0.00410985; tai:1.49461e+09
+command_received: angle=20.092286
+command_sent: angle:78.5543; velocity:-0.00410993; tai:1.49461e+09
+command_received: angle=20.150748
+command_sent: angle:78.5539; velocity:-0.00411; tai:1.49461e+09
+command_received: angle=20.209151
+command_sent: angle:78.5535; velocity:-0.00411006; tai:1.49461e+09
+command_received: angle=20.267495
+command_sent: angle:78.553; velocity:-0.00411012; tai:1.49461e+09
+command_received: angle=20.325781
+command_sent: angle:78.5526; velocity:-0.00411017; tai:1.49461e+09
+command_received: angle=20.384007
+command_sent: angle:78.5522; velocity:-0.00411021; tai:1.49461e+09
+command_received: angle=20.442176
+command_sent: angle:78.5517; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=20.500285
+command_sent: angle:78.5513; velocity:-0.00411028; tai:1.49461e+09
+command_received: angle=20.558336
+command_sent: angle:78.5509; velocity:-0.0041103; tai:1.49461e+09
+command_received: angle=20.616329
+command_sent: angle:78.5505; velocity:-0.00411032; tai:1.49461e+09
+command_received: angle=20.674263
+command_sent: angle:78.5501; velocity:-0.00411034; tai:1.49461e+09
+command_received: angle=20.732139
+command_sent: angle:78.5497; velocity:-0.00411035; tai:1.49461e+09
+command_received: angle=20.789956
+command_sent: angle:78.5492; velocity:-0.00411035; tai:1.49461e+09
+command_received: angle=20.847715
+command_sent: angle:78.5488; velocity:-0.00411035; tai:1.49461e+09
+command_received: angle=20.905417
+command_sent: angle:78.5484; velocity:-0.00411035; tai:1.49461e+09
+command_received: angle=20.963059
+command_sent: angle:78.548; velocity:-0.00411035; tai:1.49461e+09
+command_received: angle=21.020644
+command_sent: angle:78.5476; velocity:-0.00411034; tai:1.49461e+09
+command_received: angle=21.078171
+command_sent: angle:78.5471; velocity:-0.00411032; tai:1.49461e+09
+command_received: angle=21.135640
+command_sent: angle:78.5467; velocity:-0.00411031; tai:1.49461e+09
+command_received: angle=21.193051
+command_sent: angle:78.5463; velocity:-0.00410829; tai:1.49461e+09
+command_received: angle=21.250405
+command_sent: angle:78.5459; velocity:-0.00410889; tai:1.49461e+09
+command_received: angle=21.307700
+command_sent: angle:78.5454; velocity:-0.00410893; tai:1.49461e+09
+command_received: angle=21.364938
+command_sent: angle:78.545; velocity:-0.00410909; tai:1.49461e+09
+command_received: angle=21.422118
+command_sent: angle:78.5446; velocity:-0.0041092; tai:1.49461e+09
+command_received: angle=21.479240
+command_sent: angle:78.5442; velocity:-0.00410933; tai:1.49461e+09
+command_received: angle=21.536305
+command_sent: angle:78.5437; velocity:-0.00410944; tai:1.49461e+09
+command_received: angle=21.593313
+command_sent: angle:78.5433; velocity:-0.00410955; tai:1.49461e+09
+command_received: angle=21.650263
+command_sent: angle:78.5429; velocity:-0.00410966; tai:1.49461e+09
+command_received: angle=21.707155
+command_sent: angle:78.5425; velocity:-0.00410976; tai:1.49461e+09
+command_received: angle=21.763991
+command_sent: angle:78.5421; velocity:-0.00410985; tai:1.49461e+09
+command_received: angle=21.820769
+command_sent: angle:78.5417; velocity:-0.00410993; tai:1.49461e+09
+command_received: angle=21.877490
+command_sent: angle:78.5412; velocity:-0.00411001; tai:1.49461e+09
+command_received: angle=21.934153
+command_sent: angle:78.5408; velocity:-0.00411008; tai:1.49461e+09
+command_received: angle=21.990760
+command_sent: angle:78.5404; velocity:-0.00411015; tai:1.49461e+09
+command_received: angle=22.047310
+command_sent: angle:78.54; velocity:-0.0041102; tai:1.49461e+09
+command_received: angle=22.103802
+command_sent: angle:78.5395; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=22.160238
+command_sent: angle:78.5391; velocity:-0.0041103; tai:1.49461e+09
+command_received: angle=22.216617
+command_sent: angle:78.5387; velocity:-0.00411033; tai:1.49461e+09
+command_received: angle=22.272939
+command_sent: angle:78.5383; velocity:-0.00411037; tai:1.49461e+09
+command_received: angle=22.329204
+command_sent: angle:78.5378; velocity:-0.00411039; tai:1.49461e+09
+command_received: angle=22.385413
+command_sent: angle:78.5374; velocity:-0.00411041; tai:1.49461e+09
+command_received: angle=22.441565
+command_sent: angle:78.537; velocity:-0.00411043; tai:1.49461e+09
+command_received: angle=22.497660
+command_sent: angle:78.5365; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=22.553699
+command_sent: angle:78.5361; velocity:-0.00411043; tai:1.49461e+09
+command_received: angle=22.609682
+command_sent: angle:78.5357; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=22.665608
+command_sent: angle:78.5352; velocity:-0.00411043; tai:1.49461e+09
+command_received: angle=22.721477
+command_sent: angle:78.5348; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=22.777291
+command_sent: angle:78.5344; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=22.833048
+command_sent: angle:78.534; velocity:-0.0041104; tai:1.49461e+09
+command_received: angle=22.888749
+command_sent: angle:78.5335; velocity:-0.00411039; tai:1.49461e+09
+command_received: angle=22.944393
+command_sent: angle:78.5331; velocity:-0.00410838; tai:1.49461e+09
+command_received: angle=22.999982
+command_sent: angle:78.5327; velocity:-0.00410899; tai:1.49461e+09
+command_received: angle=23.055515
+command_sent: angle:78.5323; velocity:-0.00410901; tai:1.49461e+09
+command_received: angle=23.110992
+command_sent: angle:78.5318; velocity:-0.00410917; tai:1.49461e+09
+command_received: angle=23.166412
+command_sent: angle:78.5314; velocity:-0.00410928; tai:1.49461e+09
+command_received: angle=23.221777
+command_sent: angle:78.531; velocity:-0.00410942; tai:1.49461e+09
+command_received: angle=23.277087
+command_sent: angle:78.5306; velocity:-0.00410953; tai:1.49461e+09
+command_received: angle=23.332340
+command_sent: angle:78.5301; velocity:-0.00410964; tai:1.49461e+09
+command_received: angle=23.387538
+command_sent: angle:78.5297; velocity:-0.00410975; tai:1.49461e+09
+command_received: angle=23.442680
+command_sent: angle:78.5293; velocity:-0.00410984; tai:1.49461e+09
+command_received: angle=23.497767
+command_sent: angle:78.5289; velocity:-0.00410994; tai:1.49461e+09
+command_received: angle=23.552798
+command_sent: angle:78.5285; velocity:-0.00411002; tai:1.49461e+09
+command_received: angle=23.607773
+command_sent: angle:78.528; velocity:-0.0041101; tai:1.49461e+09
+command_received: angle=23.662694
+command_sent: angle:78.5276; velocity:-0.00411017; tai:1.49461e+09
+command_received: angle=23.717559
+command_sent: angle:78.5272; velocity:-0.00411024; tai:1.49461e+09
+command_received: angle=23.772368
+command_sent: angle:78.5268; velocity:-0.00411029; tai:1.49461e+09
+command_received: angle=23.827123
+command_sent: angle:78.5264; velocity:-0.00411034; tai:1.49461e+09
+command_received: angle=23.881822
+command_sent: angle:78.5259; velocity:-0.00411039; tai:1.49461e+09
+command_received: angle=23.936466
+command_sent: angle:78.5255; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=23.991055
+command_sent: angle:78.5251; velocity:-0.00411046; tai:1.49461e+09
+command_received: angle=24.045589
+command_sent: angle:78.5247; velocity:-0.00411048; tai:1.49461e+09
+command_received: angle=24.100068
+command_sent: angle:78.5243; velocity:-0.0041105; tai:1.49461e+09
+command_received: angle=24.154492
+command_sent: angle:78.5239; velocity:-0.00411052; tai:1.49461e+09
+command_received: angle=24.208862
+command_sent: angle:78.5234; velocity:-0.00411053; tai:1.49461e+09
+command_received: angle=24.263176
+command_sent: angle:78.523; velocity:-0.00411053; tai:1.49461e+09
+command_received: angle=24.317436
+command_sent: angle:78.5226; velocity:-0.00411053; tai:1.49461e+09
+command_received: angle=24.371641
+command_sent: angle:78.5222; velocity:-0.00411052; tai:1.49461e+09
+command_received: angle=24.425792
+command_sent: angle:78.5217; velocity:-0.00411052; tai:1.49461e+09
+command_received: angle=24.479888
+command_sent: angle:78.5213; velocity:-0.00411051; tai:1.49461e+09
+command_received: angle=24.533929
+command_sent: angle:78.5209; velocity:-0.0041105; tai:1.49461e+09
+command_received: angle=24.587916
+command_sent: angle:78.5205; velocity:-0.00411049; tai:1.49461e+09
+command_received: angle=24.641849
+command_sent: angle:78.5201; velocity:-0.00410846; tai:1.49461e+09
+command_received: angle=24.695727
+command_sent: angle:78.5197; velocity:-0.00410906; tai:1.49461e+09
+command_received: angle=24.749551
+command_sent: angle:78.5192; velocity:-0.00410909; tai:1.49461e+09
+command_received: angle=24.803321
+command_sent: angle:78.5188; velocity:-0.00410924; tai:1.49461e+09
+command_received: angle=24.857036
+command_sent: angle:78.5184; velocity:-0.00410937; tai:1.49461e+09
+command_received: angle=24.910698
+command_sent: angle:78.518; velocity:-0.00410949; tai:1.49461e+09
+command_received: angle=24.964305
+command_sent: angle:78.5176; velocity:-0.00410961; tai:1.49461e+09
+command_received: angle=25.017858
+command_sent: angle:78.5171; velocity:-0.00410972; tai:1.49461e+09
+command_received: angle=25.071357
+command_sent: angle:78.5167; velocity:-0.00410983; tai:1.49461e+09
+command_received: angle=25.124803
+command_sent: angle:78.5163; velocity:-0.00410993; tai:1.49461e+09
+command_received: angle=25.178194
+command_sent: angle:78.5159; velocity:-0.00411002; tai:1.49461e+09
+command_received: angle=25.231532
+command_sent: angle:78.5155; velocity:-0.0041101; tai:1.49461e+09
+command_received: angle=25.284816
+command_sent: angle:78.515; velocity:-0.00411018; tai:1.49461e+09
+command_received: angle=25.338046
+command_sent: angle:78.5146; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=25.391223
+command_sent: angle:78.5142; velocity:-0.00411032; tai:1.49461e+09
+command_received: angle=25.444346
+command_sent: angle:78.5138; velocity:-0.00411038; tai:1.49461e+09
+command_received: angle=25.497415
+command_sent: angle:78.5134; velocity:-0.00411043; tai:1.49461e+09
+command_received: angle=25.550431
+command_sent: angle:78.5129; velocity:-0.00411047; tai:1.49461e+09
+command_received: angle=25.603394
+command_sent: angle:78.5125; velocity:-0.00411051; tai:1.49461e+09
+command_received: angle=25.656303
+command_sent: angle:78.5121; velocity:-0.00411053; tai:1.49461e+09
+command_received: angle=25.709158
+command_sent: angle:78.5117; velocity:-0.00411056; tai:1.49461e+09
+command_received: angle=25.761961
+command_sent: angle:78.5112; velocity:-0.00411058; tai:1.49461e+09
+command_received: angle=25.814710
+command_sent: angle:78.5108; velocity:-0.0041106; tai:1.49461e+09
+command_received: angle=25.867406
+command_sent: angle:78.5104; velocity:-0.00411061; tai:1.49461e+09
+command_received: angle=25.920049
+command_sent: angle:78.51; velocity:-0.00411061; tai:1.49461e+09
+command_received: angle=25.972639
+command_sent: angle:78.5096; velocity:-0.00411062; tai:1.49461e+09
+command_received: angle=26.025176
+command_sent: angle:78.5092; velocity:-0.00411061; tai:1.49461e+09
+command_received: angle=26.077660
+command_sent: angle:78.5087; velocity:-0.00411061; tai:1.49461e+09
+command_received: angle=26.130091
+command_sent: angle:78.5083; velocity:-0.0041106; tai:1.49461e+09
+command_received: angle=26.182469
+command_sent: angle:78.5079; velocity:-0.00411058; tai:1.49461e+09
+command_received: angle=26.234795
+command_sent: angle:78.5075; velocity:-0.00411057; tai:1.49461e+09
+command_received: angle=26.287068
+command_sent: angle:78.5071; velocity:-0.00410855; tai:1.49461e+09
+command_received: angle=26.339288
+command_sent: angle:78.5066; velocity:-0.00410915; tai:1.49461e+09
+command_received: angle=26.391455
+command_sent: angle:78.5062; velocity:-0.00410918; tai:1.49461e+09
+command_received: angle=26.443570
+command_sent: angle:78.5058; velocity:-0.00410933; tai:1.49461e+09
+command_received: angle=26.495632
+command_sent: angle:78.5054; velocity:-0.00410946; tai:1.49461e+09
+command_received: angle=26.547642
+command_sent: angle:78.505; velocity:-0.00410958; tai:1.49461e+09
+command_received: angle=26.599599
+command_sent: angle:78.5045; velocity:-0.0041097; tai:1.49461e+09
+command_received: angle=26.651504
+command_sent: angle:78.5041; velocity:-0.00410981; tai:1.49461e+09
+command_received: angle=26.703356
+command_sent: angle:78.5037; velocity:-0.00410991; tai:1.49461e+09
+command_received: angle=26.755157
+command_sent: angle:78.5032; velocity:-0.00411002; tai:1.49461e+09
+command_received: angle=26.806905
+command_sent: angle:78.5028; velocity:-0.00411011; tai:1.49461e+09
+command_received: angle=26.858601
+command_sent: angle:78.5024; velocity:-0.00411019; tai:1.49461e+09
+command_received: angle=26.910245
+command_sent: angle:78.502; velocity:-0.00411027; tai:1.49461e+09
+command_received: angle=26.961836
+command_sent: angle:78.5016; velocity:-0.00411034; tai:1.49461e+09
+command_received: angle=27.013376
+command_sent: angle:78.5011; velocity:-0.00411041; tai:1.49461e+09
+command_received: angle=27.064864
+command_sent: angle:78.5007; velocity:-0.00411046; tai:1.49461e+09
+command_received: angle=27.116300
+command_sent: angle:78.5003; velocity:-0.00411052; tai:1.49461e+09
+command_received: angle=27.167684
+command_sent: angle:78.4999; velocity:-0.00411056; tai:1.49461e+09
+command_received: angle=27.219016
+command_sent: angle:78.4995; velocity:-0.0041106; tai:1.49461e+09
+command_received: angle=27.270296
+command_sent: angle:78.499; velocity:-0.00411063; tai:1.49461e+09
+command_received: angle=27.321525
+command_sent: angle:78.4986; velocity:-0.00411065; tai:1.49461e+09
+command_received: angle=27.372702
+command_sent: angle:78.4982; velocity:-0.00411067; tai:1.49461e+09
+command_received: angle=27.423828
+command_sent: angle:78.4978; velocity:-0.00411069; tai:1.49461e+09
+command_received: angle=27.474902
+command_sent: angle:78.4974; velocity:-0.0041107; tai:1.49461e+09
+command_received: angle=27.525924
+command_sent: angle:78.497; velocity:-0.0041107; tai:1.49461e+09
+command_received: angle=27.576895
+command_sent: angle:78.4965; velocity:-0.0041107; tai:1.49461e+09
+command_received: angle=27.627815
+command_sent: angle:78.4961; velocity:-0.0041107; tai:1.49461e+09
+command_received: angle=27.678683
+command_sent: angle:78.4957; velocity:-0.00411069; tai:1.49461e+09
+command_received: angle=27.729500
+command_sent: angle:78.4953; velocity:-0.00411068; tai:1.49461e+09
+command_received: angle=27.780266
+command_sent: angle:78.4948; velocity:-0.00411067; tai:1.49461e+09
+command_received: angle=27.830980
+command_sent: angle:78.4944; velocity:-0.00411066; tai:1.49461e+09
+command_received: angle=27.881644
+command_sent: angle:78.494; velocity:-0.00410864; tai:1.49461e+09
+command_received: angle=27.932256
+command_sent: angle:78.4936; velocity:-0.00410923; tai:1.49461e+09
+command_received: angle=27.982818
+command_sent: angle:78.4932; velocity:-0.00410927; tai:1.49461e+09
+command_received: angle=28.033328
+command_sent: angle:78.4927; velocity:-0.00410942; tai:1.49461e+09
+command_received: angle=28.083787
+command_sent: angle:78.4923; velocity:-0.00410954; tai:1.49461e+09
+command_received: angle=28.134196
+command_sent: angle:78.4919; velocity:-0.00410967; tai:1.49461e+09
+command_received: angle=28.184554
+command_sent: angle:78.4915; velocity:-0.00410978; tai:1.49461e+09
+command_received: angle=28.234860
+command_sent: angle:78.4911; velocity:-0.0041099; tai:1.49461e+09
+command_received: angle=28.285117
+command_sent: angle:78.4906; velocity:-0.00411; tai:1.49461e+09
+command_received: angle=28.335322
+command_sent: angle:78.4902; velocity:-0.0041101; tai:1.49461e+09
+command_received: angle=28.385477
+command_sent: angle:78.4898; velocity:-0.0041102; tai:1.49461e+09
+command_received: angle=28.435581
+command_sent: angle:78.4893; velocity:-0.00411028; tai:1.49461e+09
+command_received: angle=28.485635
+command_sent: angle:78.4889; velocity:-0.00411036; tai:1.49461e+09
+command_received: angle=28.535638
+command_sent: angle:78.4885; velocity:-0.00411043; tai:1.49461e+09
+command_received: angle=28.585591
+command_sent: angle:78.4881; velocity:-0.00411049; tai:1.49461e+09
+command_received: angle=28.635494
+command_sent: angle:78.4877; velocity:-0.00411055; tai:1.49461e+09
+command_received: angle=28.685346
+command_sent: angle:78.4872; velocity:-0.0041106; tai:1.49461e+09
+command_received: angle=28.735148
+command_sent: angle:78.4868; velocity:-0.00411065; tai:1.49461e+09
+command_received: angle=28.784900
+command_sent: angle:78.4864; velocity:-0.00411068; tai:1.49461e+09
+command_received: angle=28.834601
+command_sent: angle:78.486; velocity:-0.00411071; tai:1.49461e+09
+command_received: angle=28.884252
+command_sent: angle:78.4856; velocity:-0.00411074; tai:1.49461e+09
+command_received: angle=28.933854
+command_sent: angle:78.4851; velocity:-0.00411076; tai:1.49461e+09
+command_received: angle=28.983405
+command_sent: angle:78.4847; velocity:-0.00411078; tai:1.49461e+09
+command_received: angle=29.032906
+command_sent: angle:78.4843; velocity:-0.00411078; tai:1.49461e+09
+command_received: angle=29.082358
+command_sent: angle:78.4839; velocity:-0.00411079; tai:1.49461e+09
+command_received: angle=29.131759
+command_sent: angle:78.4835; velocity:-0.00411079; tai:1.49461e+09
+command_received: angle=29.181111
+command_sent: angle:78.4831; velocity:-0.00411079; tai:1.49461e+09
+command_received: angle=29.230413
+command_sent: angle:78.4826; velocity:-0.00411078; tai:1.49461e+09
+command_received: angle=29.279665
+command_sent: angle:78.4822; velocity:-0.00411077; tai:1.49461e+09
+command_received: angle=29.328868
+command_sent: angle:78.4818; velocity:-0.00411076; tai:1.49461e+09
+command_received: angle=29.378021
+command_sent: angle:78.4814; velocity:-0.00411074; tai:1.49461e+09
+command_received: angle=29.427124
+command_sent: angle:78.4809; velocity:-0.00410873; tai:1.49461e+09
+command_received: angle=29.476178
+command_sent: angle:78.4805; velocity:-0.00410933; tai:1.49461e+09
+command_received: angle=29.525182
+command_sent: angle:78.4801; velocity:-0.00410935; tai:1.49461e+09
+command_received: angle=29.574137
+command_sent: angle:78.4797; velocity:-0.00410952; tai:1.49461e+09
+command_received: angle=29.623043
+command_sent: angle:78.4792; velocity:-0.00410964; tai:1.49461e+09
+command_received: angle=29.671899
+command_sent: angle:78.4788; velocity:-0.00410976; tai:1.49461e+09
+command_received: angle=29.720706
+command_sent: angle:78.4784; velocity:-0.00410988; tai:1.49461e+09
+command_received: angle=29.769463
+command_sent: angle:78.478; velocity:-0.00410999; tai:1.49461e+09
+command_received: angle=29.818172
+command_sent: angle:78.4776; velocity:-0.00411009; tai:1.49461e+09
+command_received: angle=29.866831
+command_sent: angle:78.4771; velocity:-0.00411019; tai:1.49461e+09
+command_received: angle=29.915442
+command_sent: angle:78.4767; velocity:-0.00411029; tai:1.49461e+09
+command_received: angle=29.964003
+command_sent: angle:78.4763; velocity:-0.00411037; tai:1.49461e+09
+command_received: angle=30.012515
+command_sent: angle:78.4759; velocity:-0.00411045; tai:1.49461e+09
+command_received: angle=30.060978
+command_sent: angle:78.4755; velocity:-0.00411052; tai:1.49461e+09
+command_received: angle=30.109393
+command_sent: angle:78.475; velocity:-0.00411058; tai:1.49461e+09
+command_received: angle=30.157759
+command_sent: angle:78.4746; velocity:-0.00411064; tai:1.49461e+09
+command_received: angle=30.206075
+command_sent: angle:78.4742; velocity:-0.00411069; tai:1.49461e+09
+command_received: angle=30.254344
+command_sent: angle:78.4738; velocity:-0.00411073; tai:1.49461e+09
+command_received: angle=30.302563
+command_sent: angle:78.4734; velocity:-0.00411077; tai:1.49461e+09
+command_received: angle=30.350734
+command_sent: angle:78.4729; velocity:-0.0041108; tai:1.49461e+09
+command_received: angle=30.398856
+command_sent: angle:78.4725; velocity:-0.00411082; tai:1.49461e+09
+command_received: angle=30.446930
+command_sent: angle:78.4721; velocity:-0.00411085; tai:1.49461e+09
+command_received: angle=30.494955
+command_sent: angle:78.4717; velocity:-0.00411086; tai:1.49461e+09
+command_received: angle=30.542932
+command_sent: angle:78.4713; velocity:-0.00411087; tai:1.49461e+09
+command_received: angle=30.590860
+command_sent: angle:78.4709; velocity:-0.00411088; tai:1.49461e+09
+command_received: angle=30.638740
+command_sent: angle:78.4704; velocity:-0.00411088; tai:1.49461e+09
+command_received: angle=30.686572
+command_sent: angle:78.47; velocity:-0.00411087; tai:1.49461e+09
+command_received: angle=30.734355
+command_sent: angle:78.4696; velocity:-0.00411087; tai:1.49461e+09
+command_received: angle=30.782090
+command_sent: angle:78.4692; velocity:-0.00411086; tai:1.49461e+09
+command_received: angle=30.829777
+command_sent: angle:78.4687; velocity:-0.00411085; tai:1.49461e+09
+command_received: angle=30.877416
+command_sent: angle:78.4683; velocity:-0.00411083; tai:1.49461e+09
+command_received: angle=30.925007
+command_sent: angle:78.4679; velocity:-0.00410881; tai:1.49461e+09
+command_received: angle=30.972550
+command_sent: angle:78.4675; velocity:-0.00410941; tai:1.49461e+09
+command_received: angle=31.020045
+command_sent: angle:78.4671; velocity:-0.00410944; tai:1.49461e+09
+command_received: angle=31.067492
+command_sent: angle:78.4666; velocity:-0.00410959; tai:1.49461e+09
+command_received: angle=31.114891
+command_sent: angle:78.4662; velocity:-0.00410972; tai:1.49461e+09
+command_received: angle=31.162242
+command_sent: angle:78.4658; velocity:-0.00410984; tai:1.49461e+09
+command_received: angle=31.209546
+command_sent: angle:78.4654; velocity:-0.00410996; tai:1.49461e+09
+command_received: angle=31.256802
+command_sent: angle:78.465; velocity:-0.00411007; tai:1.49461e+09
+command_received: angle=31.304010
+command_sent: angle:78.4645; velocity:-0.00411017; tai:1.49461e+09
+command_received: angle=31.351170
+command_sent: angle:78.4641; velocity:-0.00411027; tai:1.49461e+09
+command_received: angle=31.398283
+command_sent: angle:78.4637; velocity:-0.00411036; tai:1.49461e+09
+command_received: angle=31.445349
+command_sent: angle:78.4633; velocity:-0.00411045; tai:1.49461e+09
+command_received: angle=31.492367
+command_sent: angle:78.4629; velocity:-0.00411053; tai:1.49461e+09
+command_received: angle=31.539337
+command_sent: angle:78.4624; velocity:-0.0041106; tai:1.49461e+09
+command_received: angle=31.586260
+command_sent: angle:78.462; velocity:-0.00411066; tai:1.49461e+09
+command_received: angle=31.633136
+command_sent: angle:78.4616; velocity:-0.00411072; tai:1.49461e+09
+command_received: angle=31.679965
+command_sent: angle:78.4612; velocity:-0.00411077; tai:1.49461e+09
+command_received: angle=31.726746
+command_sent: angle:78.4608; velocity:-0.00411082; tai:1.49461e+09
+command_received: angle=31.773480
+command_sent: angle:78.4603; velocity:-0.00411085; tai:1.49461e+09
+command_received: angle=31.820167
+command_sent: angle:78.4599; velocity:-0.00411089; tai:1.49461e+09
+command_received: angle=31.866806
+command_sent: angle:78.4595; velocity:-0.00411091; tai:1.49461e+09
+command_received: angle=31.913399
+command_sent: angle:78.4591; velocity:-0.00411093; tai:1.49461e+09
+command_received: angle=31.959945
+command_sent: angle:78.4586; velocity:-0.00411094; tai:1.49461e+09
+command_received: angle=32.006444
+command_sent: angle:78.4582; velocity:-0.00411096; tai:1.49461e+09
+command_received: angle=32.052895
+command_sent: angle:78.4578; velocity:-0.00411096; tai:1.49461e+09
+command_received: angle=32.099300
+command_sent: angle:78.4574; velocity:-0.00411096; tai:1.49461e+09
+command_received: angle=32.145658
+command_sent: angle:78.4569; velocity:-0.00411096; tai:1.49461e+09
+command_received: angle=32.191970
+command_sent: angle:78.4565; velocity:-0.00411095; tai:1.49461e+09
+command_received: angle=32.238234
+command_sent: angle:78.4561; velocity:-0.00411094; tai:1.49461e+09
+command_received: angle=32.284452
+command_sent: angle:78.4557; velocity:-0.00411093; tai:1.49461e+09
+command_received: angle=32.330623
+command_sent: angle:78.4553; velocity:-0.00411092; tai:1.49461e+09
+command_received: angle=32.376748
+command_sent: angle:78.4548; velocity:-0.0041089; tai:1.49461e+09
+command_received: angle=32.422826
+command_sent: angle:78.4544; velocity:-0.00410951; tai:1.49461e+09
+command_received: angle=32.468858
+command_sent: angle:78.454; velocity:-0.00410954; tai:1.49461e+09
+command_received: angle=32.514843
+command_sent: angle:78.4536; velocity:-0.00410969; tai:1.49461e+09
+command_received: angle=32.560781
+command_sent: angle:78.4532; velocity:-0.00410981; tai:1.49461e+09
+command_received: angle=32.606674
+command_sent: angle:78.4527; velocity:-0.00410994; tai:1.49461e+09
+command_received: angle=32.652520
+command_sent: angle:78.4523; velocity:-0.00411005; tai:1.49461e+09
+command_received: angle=32.698320
+command_sent: angle:78.4519; velocity:-0.00411016; tai:1.49461e+09
+command_received: angle=32.744073
+command_sent: angle:78.4515; velocity:-0.00411027; tai:1.49461e+09
+command_received: angle=32.789781
+command_sent: angle:78.451; velocity:-0.00411037; tai:1.49461e+09
+command_received: angle=32.835442
+command_sent: angle:78.4506; velocity:-0.00411046; tai:1.49461e+09
+command_received: angle=32.881057
+command_sent: angle:78.4502; velocity:-0.00411055; tai:1.49461e+09
+command_received: angle=32.926626
+command_sent: angle:78.4498; velocity:-0.00411062; tai:1.49461e+09
+command_received: angle=32.972149
+command_sent: angle:78.4494; velocity:-0.00411069; tai:1.49461e+09
+command_received: angle=33.017627
+command_sent: angle:78.449; velocity:-0.00411076; tai:1.49461e+09
+command_received: angle=33.063058
+command_sent: angle:78.4485; velocity:-0.00411081; tai:1.49461e+09
+command_received: angle=33.108443
+command_sent: angle:78.4481; velocity:-0.00411086; tai:1.49461e+09
+command_received: angle=33.153783
+command_sent: angle:78.4477; velocity:-0.00411091; tai:1.49461e+09
+command_received: angle=33.199077
+command_sent: angle:78.4473; velocity:-0.00411095; tai:1.49461e+09
+command_received: angle=33.244325
+command_sent: angle:78.4469; velocity:-0.00411098; tai:1.49461e+09
+command_received: angle=33.289528
+command_sent: angle:78.4464; velocity:-0.004111; tai:1.49461e+09
+command_received: angle=33.334685
+command_sent: angle:78.446; velocity:-0.00411102; tai:1.49461e+09
+command_received: angle=33.379796
+command_sent: angle:78.4456; velocity:-0.00411104; tai:1.49461e+09
+command_received: angle=33.424862
+command_sent: angle:78.4452; velocity:-0.00411105; tai:1.49461e+09
+command_received: angle=33.469882
+command_sent: angle:78.4448; velocity:-0.00411105; tai:1.49461e+09
+command_received: angle=33.514857
+command_sent: angle:78.4444; velocity:-0.00411105; tai:1.49461e+09
+command_received: angle=33.559787
+command_sent: angle:78.4439; velocity:-0.00411105; tai:1.49461e+09
+command_received: angle=33.604671
+command_sent: angle:78.4435; velocity:-0.00411104; tai:1.49461e+09
+command_received: angle=33.649510
+command_sent: angle:78.4431; velocity:-0.00411104; tai:1.49461e+09
+command_received: angle=33.694303
+command_sent: angle:78.4427; velocity:-0.00411102; tai:1.49461e+09
+command_received: angle=33.739052
+command_sent: angle:78.4423; velocity:-0.00411101; tai:1.49461e+09
+command_received: angle=33.783755
+command_sent: angle:78.4419; velocity:-0.00410899; tai:1.49461e+09
+command_received: angle=33.828413
+command_sent: angle:78.4414; velocity:-0.00410958; tai:1.49461e+09
+command_received: angle=33.873026
+command_sent: angle:78.441; velocity:-0.00410962; tai:1.49461e+09
+command_received: angle=33.917594
+command_sent: angle:78.4406; velocity:-0.00410977; tai:1.49461e+09
+command_received: angle=33.962117
+command_sent: angle:78.4402; velocity:-0.00410989; tai:1.49461e+09
+command_received: angle=34.006595
+command_sent: angle:78.4397; velocity:-0.00411002; tai:1.49461e+09
+command_received: angle=34.051028
+command_sent: angle:78.4393; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=34.095416
+command_sent: angle:78.4389; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=34.139760
+command_sent: angle:78.4385; velocity:-0.00411035; tai:1.49461e+09
+command_received: angle=34.184059
+command_sent: angle:78.4381; velocity:-0.00411045; tai:1.49461e+09
+command_received: angle=34.228313
+command_sent: angle:78.4376; velocity:-0.00411054; tai:1.49461e+09
+command_received: angle=34.272522
+command_sent: angle:78.4372; velocity:-0.00411063; tai:1.49461e+09
+command_received: angle=34.316687
+command_sent: angle:78.4368; velocity:-0.00411071; tai:1.49461e+09
+command_received: angle=34.360807
+command_sent: angle:78.4364; velocity:-0.00411078; tai:1.49461e+09
+command_received: angle=34.404882
+command_sent: angle:78.4359; velocity:-0.00411084; tai:1.49461e+09
+command_received: angle=34.448913
+command_sent: angle:78.4355; velocity:-0.0041109; tai:1.49461e+09
+command_received: angle=34.492900
+command_sent: angle:78.4351; velocity:-0.00411095; tai:1.49461e+09
+command_received: angle=34.536842
+command_sent: angle:78.4347; velocity:-0.00411099; tai:1.49461e+09
+command_received: angle=34.580740
+command_sent: angle:78.4343; velocity:-0.00411103; tai:1.49461e+09
+command_received: angle=34.624594
+command_sent: angle:78.4339; velocity:-0.00411106; tai:1.49461e+09
+command_received: angle=34.668403
+command_sent: angle:78.4334; velocity:-0.00411109; tai:1.49461e+09
+command_received: angle=34.712168
+command_sent: angle:78.433; velocity:-0.00411111; tai:1.49461e+09
+command_received: angle=34.755889
+command_sent: angle:78.4326; velocity:-0.00411112; tai:1.49461e+09
+command_received: angle=34.799565
+command_sent: angle:78.4322; velocity:-0.00411113; tai:1.49461e+09
+command_received: angle=34.843198
+command_sent: angle:78.4318; velocity:-0.00411114; tai:1.49461e+09
+command_received: angle=34.886787
+command_sent: angle:78.4313; velocity:-0.00411114; tai:1.49461e+09
+command_received: angle=34.930331
+command_sent: angle:78.4309; velocity:-0.00411114; tai:1.49461e+09
+command_received: angle=34.973832
+command_sent: angle:78.4305; velocity:-0.00411113; tai:1.49461e+09
+command_received: angle=35.017288
+command_sent: angle:78.4301; velocity:-0.00411112; tai:1.49461e+09
+command_received: angle=35.060701
+command_sent: angle:78.4297; velocity:-0.00411111; tai:1.49461e+09
+command_received: angle=35.104070
+command_sent: angle:78.4293; velocity:-0.0041111; tai:1.49461e+09
+command_received: angle=35.147395
+command_sent: angle:78.4288; velocity:-0.00410907; tai:1.49461e+09
+command_received: angle=35.190677
+command_sent: angle:78.4284; velocity:-0.00410968; tai:1.49461e+09
+command_received: angle=35.233915
+command_sent: angle:78.428; velocity:-0.0041097; tai:1.49461e+09
+command_received: angle=35.277109
+command_sent: angle:78.4276; velocity:-0.00410986; tai:1.49461e+09
+command_received: angle=35.320259
+command_sent: angle:78.4271; velocity:-0.00410998; tai:1.49461e+09
+command_received: angle=35.363366
+command_sent: angle:78.4267; velocity:-0.00411011; tai:1.49461e+09
+command_received: angle=35.406429
+command_sent: angle:78.4263; velocity:-0.00411022; tai:1.49461e+09
+command_received: angle=35.449449
+command_sent: angle:78.4259; velocity:-0.00411033; tai:1.49461e+09
+command_received: angle=35.492426
+command_sent: angle:78.4255; velocity:-0.00411044; tai:1.49461e+09
+command_received: angle=35.535359
+command_sent: angle:78.425; velocity:-0.00411054; tai:1.49461e+09
+command_received: angle=35.578248
+command_sent: angle:78.4246; velocity:-0.00411063; tai:1.49461e+09
+command_received: angle=35.621095
+command_sent: angle:78.4242; velocity:-0.00411072; tai:1.49461e+09
+command_received: angle=35.663898
+command_sent: angle:78.4237; velocity:-0.00411079; tai:1.49461e+09
+command_received: angle=35.706658
+command_sent: angle:78.4233; velocity:-0.00411087; tai:1.49461e+09
+command_received: angle=35.749374
+command_sent: angle:78.4229; velocity:-0.00411093; tai:1.49461e+09
+command_received: angle=35.792048
+command_sent: angle:78.4225; velocity:-0.00411099; tai:1.49461e+09
+command_received: angle=35.834678
+command_sent: angle:78.4221; velocity:-0.00411104; tai:1.49461e+09
+command_received: angle=35.877266
+command_sent: angle:78.4216; velocity:-0.00411108; tai:1.49461e+09
+command_received: angle=35.919810
+command_sent: angle:78.4212; velocity:-0.00411112; tai:1.49461e+09
+command_received: angle=35.962312
+command_sent: angle:78.4208; velocity:-0.00411115; tai:1.49461e+09
+command_received: angle=36.004770
+command_sent: angle:78.4204; velocity:-0.00411118; tai:1.49461e+09
+command_received: angle=36.047186
+command_sent: angle:78.42; velocity:-0.0041112; tai:1.49461e+09
+command_received: angle=36.089558
+command_sent: angle:78.4195; velocity:-0.00411121; tai:1.49461e+09
+command_received: angle=36.131888
+command_sent: angle:78.4191; velocity:-0.00411122; tai:1.49461e+09
+command_received: angle=36.174176
+command_sent: angle:78.4187; velocity:-0.00411122; tai:1.49461e+09
+command_received: angle=36.216420
+command_sent: angle:78.4183; velocity:-0.00411122; tai:1.49461e+09
+command_received: angle=36.258622
+command_sent: angle:78.4179; velocity:-0.00411122; tai:1.49461e+09
+command_received: angle=36.300781
+command_sent: angle:78.4174; velocity:-0.00411122; tai:1.49461e+09
+command_received: angle=36.342898
+command_sent: angle:78.417; velocity:-0.00411121; tai:1.49461e+09
+command_received: angle=36.384972
+command_sent: angle:78.4166; velocity:-0.00411119; tai:1.49461e+09
+command_received: angle=36.427004
+command_sent: angle:78.4162; velocity:-0.00411118; tai:1.49461e+09
+command_received: angle=36.468993
+command_sent: angle:78.4158; velocity:-0.00410916; tai:1.49461e+09
+command_received: angle=36.510940
+command_sent: angle:78.4154; velocity:-0.00410975; tai:1.49461e+09
+command_received: angle=36.552844
+command_sent: angle:78.4149; velocity:-0.00410979; tai:1.49461e+09
+command_received: angle=36.594706
+command_sent: angle:78.4145; velocity:-0.00410994; tai:1.49461e+09
+command_received: angle=36.636526
+command_sent: angle:78.4141; velocity:-0.00411006; tai:1.49461e+09
+command_received: angle=36.678304
+command_sent: angle:78.4137; velocity:-0.00411019; tai:1.49461e+09
+command_received: angle=36.720039
+command_sent: angle:78.4133; velocity:-0.0041103; tai:1.49461e+09
+command_received: angle=36.761732
+command_sent: angle:78.4128; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=36.803383
+command_sent: angle:78.4124; velocity:-0.00411052; tai:1.49461e+09
+command_received: angle=36.844992
+command_sent: angle:78.412; velocity:-0.00411062; tai:1.49461e+09
+command_received: angle=36.886559
+command_sent: angle:78.4116; velocity:-0.00411071; tai:1.49461e+09
+command_received: angle=36.928084
+command_sent: angle:78.4112; velocity:-0.0041108; tai:1.49461e+09
+command_received: angle=36.969567
+command_sent: angle:78.4107; velocity:-0.00411088; tai:1.49461e+09
+command_received: angle=37.011009
+command_sent: angle:78.4103; velocity:-0.00411095; tai:1.49461e+09
+command_received: angle=37.052408
+command_sent: angle:78.4099; velocity:-0.00411101; tai:1.49461e+09
+command_received: angle=37.093765
+command_sent: angle:78.4095; velocity:-0.00411107; tai:1.49461e+09
+command_received: angle=37.135081
+command_sent: angle:78.4091; velocity:-0.00411112; tai:1.49461e+09
+command_received: angle=37.176355
+command_sent: angle:78.4086; velocity:-0.00411116; tai:1.49461e+09
+command_received: angle=37.217587
+command_sent: angle:78.4082; velocity:-0.0041112; tai:1.49461e+09
+command_received: angle=37.258778
+command_sent: angle:78.4078; velocity:-0.00411123; tai:1.49461e+09
+command_received: angle=37.299927
+command_sent: angle:78.4074; velocity:-0.00411126; tai:1.49461e+09
+command_received: angle=37.341035
+command_sent: angle:78.407; velocity:-0.00411128; tai:1.49461e+09
+command_received: angle=37.382101
+command_sent: angle:78.4065; velocity:-0.00411129; tai:1.49461e+09
+command_received: angle=37.423125
+command_sent: angle:78.4061; velocity:-0.0041113; tai:1.49461e+09
+command_received: angle=37.464108
+command_sent: angle:78.4057; velocity:-0.00411131; tai:1.49461e+09
+command_received: angle=37.505050
+command_sent: angle:78.4053; velocity:-0.00411131; tai:1.49461e+09
+command_received: angle=37.545950
+command_sent: angle:78.4049; velocity:-0.00411131; tai:1.49461e+09
+command_received: angle=37.586809
+command_sent: angle:78.4044; velocity:-0.0041113; tai:1.49461e+09
+command_received: angle=37.627626
+command_sent: angle:78.404; velocity:-0.00411129; tai:1.49461e+09
+command_received: angle=37.668403
+command_sent: angle:78.4036; velocity:-0.00411128; tai:1.49461e+09
+command_received: angle=37.709138
+command_sent: angle:78.4032; velocity:-0.00411127; tai:1.49461e+09
+command_received: angle=37.749832
+command_sent: angle:78.4028; velocity:-0.00410925; tai:1.49461e+09
+command_received: angle=37.790485
+command_sent: angle:78.4024; velocity:-0.00410984; tai:1.49461e+09
+command_received: angle=37.831097
+command_sent: angle:78.402; velocity:-0.00410988; tai:1.49461e+09
+command_received: angle=37.871668
+command_sent: angle:78.4015; velocity:-0.00411003; tai:1.49461e+09
+command_received: angle=37.912198
+command_sent: angle:78.4011; velocity:-0.00411015; tai:1.49461e+09
+command_received: angle=37.952686
+command_sent: angle:78.4007; velocity:-0.00411027; tai:1.49461e+09
+command_received: angle=37.993134
+command_sent: angle:78.4003; velocity:-0.00411039; tai:1.49461e+09
+command_received: angle=38.033542
+command_sent: angle:78.3999; velocity:-0.0041105; tai:1.49461e+09
+command_received: angle=38.073908
+command_sent: angle:78.3994; velocity:-0.00411061; tai:1.49461e+09
+command_received: angle=38.114233
+command_sent: angle:78.399; velocity:-0.00411071; tai:1.49461e+09
+command_received: angle=38.154518
+command_sent: angle:78.3986; velocity:-0.0041108; tai:1.49461e+09
+command_received: angle=38.194762
+command_sent: angle:78.3982; velocity:-0.00411089; tai:1.49461e+09
+command_received: angle=38.234966
+command_sent: angle:78.3978; velocity:-0.00411096; tai:1.49461e+09
+command_received: angle=38.275129
+command_sent: angle:78.3974; velocity:-0.00411104; tai:1.49461e+09
+command_received: angle=38.315251
+command_sent: angle:78.3969; velocity:-0.0041111; tai:1.49461e+09
+command_received: angle=38.355332
+command_sent: angle:78.3965; velocity:-0.00411116; tai:1.49461e+09
+command_received: angle=38.395374
+command_sent: angle:78.3961; velocity:-0.00411121; tai:1.49461e+09
+command_received: angle=38.435374
+command_sent: angle:78.3957; velocity:-0.00411125; tai:1.49461e+09
+command_received: angle=38.475335
+command_sent: angle:78.3953; velocity:-0.00411129; tai:1.49461e+09
+command_received: angle=38.515255
+command_sent: angle:78.3948; velocity:-0.00411132; tai:1.49461e+09
+command_received: angle=38.555134
+command_sent: angle:78.3944; velocity:-0.00411135; tai:1.49461e+09
+command_received: angle=38.594973
+command_sent: angle:78.394; velocity:-0.00411137; tai:1.49461e+09
+command_received: angle=38.634772
+command_sent: angle:78.3936; velocity:-0.00411138; tai:1.49461e+09
+command_received: angle=38.674531
+command_sent: angle:78.3932; velocity:-0.00411139; tai:1.49461e+09
+command_received: angle=38.714250
+command_sent: angle:78.3928; velocity:-0.0041114; tai:1.49461e+09
+command_received: angle=38.753928
+command_sent: angle:78.3923; velocity:-0.0041114; tai:1.49461e+09
+command_received: angle=38.793567
+command_sent: angle:78.3919; velocity:-0.0041114; tai:1.49461e+09
+command_received: angle=38.833165
+command_sent: angle:78.3915; velocity:-0.00411139; tai:1.49461e+09
+command_received: angle=38.872724
+command_sent: angle:78.3911; velocity:-0.00411138; tai:1.49461e+09
+command_received: angle=38.912242
+command_sent: angle:78.3907; velocity:-0.00411137; tai:1.49461e+09
+command_received: angle=38.951720
+command_sent: angle:78.3903; velocity:-0.00411136; tai:1.49461e+09
+command_received: angle=38.991159
+command_sent: angle:78.3898; velocity:-0.00410934; tai:1.49461e+09
+command_received: angle=39.030558
+command_sent: angle:78.3894; velocity:-0.00410993; tai:1.49461e+09
+command_received: angle=39.069916
+command_sent: angle:78.389; velocity:-0.00410999; tai:1.49461e+09
+command_received: angle=39.109235
+command_sent: angle:78.3885; velocity:-0.00411012; tai:1.49461e+09
+command_received: angle=39.148515
+command_sent: angle:78.3881; velocity:-0.00411025; tai:1.49461e+09
+command_received: angle=39.187754
+command_sent: angle:78.3877; velocity:-0.00411037; tai:1.49461e+09
+command_received: angle=39.226954
+command_sent: angle:78.3873; velocity:-0.00411049; tai:1.49461e+09
+command_received: angle=39.266115
+command_sent: angle:78.3869; velocity:-0.0041106; tai:1.49461e+09
+command_received: angle=39.305235
+command_sent: angle:78.3865; velocity:-0.0041107; tai:1.49461e+09
+command_received: angle=39.344317
+command_sent: angle:78.386; velocity:-0.0041108; tai:1.49461e+09
+command_received: angle=39.383358
+command_sent: angle:78.3856; velocity:-0.0041109; tai:1.49461e+09
+command_received: angle=39.422360
+command_sent: angle:78.3852; velocity:-0.00411098; tai:1.49461e+09
+command_received: angle=39.461323
+command_sent: angle:78.3848; velocity:-0.00411106; tai:1.49461e+09
+command_received: angle=39.500247
+command_sent: angle:78.3843; velocity:-0.00411113; tai:1.49461e+09
+command_received: angle=39.539131
+command_sent: angle:78.3839; velocity:-0.00411119; tai:1.49461e+09
+command_received: angle=39.577976
+command_sent: angle:78.3835; velocity:-0.00411125; tai:1.49461e+09
+command_received: angle=39.616781
+command_sent: angle:78.383; velocity:-0.0041113; tai:1.49461e+09
+command_received: angle=39.655547
+command_sent: angle:78.3826; velocity:-0.00411134; tai:1.49461e+09
+command_received: angle=39.694274
+command_sent: angle:78.3822; velocity:-0.00411138; tai:1.49461e+09
+command_received: angle=39.732962
+command_sent: angle:78.3818; velocity:-0.00411141; tai:1.49461e+09
+command_received: angle=39.771611
+command_sent: angle:78.3814; velocity:-0.00411143; tai:1.49461e+09
+command_received: angle=39.810221
+command_sent: angle:78.3809; velocity:-0.00411146; tai:1.49461e+09
+command_received: angle=39.848792
+command_sent: angle:78.3805; velocity:-0.00411147; tai:1.49461e+09
+command_received: angle=39.887323
+command_sent: angle:78.3801; velocity:-0.00411148; tai:1.49461e+09
+command_received: angle=39.925816
+command_sent: angle:78.3797; velocity:-0.00411148; tai:1.49461e+09
+command_received: angle=39.964270
+command_sent: angle:78.3793; velocity:-0.00411148; tai:1.49461e+09
+command_received: angle=40.002685
+command_sent: angle:78.3788; velocity:-0.00411148; tai:1.49461e+09
+command_received: angle=40.041061
+command_sent: angle:78.3784; velocity:-0.00411148; tai:1.49461e+09
+command_received: angle=40.079398
+command_sent: angle:78.3779; velocity:-0.00411144; tai:1.49461e+09
+command_received: angle=40.117697
+command_sent: angle:78.3775; velocity:-0.00411145; tai:1.49461e+09
+command_received: angle=40.155957
+command_sent: angle:78.3771; velocity:-0.00411143; tai:1.49461e+09
+command_received: angle=40.194178
+command_sent: angle:78.3767; velocity:-0.00410942; tai:1.49461e+09
+command_received: angle=40.232360
+command_sent: angle:78.3762; velocity:-0.00411003; tai:1.49461e+09
+command_received: angle=40.270504
+command_sent: angle:78.3758; velocity:-0.00411005; tai:1.49461e+09
+command_received: angle=40.308610
+command_sent: angle:78.3754; velocity:-0.0041102; tai:1.49461e+09
+command_received: angle=40.346676
+command_sent: angle:78.3749; velocity:-0.00411033; tai:1.49461e+09
+command_received: angle=40.384705
+command_sent: angle:78.3745; velocity:-0.00411048; tai:1.49461e+09
+command_received: angle=40.422694
+command_sent: angle:78.3741; velocity:-0.00411058; tai:1.49461e+09
+command_received: angle=40.460646
+command_sent: angle:78.3736; velocity:-0.00411069; tai:1.49461e+09
+command_received: angle=40.498559
+command_sent: angle:78.3732; velocity:-0.00411079; tai:1.49461e+09
+command_received: angle=40.536433
+command_sent: angle:78.3728; velocity:-0.0041109; tai:1.49461e+09
+command_received: angle=40.574270
+command_sent: angle:78.3723; velocity:-0.00411098; tai:1.49461e+09
+command_received: angle=40.612068
+command_sent: angle:78.3719; velocity:-0.00411107; tai:1.49461e+09
+command_received: angle=40.649828
+command_sent: angle:78.3715; velocity:-0.00411115; tai:1.49461e+09
+command_received: angle=40.687549
+command_sent: angle:78.3711; velocity:-0.00411122; tai:1.49461e+09
+command_received: angle=40.725233
+command_sent: angle:78.3707; velocity:-0.00411128; tai:1.49461e+09
+command_received: angle=40.762878
+command_sent: angle:78.3703; velocity:-0.00411134; tai:1.49461e+09
+command_received: angle=40.800486
+command_sent: angle:78.3698; velocity:-0.00411139; tai:1.49461e+09
+command_received: angle=40.838055
+command_sent: angle:78.3694; velocity:-0.00411143; tai:1.49461e+09
+command_received: angle=40.875586
+command_sent: angle:78.369; velocity:-0.00411146; tai:1.49461e+09
+command_received: angle=40.913080
+command_sent: angle:78.3685; velocity:-0.0041115; tai:1.49461e+09
+command_received: angle=40.950535
+command_sent: angle:78.3681; velocity:-0.00411152; tai:1.49461e+09
+command_received: angle=40.987953
+command_sent: angle:78.3677; velocity:-0.00411155; tai:1.49461e+09
+command_received: angle=41.025332
+command_sent: angle:78.3673; velocity:-0.00411156; tai:1.49461e+09
+command_received: angle=41.062674
+command_sent: angle:78.3669; velocity:-0.00411157; tai:1.49461e+09
+command_received: angle=41.099979
+command_sent: angle:78.3664; velocity:-0.00411157; tai:1.49461e+09
+command_received: angle=41.137245
+command_sent: angle:78.366; velocity:-0.00411158; tai:1.49461e+09
+command_received: angle=41.174474
+command_sent: angle:78.3656; velocity:-0.00411157; tai:1.49461e+09
+command_received: angle=41.211665
+command_sent: angle:78.3652; velocity:-0.00411157; tai:1.49461e+09
+command_received: angle=41.248819
+command_sent: angle:78.3648; velocity:-0.00411156; tai:1.49461e+09
+command_received: angle=41.285935
+command_sent: angle:78.3644; velocity:-0.00411155; tai:1.49461e+09
+command_received: angle=41.323013
+command_sent: angle:78.364; velocity:-0.00411153; tai:1.49461e+09
+command_received: angle=41.360054
+command_sent: angle:78.3635; velocity:-0.00410951; tai:1.49461e+09
+command_received: angle=41.397057
+command_sent: angle:78.3631; velocity:-0.00411011; tai:1.49461e+09
+command_received: angle=41.434023
+command_sent: angle:78.3627; velocity:-0.00411014; tai:1.49461e+09
+command_received: angle=41.470952
+command_sent: angle:78.3623; velocity:-0.00411029; tai:1.49461e+09
+command_received: angle=41.507843
+command_sent: angle:78.3619; velocity:-0.00411042; tai:1.49461e+09
+command_received: angle=41.544697
+command_sent: angle:78.3614; velocity:-0.00411054; tai:1.49461e+09
+command_received: angle=41.581514
+command_sent: angle:78.361; velocity:-0.00411065; tai:1.49461e+09
+command_received: angle=41.618294
+command_sent: angle:78.3606; velocity:-0.00411077; tai:1.49461e+09
+command_received: angle=41.655036
+command_sent: angle:78.3602; velocity:-0.00411087; tai:1.49461e+09
+command_received: angle=41.691741
+command_sent: angle:78.3598; velocity:-0.00411097; tai:1.49461e+09
+command_received: angle=41.728409
+command_sent: angle:78.3594; velocity:-0.00411106; tai:1.49461e+09
+command_received: angle=41.765040
+command_sent: angle:78.3589; velocity:-0.00411115; tai:1.49461e+09
+command_received: angle=41.801634
+command_sent: angle:78.3585; velocity:-0.00411123; tai:1.49461e+09
+command_received: angle=41.838191
+command_sent: angle:78.3581; velocity:-0.0041113; tai:1.49461e+09
+command_received: angle=41.874711
+command_sent: angle:78.3576; velocity:-0.00411136; tai:1.49461e+09
+command_received: angle=41.911194
+command_sent: angle:78.3572; velocity:-0.00411141; tai:1.49461e+09
+command_received: angle=41.947640
+command_sent: angle:78.3568; velocity:-0.00411147; tai:1.49461e+09
+command_received: angle=41.984049
+command_sent: angle:78.3564; velocity:-0.00411151; tai:1.49461e+09
+command_received: angle=42.020421
+command_sent: angle:78.3559; velocity:-0.00411155; tai:1.49461e+09
+command_received: angle=42.056757
+command_sent: angle:78.3555; velocity:-0.00411158; tai:1.49461e+09
+command_received: angle=42.093055
+command_sent: angle:78.3551; velocity:-0.00411161; tai:1.49461e+09
+command_received: angle=42.129317
+command_sent: angle:78.3547; velocity:-0.00411163; tai:1.49461e+09
+command_received: angle=42.165543
+command_sent: angle:78.3543; velocity:-0.00411164; tai:1.49461e+09
+command_received: angle=42.201732
+command_sent: angle:78.3538; velocity:-0.00411165; tai:1.49461e+09
+command_received: angle=42.237884
+command_sent: angle:78.3534; velocity:-0.00411166; tai:1.49461e+09
+command_received: angle=42.273999
+command_sent: angle:78.353; velocity:-0.00411166; tai:1.49461e+09
+command_received: angle=42.310078
+command_sent: angle:78.3526; velocity:-0.00411166; tai:1.49461e+09
+command_received: angle=42.346121
+command_sent: angle:78.3522; velocity:-0.00411165; tai:1.49461e+09
+command_received: angle=42.382127
+command_sent: angle:78.3517; velocity:-0.00411164; tai:1.49461e+09
+command_received: angle=42.418096
+command_sent: angle:78.3513; velocity:-0.00411163; tai:1.49461e+09
+command_received: angle=42.454030
+command_sent: angle:78.3509; velocity:-0.00411162; tai:1.49461e+09
+command_received: angle=42.489926
+command_sent: angle:78.3505; velocity:-0.0041096; tai:1.49461e+09
+command_received: angle=42.525787
+command_sent: angle:78.3501; velocity:-0.0041102; tai:1.49461e+09
+command_received: angle=42.561611
+command_sent: angle:78.3496; velocity:-0.00411024; tai:1.49461e+09
+command_received: angle=42.597399
+command_sent: angle:78.3492; velocity:-0.00411038; tai:1.49461e+09
+command_received: angle=42.633151
+command_sent: angle:78.3488; velocity:-0.0041105; tai:1.49461e+09
+command_received: angle=42.668867
+command_sent: angle:78.3484; velocity:-0.00411063; tai:1.49461e+09
+command_received: angle=42.704546
+command_sent: angle:78.348; velocity:-0.00411074; tai:1.49461e+09
+command_received: angle=42.740190
+command_sent: angle:78.3476; velocity:-0.00411085; tai:1.49461e+09
+command_received: angle=42.775797
+command_sent: angle:78.3471; velocity:-0.00411096; tai:1.49461e+09
+command_received: angle=42.811368
+command_sent: angle:78.3467; velocity:-0.00411106; tai:1.49461e+09
+command_received: angle=42.846904
+command_sent: angle:78.3463; velocity:-0.00411115; tai:1.49461e+09
+command_received: angle=42.882403
+command_sent: angle:78.3459; velocity:-0.00411124; tai:1.49461e+09
+command_received: angle=42.917867
+command_sent: angle:78.3454; velocity:-0.00411132; tai:1.49461e+09
+command_received: angle=42.953294
+command_sent: angle:78.345; velocity:-0.00411139; tai:1.49461e+09
+command_received: angle=42.988686
+command_sent: angle:78.3446; velocity:-0.00411145; tai:1.49461e+09
+command_received: angle=43.024042
+command_sent: angle:78.3442; velocity:-0.00411151; tai:1.49461e+09
+command_received: angle=43.059362
+command_sent: angle:78.3438; velocity:-0.00411156; tai:1.49461e+09
+command_received: angle=43.094647
+command_sent: angle:78.3433; velocity:-0.00411159; tai:1.49461e+09
+command_received: angle=43.129895
+command_sent: angle:78.3429; velocity:-0.00411164; tai:1.49461e+09
+command_received: angle=43.165108
+command_sent: angle:78.3425; velocity:-0.00411167; tai:1.49461e+09
+command_received: angle=43.200286
+command_sent: angle:78.3421; velocity:-0.0041117; tai:1.49461e+09
+command_received: angle=43.235427
+command_sent: angle:78.3417; velocity:-0.00411171; tai:1.49461e+09
+command_received: angle=43.270534
+command_sent: angle:78.3412; velocity:-0.00411173; tai:1.49461e+09
+command_received: angle=43.305604
+command_sent: angle:78.3408; velocity:-0.00411174; tai:1.49461e+09
+command_received: angle=43.340640
+command_sent: angle:78.3404; velocity:-0.00411175; tai:1.49461e+09
+command_received: angle=43.375639
+command_sent: angle:78.34; velocity:-0.00411175; tai:1.49461e+09
+command_received: angle=43.410604
+command_sent: angle:78.3395; velocity:-0.00411174; tai:1.49461e+09
+command_received: angle=43.445533
+command_sent: angle:78.3391; velocity:-0.00411173; tai:1.49461e+09
+command_received: angle=43.480426
+command_sent: angle:78.3387; velocity:-0.00411173; tai:1.49461e+09
+command_received: angle=43.515284
+command_sent: angle:78.3383; velocity:-0.00411171; tai:1.49461e+09
+command_received: angle=43.550107
+command_sent: angle:78.3378; velocity:-0.0041117; tai:1.49461e+09
+command_received: angle=43.584895
+command_sent: angle:78.3374; velocity:-0.00410968; tai:1.49461e+09
+command_received: angle=43.619648
+command_sent: angle:78.337; velocity:-0.00411027; tai:1.49461e+09
+command_received: angle=43.654365
+command_sent: angle:78.3366; velocity:-0.00411031; tai:1.49461e+09
+command_received: angle=43.689047
+command_sent: angle:78.3362; velocity:-0.00411046; tai:1.49461e+09
+command_received: angle=43.723694
+command_sent: angle:78.3357; velocity:-0.00411058; tai:1.49461e+09
+command_received: angle=43.758306
+command_sent: angle:78.3353; velocity:-0.00411071; tai:1.49461e+09
+command_received: angle=43.792883
+command_sent: angle:78.3349; velocity:-0.00411082; tai:1.49461e+09
+command_received: angle=43.827425
+command_sent: angle:78.3345; velocity:-0.00411094; tai:1.49461e+09
+command_received: angle=43.861933
+command_sent: angle:78.3341; velocity:-0.00411104; tai:1.49461e+09
+command_received: angle=43.896405
+command_sent: angle:78.3336; velocity:-0.00411114; tai:1.49461e+09
+command_received: angle=43.930842
+command_sent: angle:78.3331; velocity:-0.00411125; tai:1.49461e+09
+command_received: angle=43.965244
+command_sent: angle:78.3327; velocity:-0.00411132; tai:1.49461e+09
+command_received: angle=43.999612
+command_sent: angle:78.3323; velocity:-0.0041114; tai:1.49461e+09
+command_received: angle=44.033944
+command_sent: angle:78.3319; velocity:-0.00411147; tai:1.49461e+09
+command_received: angle=44.068242
+command_sent: angle:78.3315; velocity:-0.00411154; tai:1.49461e+09
+command_received: angle=44.102505
+command_sent: angle:78.3311; velocity:-0.00411159; tai:1.49461e+09
+command_received: angle=44.136734
+command_sent: angle:78.3306; velocity:-0.00411165; tai:1.49461e+09
+command_received: angle=44.170928
+command_sent: angle:78.3302; velocity:-0.00411169; tai:1.49461e+09
+command_received: angle=44.205087
+command_sent: angle:78.3298; velocity:-0.00411173; tai:1.49461e+09
+command_received: angle=44.239212
+command_sent: angle:78.3294; velocity:-0.00411176; tai:1.49461e+09
+command_received: angle=44.273302
+command_sent: angle:78.3289; velocity:-0.00411177; tai:1.49461e+09
+command_received: angle=44.307358
+command_sent: angle:78.3285; velocity:-0.00411181; tai:1.49461e+09
+command_received: angle=44.341379
+command_sent: angle:78.3281; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=44.375366
+command_sent: angle:78.3277; velocity:-0.00411183; tai:1.49461e+09
+command_received: angle=44.409318
+command_sent: angle:78.3273; velocity:-0.00411183; tai:1.49461e+09
+command_received: angle=44.443236
+command_sent: angle:78.3268; velocity:-0.00411183; tai:1.49461e+09
+command_received: angle=44.477119
+command_sent: angle:78.3264; velocity:-0.00411183; tai:1.49461e+09
+command_received: angle=44.510969
+command_sent: angle:78.326; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=44.544784
+command_sent: angle:78.3256; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=44.578565
+command_sent: angle:78.3252; velocity:-0.00411181; tai:1.49461e+09
+command_received: angle=44.612311
+command_sent: angle:78.3247; velocity:-0.00411179; tai:1.49461e+09
+command_received: angle=44.646024
+command_sent: angle:78.3243; velocity:-0.00410977; tai:1.49461e+09
+command_received: angle=44.679702
+command_sent: angle:78.3239; velocity:-0.00411037; tai:1.49461e+09
+command_received: angle=44.713346
+command_sent: angle:78.3235; velocity:-0.0041104; tai:1.49461e+09
+command_received: angle=44.746956
+command_sent: angle:78.323; velocity:-0.00411055; tai:1.49461e+09
+command_received: angle=44.780532
+command_sent: angle:78.3226; velocity:-0.00411068; tai:1.49461e+09
+command_received: angle=44.814074
+command_sent: angle:78.3222; velocity:-0.0041108; tai:1.49461e+09
+command_received: angle=44.847582
+command_sent: angle:78.3218; velocity:-0.00411092; tai:1.49461e+09
+command_received: angle=44.881057
+command_sent: angle:78.3214; velocity:-0.00411103; tai:1.49461e+09
+command_received: angle=44.914497
+command_sent: angle:78.321; velocity:-0.00411113; tai:1.49461e+09
+command_received: angle=44.947903
+command_sent: angle:78.3205; velocity:-0.00411123; tai:1.49461e+09
+command_received: angle=44.981276
+command_sent: angle:78.3201; velocity:-0.00411132; tai:1.49461e+09
+command_received: angle=45.014615
+command_sent: angle:78.3197; velocity:-0.00411141; tai:1.49461e+09
+command_received: angle=45.047920
+command_sent: angle:78.3193; velocity:-0.00411149; tai:1.49461e+09
+command_received: angle=45.081191
+command_sent: angle:78.3189; velocity:-0.00411156; tai:1.49461e+09
+command_received: angle=45.114429
+command_sent: angle:78.3185; velocity:-0.00411162; tai:1.49461e+09
+command_received: angle=45.147633
+command_sent: angle:78.318; velocity:-0.00411168; tai:1.49461e+09
+command_received: angle=45.180804
+command_sent: angle:78.3176; velocity:-0.00411173; tai:1.49461e+09
+command_received: angle=45.213940
+command_sent: angle:78.3172; velocity:-0.00411178; tai:1.49461e+09
+command_received: angle=45.247044
+command_sent: angle:78.3168; velocity:-0.00411181; tai:1.49461e+09
+command_received: angle=45.280113
+command_sent: angle:78.3164; velocity:-0.00411185; tai:1.49461e+09
+command_received: angle=45.313150
+command_sent: angle:78.3159; velocity:-0.00411187; tai:1.49461e+09
+command_received: angle=45.346152
+command_sent: angle:78.3155; velocity:-0.00411189; tai:1.49461e+09
+command_received: angle=45.379122
+command_sent: angle:78.3151; velocity:-0.00411189; tai:1.49461e+09
+command_received: angle=45.412058
+command_sent: angle:78.3146; velocity:-0.00411191; tai:1.49461e+09
+command_received: angle=45.444960
+command_sent: angle:78.3142; velocity:-0.00411192; tai:1.49461e+09
+command_received: angle=45.477830
+command_sent: angle:78.3138; velocity:-0.00411192; tai:1.49461e+09
+command_received: angle=45.510666
+command_sent: angle:78.3133; velocity:-0.00411192; tai:1.49461e+09
+command_received: angle=45.543468
+command_sent: angle:78.3129; velocity:-0.00411189; tai:1.49461e+09
+command_received: angle=45.576238
+command_sent: angle:78.3125; velocity:-0.0041119; tai:1.49461e+09
+command_received: angle=45.608974
+command_sent: angle:78.3121; velocity:-0.00411188; tai:1.49461e+09
+command_received: angle=45.641677
+command_sent: angle:78.3116; velocity:-0.00411187; tai:1.49461e+09
+command_received: angle=45.674347
+command_sent: angle:78.3112; velocity:-0.00410986; tai:1.49461e+09
+command_received: angle=45.706984
+command_sent: angle:78.3108; velocity:-0.00411048; tai:1.49461e+09
+command_received: angle=45.739588
+command_sent: angle:78.3104; velocity:-0.00411049; tai:1.49461e+09
+command_received: angle=45.772158
+command_sent: angle:78.3099; velocity:-0.00411065; tai:1.49461e+09
+command_received: angle=45.804696
+command_sent: angle:78.3095; velocity:-0.00411077; tai:1.49461e+09
+command_received: angle=45.837201
+command_sent: angle:78.3091; velocity:-0.00411089; tai:1.49461e+09
+command_received: angle=45.869673
+command_sent: angle:78.3087; velocity:-0.00411101; tai:1.49461e+09
+command_received: angle=45.902112
+command_sent: angle:78.3083; velocity:-0.00411112; tai:1.49461e+09
+command_received: angle=45.934518
+command_sent: angle:78.3078; velocity:-0.00411123; tai:1.49461e+09
+command_received: angle=45.966891
+command_sent: angle:78.3074; velocity:-0.00411133; tai:1.49461e+09
+command_received: angle=45.999232
+command_sent: angle:78.307; velocity:-0.00411142; tai:1.49461e+09
+command_received: angle=46.031540
+command_sent: angle:78.3065; velocity:-0.0041115; tai:1.49461e+09
+command_received: angle=46.063815
+command_sent: angle:78.3061; velocity:-0.00411158; tai:1.49461e+09
+command_received: angle=46.096057
+command_sent: angle:78.3057; velocity:-0.00411165; tai:1.49461e+09
+command_received: angle=46.128267
+command_sent: angle:78.3053; velocity:-0.00411171; tai:1.49461e+09
+command_received: angle=46.160444
+command_sent: angle:78.3049; velocity:-0.00411177; tai:1.49461e+09
+command_received: angle=46.192588
+command_sent: angle:78.3045; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=46.224700
+command_sent: angle:78.304; velocity:-0.00411187; tai:1.49461e+09
+command_received: angle=46.256779
+command_sent: angle:78.3036; velocity:-0.00411191; tai:1.49461e+09
+command_received: angle=46.288826
+command_sent: angle:78.3032; velocity:-0.00411194; tai:1.49461e+09
+command_received: angle=46.320841
+command_sent: angle:78.3028; velocity:-0.00411196; tai:1.49461e+09
+command_received: angle=46.352823
+command_sent: angle:78.3024; velocity:-0.00411198; tai:1.49461e+09
+command_received: angle=46.384772
+command_sent: angle:78.3019; velocity:-0.00411199; tai:1.49461e+09
+command_received: angle=46.416689
+command_sent: angle:78.3015; velocity:-0.004112; tai:1.49461e+09
+command_received: angle=46.448574
+command_sent: angle:78.3011; velocity:-0.00411201; tai:1.49461e+09
+command_received: angle=46.480427
+command_sent: angle:78.3007; velocity:-0.00411201; tai:1.49461e+09
+command_received: angle=46.512247
+command_sent: angle:78.3003; velocity:-0.00411201; tai:1.49461e+09
+command_received: angle=46.544035
+command_sent: angle:78.2998; velocity:-0.004112; tai:1.49461e+09
+command_received: angle=46.575791
+command_sent: angle:78.2994; velocity:-0.00411199; tai:1.49461e+09
+command_received: angle=46.607514
+command_sent: angle:78.299; velocity:-0.00411198; tai:1.49461e+09
+command_received: angle=46.639206
+command_sent: angle:78.2986; velocity:-0.00411197; tai:1.49461e+09
+command_received: angle=46.670865
+command_sent: angle:78.2982; velocity:-0.00410995; tai:1.49461e+09
+command_received: angle=46.702493
+command_sent: angle:78.2978; velocity:-0.00411054; tai:1.49461e+09
+command_received: angle=46.734088
+command_sent: angle:78.2973; velocity:-0.00411057; tai:1.49461e+09
+command_received: angle=46.765651
+command_sent: angle:78.2969; velocity:-0.00411073; tai:1.49461e+09
+command_received: angle=46.797182
+command_sent: angle:78.2965; velocity:-0.00411086; tai:1.49461e+09
+command_received: angle=46.828682
+command_sent: angle:78.2961; velocity:-0.00411098; tai:1.49461e+09
+command_received: angle=46.860149
+command_sent: angle:78.2956; velocity:-0.00411109; tai:1.49461e+09
+command_received: angle=46.891585
+command_sent: angle:78.2952; velocity:-0.00411121; tai:1.49461e+09
+command_received: angle=46.922988
+command_sent: angle:78.2948; velocity:-0.00411131; tai:1.49461e+09
+command_received: angle=46.954360
+command_sent: angle:78.2944; velocity:-0.00411141; tai:1.49461e+09
+command_received: angle=46.985700
+command_sent: angle:78.294; velocity:-0.0041115; tai:1.49461e+09
+command_received: angle=47.017008
+command_sent: angle:78.2935; velocity:-0.00411159; tai:1.49461e+09
+command_received: angle=47.048285
+command_sent: angle:78.2931; velocity:-0.00411167; tai:1.49461e+09
+command_received: angle=47.079530
+command_sent: angle:78.2927; velocity:-0.00411174; tai:1.49461e+09
+command_received: angle=47.110743
+command_sent: angle:78.2923; velocity:-0.0041118; tai:1.49461e+09
+command_received: angle=47.141924
+command_sent: angle:78.2919; velocity:-0.00411186; tai:1.49461e+09
+command_received: angle=47.173074
+command_sent: angle:78.2914; velocity:-0.00411191; tai:1.49461e+09
+command_received: angle=47.204193
+command_sent: angle:78.291; velocity:-0.00411195; tai:1.49461e+09
+command_received: angle=47.235279
+command_sent: angle:78.2906; velocity:-0.00411199; tai:1.49461e+09
+command_received: angle=47.266335
+command_sent: angle:78.2902; velocity:-0.00411202; tai:1.49461e+09
+command_received: angle=47.297358
+command_sent: angle:78.2897; velocity:-0.00411205; tai:1.49461e+09
+command_received: angle=47.328351
+command_sent: angle:78.2893; velocity:-0.00411206; tai:1.49461e+09
+command_received: angle=47.359312
+command_sent: angle:78.2888; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=47.390241
+command_sent: angle:78.2883; velocity:-0.00411206; tai:1.49461e+09
+command_received: angle=47.421139
+command_sent: angle:78.2879; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=47.452006
+command_sent: angle:78.2875; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=47.482842
+command_sent: angle:78.2871; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=47.513646
+command_sent: angle:78.2866; velocity:-0.00411207; tai:1.49461e+09
+command_received: angle=47.544419
+command_sent: angle:78.2862; velocity:-0.00411207; tai:1.49461e+09
+command_received: angle=47.575161
+command_sent: angle:78.2858; velocity:-0.00411205; tai:1.49461e+09
+command_received: angle=47.605871
+command_sent: angle:78.2853; velocity:-0.00411204; tai:1.49461e+09
+command_received: angle=47.636551
+command_sent: angle:78.2849; velocity:-0.00411003; tai:1.49461e+09
+command_received: angle=47.667199
+command_sent: angle:78.2845; velocity:-0.00411063; tai:1.49461e+09
+command_received: angle=47.697816
+command_sent: angle:78.2841; velocity:-0.00411068; tai:1.49461e+09
+command_received: angle=47.728403
+command_sent: angle:78.2836; velocity:-0.00411081; tai:1.49461e+09
+command_received: angle=47.758958
+command_sent: angle:78.2832; velocity:-0.00411094; tai:1.49461e+09
+command_received: angle=47.789482
+command_sent: angle:78.2828; velocity:-0.00411106; tai:1.49461e+09
+command_received: angle=47.819975
+command_sent: angle:78.2824; velocity:-0.00411118; tai:1.49461e+09
+command_received: angle=47.850438
+command_sent: angle:78.282; velocity:-0.00411129; tai:1.49461e+09
+command_received: angle=47.880869
+command_sent: angle:78.2815; velocity:-0.0041114; tai:1.49461e+09
+command_received: angle=47.911270
+command_sent: angle:78.2811; velocity:-0.0041115; tai:1.49461e+09
+command_received: angle=47.941640
+command_sent: angle:78.2807; velocity:-0.00411159; tai:1.49461e+09
+command_received: angle=47.971979
+command_sent: angle:78.2803; velocity:-0.00411167; tai:1.49461e+09
+command_received: angle=48.002287
+command_sent: angle:78.2799; velocity:-0.00411175; tai:1.49461e+09
+command_received: angle=48.032565
+command_sent: angle:78.2795; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=48.062812
+command_sent: angle:78.279; velocity:-0.00411189; tai:1.49461e+09
+command_received: angle=48.093028
+command_sent: angle:78.2786; velocity:-0.00411194; tai:1.49461e+09
+command_received: angle=48.123214
+command_sent: angle:78.2782; velocity:-0.004112; tai:1.49461e+09
+command_received: angle=48.153369
+command_sent: angle:78.2778; velocity:-0.00411203; tai:1.49461e+09
+command_received: angle=48.183493
+command_sent: angle:78.2774; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=48.213587
+command_sent: angle:78.2769; velocity:-0.00411211; tai:1.49461e+09
+command_received: angle=48.243650
+command_sent: angle:78.2765; velocity:-0.00411213; tai:1.49461e+09
+command_received: angle=48.273683
+command_sent: angle:78.2761; velocity:-0.00411215; tai:1.49461e+09
+command_received: angle=48.303686
+command_sent: angle:78.2757; velocity:-0.00411217; tai:1.49461e+09
+command_received: angle=48.333658
+command_sent: angle:78.2753; velocity:-0.00411218; tai:1.49461e+09
+command_received: angle=48.363599
+command_sent: angle:78.2749; velocity:-0.00411219; tai:1.49461e+09
+command_received: angle=48.393510
+command_sent: angle:78.2744; velocity:-0.00411219; tai:1.49461e+09
+command_received: angle=48.423391
+command_sent: angle:78.274; velocity:-0.00411218; tai:1.49461e+09
+command_received: angle=48.453242
+command_sent: angle:78.2736; velocity:-0.00411218; tai:1.49461e+09
+command_received: angle=48.483062
+command_sent: angle:78.2732; velocity:-0.00411217; tai:1.49461e+09
+command_received: angle=48.512853
+command_sent: angle:78.2728; velocity:-0.00411216; tai:1.49461e+09
+command_received: angle=48.542612
+command_sent: angle:78.2724; velocity:-0.00411214; tai:1.49461e+09
+command_received: angle=48.572342
+command_sent: angle:78.2719; velocity:-0.00411013; tai:1.49461e+09
+command_received: angle=48.602042
+command_sent: angle:78.2715; velocity:-0.00411072; tai:1.49461e+09
+command_received: angle=48.631711
+command_sent: angle:78.2711; velocity:-0.00411076; tai:1.49461e+09
+command_received: angle=48.661351
+command_sent: angle:78.2707; velocity:-0.00411091; tai:1.49461e+09
+command_received: angle=48.690960
+command_sent: angle:78.2703; velocity:-0.00411103; tai:1.49461e+09
+command_received: angle=48.720539
+command_sent: angle:78.2699; velocity:-0.00411115; tai:1.49461e+09
+command_received: angle=48.750089
+command_sent: angle:78.2694; velocity:-0.00411127; tai:1.49461e+09
+command_received: angle=48.779608
+command_sent: angle:78.269; velocity:-0.00411138; tai:1.49461e+09
+command_received: angle=48.809097
+command_sent: angle:78.2686; velocity:-0.00411148; tai:1.49461e+09
+command_received: angle=48.838557
+command_sent: angle:78.2682; velocity:-0.00411158; tai:1.49461e+09
+command_received: angle=48.867987
+command_sent: angle:78.2678; velocity:-0.00411167; tai:1.49461e+09
+command_received: angle=48.897386
+command_sent: angle:78.2674; velocity:-0.00411176; tai:1.49461e+09
+command_received: angle=48.926756
+command_sent: angle:78.267; velocity:-0.00411184; tai:1.49461e+09
+command_received: angle=48.956097
+command_sent: angle:78.2665; velocity:-0.00411191; tai:1.49461e+09
+command_received: angle=48.985407
+command_sent: angle:78.2661; velocity:-0.00411197; tai:1.49461e+09
+command_received: angle=49.014688
+command_sent: angle:78.2657; velocity:-0.00411203; tai:1.49461e+09
+command_received: angle=49.043939
+command_sent: angle:78.2653; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=49.073160
+command_sent: angle:78.2648; velocity:-0.00411213; tai:1.49461e+09
+command_received: angle=49.102352
+command_sent: angle:78.2644; velocity:-0.00411216; tai:1.49461e+09
+command_received: angle=49.131514
+command_sent: angle:78.264; velocity:-0.00411219; tai:1.49461e+09
+command_received: angle=49.160646
+command_sent: angle:78.2636; velocity:-0.00411222; tai:1.49461e+09
+command_received: angle=49.189749
+command_sent: angle:78.2632; velocity:-0.00411224; tai:1.49461e+09
+command_received: angle=49.218823
+command_sent: angle:78.2628; velocity:-0.00411225; tai:1.49461e+09
+command_received: angle=49.247866
+command_sent: angle:78.2623; velocity:-0.00411227; tai:1.49461e+09
+command_received: angle=49.276881
+command_sent: angle:78.2619; velocity:-0.00411227; tai:1.49461e+09
+command_received: angle=49.305866
+command_sent: angle:78.2615; velocity:-0.00411227; tai:1.49461e+09
+command_received: angle=49.334822
+command_sent: angle:78.2611; velocity:-0.00411227; tai:1.49461e+09
+command_received: angle=49.363748
+command_sent: angle:78.2607; velocity:-0.00411226; tai:1.49461e+09
+command_received: angle=49.392645
+command_sent: angle:78.2602; velocity:-0.00411225; tai:1.49461e+09
+command_received: angle=49.421512
+command_sent: angle:78.2598; velocity:-0.00411224; tai:1.49461e+09
+command_received: angle=49.450351
+command_sent: angle:78.2594; velocity:-0.00411223; tai:1.49461e+09
+command_received: angle=49.479160
+command_sent: angle:78.259; velocity:-0.00411021; tai:1.49461e+09
+command_received: angle=49.507940
+command_sent: angle:78.2586; velocity:-0.0041108; tai:1.49461e+09
+command_received: angle=49.536690
+command_sent: angle:78.2581; velocity:-0.00411084; tai:1.49461e+09
+command_received: angle=49.565412
+command_sent: angle:78.2577; velocity:-0.00411099; tai:1.49461e+09
+command_received: angle=49.594104
+command_sent: angle:78.2573; velocity:-0.00411111; tai:1.49461e+09
+command_received: angle=49.622767
+command_sent: angle:78.2569; velocity:-0.00411123; tai:1.49461e+09
+command_received: angle=49.651401
+command_sent: angle:78.2565; velocity:-0.00411135; tai:1.49461e+09
+command_received: angle=49.680006
+command_sent: angle:78.256; velocity:-0.00411146; tai:1.49461e+09
+command_received: angle=49.708582
+command_sent: angle:78.2556; velocity:-0.00411157; tai:1.49461e+09
+command_received: angle=49.737129
+command_sent: angle:78.2552; velocity:-0.00411167; tai:1.49461e+09
+command_received: angle=49.765647
+command_sent: angle:78.2548; velocity:-0.00411176; tai:1.49461e+09
+command_received: angle=49.794137
+command_sent: angle:78.2544; velocity:-0.00411185; tai:1.49461e+09
+command_received: angle=49.822597
+command_sent: angle:78.254; velocity:-0.00411193; tai:1.49461e+09
+command_received: angle=49.851028
+command_sent: angle:78.2535; velocity:-0.004112; tai:1.49461e+09
+command_received: angle=49.879431
+command_sent: angle:78.2531; velocity:-0.00411206; tai:1.49461e+09
+command_received: angle=49.907804
+command_sent: angle:78.2527; velocity:-0.00411212; tai:1.49461e+09
+command_received: angle=49.936149
+command_sent: angle:78.2523; velocity:-0.00411217; tai:1.49461e+09
+command_received: angle=49.964465
+command_sent: angle:78.2519; velocity:-0.00411221; tai:1.49461e+09
+command_received: angle=49.992753
+command_sent: angle:78.2514; velocity:-0.00411225; tai:1.49461e+09
+command_received: angle=50.021011
+command_sent: angle:78.251; velocity:-0.00411228; tai:1.49461e+09
+command_received: angle=50.049241
+command_sent: angle:78.2506; velocity:-0.00411231; tai:1.49461e+09
+command_received: angle=50.077443
+command_sent: angle:78.2502; velocity:-0.00411232; tai:1.49461e+09
+command_received: angle=50.105616
+command_sent: angle:78.2497; velocity:-0.00411234; tai:1.49461e+09
+command_received: angle=50.133760
+command_sent: angle:78.2493; velocity:-0.00411235; tai:1.49461e+09
+command_received: angle=50.161875
+command_sent: angle:78.2489; velocity:-0.00411236; tai:1.49461e+09
+command_received: angle=50.189962
+command_sent: angle:78.2485; velocity:-0.00411236; tai:1.49461e+09
+command_received: angle=50.218021
+command_sent: angle:78.2481; velocity:-0.00411236; tai:1.49461e+09
+command_received: angle=50.246051
+command_sent: angle:78.2477; velocity:-0.00411235; tai:1.49461e+09
+command_received: angle=50.274052
+command_sent: angle:78.2472; velocity:-0.00411234; tai:1.49461e+09
+command_received: angle=50.302026
+command_sent: angle:78.2468; velocity:-0.00411233; tai:1.49461e+09
+command_received: angle=50.329970
+command_sent: angle:78.2464; velocity:-0.00411232; tai:1.49461e+09
+command_received: angle=50.357887
+command_sent: angle:78.246; velocity:-0.0041103; tai:1.49461e+09
+command_received: angle=50.385775
+command_sent: angle:78.2456; velocity:-0.00411089; tai:1.49461e+09
+command_received: angle=50.413635
+command_sent: angle:78.2452; velocity:-0.00411093; tai:1.49461e+09
+command_received: angle=50.441466
+command_sent: angle:78.2447; velocity:-0.00411108; tai:1.49461e+09
+command_received: angle=50.469270
+command_sent: angle:78.2443; velocity:-0.0041112; tai:1.49461e+09
+command_received: angle=50.497045
+command_sent: angle:78.2439; velocity:-0.00411132; tai:1.49461e+09
+command_received: angle=50.524791
+command_sent: angle:78.2435; velocity:-0.00411144; tai:1.49461e+09
+command_received: angle=50.552510
+command_sent: angle:78.2431; velocity:-0.00411155; tai:1.49461e+09
+command_received: angle=50.580201
+command_sent: angle:78.2426; velocity:-0.00411166; tai:1.49461e+09
+command_received: angle=50.607863
+command_sent: angle:78.2422; velocity:-0.00411176; tai:1.49461e+09
+command_received: angle=50.635497
+command_sent: angle:78.2418; velocity:-0.00411185; tai:1.49461e+09
+command_received: angle=50.663104
+command_sent: angle:78.2414; velocity:-0.00411194; tai:1.49461e+09
+command_received: angle=50.690682
+command_sent: angle:78.2409; velocity:-0.00411201; tai:1.49461e+09
+command_received: angle=50.718232
+command_sent: angle:78.2405; velocity:-0.00411208; tai:1.49461e+09
+command_received: angle=50.745755
+command_sent: angle:78.2401; velocity:-0.00411215; tai:1.49461e+09
+command_received: angle=50.773249
+command_sent: angle:78.2397; velocity:-0.00411221; tai:1.49461e+09
+command_received: angle=50.800715
+command_sent: angle:78.2393; velocity:-0.00411226; tai:1.49461e+09
+command_received: angle=50.828154
+command_sent: angle:78.2389; velocity:-0.0041123; tai:1.49461e+09
+command_received: angle=50.855565
+command_sent: angle:78.2384; velocity:-0.00411234; tai:1.49461e+09
+command_received: angle=50.882948
+command_sent: angle:78.238; velocity:-0.00411237; tai:1.49461e+09
+command_received: angle=50.910303
+command_sent: angle:78.2376; velocity:-0.00411239; tai:1.49461e+09
+command_received: angle=50.937630
+command_sent: angle:78.2372; velocity:-0.00411241; tai:1.49461e+09
+command_received: angle=50.964929
+command_sent: angle:78.2367; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=50.992201
+command_sent: angle:78.2363; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=51.019445
+command_sent: angle:78.2359; velocity:-0.00411244; tai:1.49461e+09
+command_received: angle=51.046662
+command_sent: angle:78.2355; velocity:-0.00411244; tai:1.49461e+09
+command_received: angle=51.073850
+command_sent: angle:78.235; velocity:-0.00411244; tai:1.49461e+09
+command_received: angle=51.101012
+command_sent: angle:78.2346; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=51.128145
+command_sent: angle:78.2342; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=51.155251
+command_sent: angle:78.2338; velocity:-0.00411241; tai:1.49461e+09
+command_received: angle=51.182330
+command_sent: angle:78.2333; velocity:-0.00411239; tai:1.49461e+09
+command_received: angle=51.209381
+command_sent: angle:78.2329; velocity:-0.00411038; tai:1.49461e+09
+command_received: angle=51.236404
+command_sent: angle:78.2324; velocity:-0.00411102; tai:1.49461e+09
+command_received: angle=51.263400
+command_sent: angle:78.232; velocity:-0.00411101; tai:1.49461e+09
+command_received: angle=51.290369
+command_sent: angle:78.2316; velocity:-0.00411117; tai:1.49461e+09
+command_received: angle=51.317310
+command_sent: angle:78.2312; velocity:-0.00411129; tai:1.49461e+09
+command_received: angle=51.344224
+command_sent: angle:78.2308; velocity:-0.00411142; tai:1.49461e+09
+command_received: angle=51.371111
+command_sent: angle:78.2304; velocity:-0.00411153; tai:1.49461e+09
+command_received: angle=51.397970
+command_sent: angle:78.2299; velocity:-0.00411165; tai:1.49461e+09
+command_received: angle=51.424802
+command_sent: angle:78.2295; velocity:-0.00411175; tai:1.49461e+09
+command_received: angle=51.451607
+command_sent: angle:78.2291; velocity:-0.00411185; tai:1.49461e+09
+command_received: angle=51.478384
+command_sent: angle:78.2287; velocity:-0.00411194; tai:1.49461e+09
+command_received: angle=51.505134
+command_sent: angle:78.2283; velocity:-0.00411203; tai:1.49461e+09
+command_received: angle=51.531857
+command_sent: angle:78.2278; velocity:-0.0041121; tai:1.49461e+09
+command_received: angle=51.558553
+command_sent: angle:78.2274; velocity:-0.00411217; tai:1.49461e+09
+command_received: angle=51.585222
+command_sent: angle:78.227; velocity:-0.00411224; tai:1.49461e+09
+command_received: angle=51.611864
+command_sent: angle:78.2266; velocity:-0.0041123; tai:1.49461e+09
+command_received: angle=51.638479
+command_sent: angle:78.2262; velocity:-0.00411235; tai:1.49461e+09
+command_received: angle=51.665066
+command_sent: angle:78.2257; velocity:-0.00411239; tai:1.49461e+09
+command_received: angle=51.691627
+command_sent: angle:78.2253; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=51.718161
+command_sent: angle:78.2249; velocity:-0.00411246; tai:1.49461e+09
+command_received: angle=51.744668
+command_sent: angle:78.2245; velocity:-0.00411248; tai:1.49461e+09
+command_received: angle=51.771147
+command_sent: angle:78.2241; velocity:-0.0041125; tai:1.49461e+09
+command_received: angle=51.797600
+command_sent: angle:78.2237; velocity:-0.00411252; tai:1.49461e+09
+command_received: angle=51.824026
+command_sent: angle:78.2232; velocity:-0.00411253; tai:1.49461e+09
+command_received: angle=51.850426
+command_sent: angle:78.2228; velocity:-0.00411253; tai:1.49461e+09
+command_received: angle=51.876798
+command_sent: angle:78.2224; velocity:-0.00411253; tai:1.49461e+09
+command_received: angle=51.903144
+command_sent: angle:78.222; velocity:-0.00411253; tai:1.49461e+09
+command_received: angle=51.929462
+command_sent: angle:78.2216; velocity:-0.00411252; tai:1.49461e+09
+command_received: angle=51.955754
+command_sent: angle:78.2211; velocity:-0.00411251; tai:1.49461e+09
+command_received: angle=51.982020
+command_sent: angle:78.2207; velocity:-0.0041125; tai:1.49461e+09
+command_received: angle=52.008259
+command_sent: angle:78.2203; velocity:-0.00411249; tai:1.49461e+09
+command_received: angle=52.034471
+command_sent: angle:78.2199; velocity:-0.00411047; tai:1.49461e+09
+command_received: angle=52.060656
+command_sent: angle:78.2195; velocity:-0.00411106; tai:1.49461e+09
+command_received: angle=52.086815
+command_sent: angle:78.219; velocity:-0.0041111; tai:1.49461e+09
+command_received: angle=52.112947
+command_sent: angle:78.2186; velocity:-0.00411125; tai:1.49461e+09
+command_received: angle=52.139053
+command_sent: angle:78.2182; velocity:-0.00411137; tai:1.49461e+09
+command_received: angle=52.165132
+command_sent: angle:78.2178; velocity:-0.0041115; tai:1.49461e+09
+command_received: angle=52.191185
+command_sent: angle:78.2174; velocity:-0.00411161; tai:1.49461e+09
+command_received: angle=52.217211
+command_sent: angle:78.217; velocity:-0.00411172; tai:1.49461e+09
+command_received: angle=52.243210
+command_sent: angle:78.2165; velocity:-0.00411183; tai:1.49461e+09
+command_received: angle=52.269184
+command_sent: angle:78.2161; velocity:-0.00411193; tai:1.49461e+09
+command_received: angle=52.295131
+command_sent: angle:78.2157; velocity:-0.00411202; tai:1.49461e+09
+command_received: angle=52.321051
+command_sent: angle:78.2153; velocity:-0.00411211; tai:1.49461e+09
+command_received: angle=52.346946
+command_sent: angle:78.2149; velocity:-0.00411218; tai:1.49461e+09
+command_received: angle=52.372813
+command_sent: angle:78.2144; velocity:-0.00411226; tai:1.49461e+09
+command_received: angle=52.398655
+command_sent: angle:78.214; velocity:-0.00411232; tai:1.49461e+09
+command_received: angle=52.424470
+command_sent: angle:78.2136; velocity:-0.00411238; tai:1.49461e+09
+command_received: angle=52.450260
+command_sent: angle:78.2132; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=52.476022
+command_sent: angle:78.2127; velocity:-0.00411247; tai:1.49461e+09
+command_received: angle=52.501759
+command_sent: angle:78.2123; velocity:-0.00411251; tai:1.49461e+09
+command_received: angle=52.527470
+command_sent: angle:78.2119; velocity:-0.00411254; tai:1.49461e+09
+command_received: angle=52.553154
+command_sent: angle:78.2115; velocity:-0.00411257; tai:1.49461e+09
+command_received: angle=52.578812
+command_sent: angle:78.2111; velocity:-0.00411259; tai:1.49461e+09
+command_received: angle=52.604445
+command_sent: angle:78.2107; velocity:-0.0041126; tai:1.49461e+09
+command_received: angle=52.630051
+command_sent: angle:78.2102; velocity:-0.00411261; tai:1.49461e+09
+command_received: angle=52.655631
+command_sent: angle:78.2098; velocity:-0.00411262; tai:1.49461e+09
+command_received: angle=52.681185
+command_sent: angle:78.2094; velocity:-0.00411262; tai:1.49461e+09
+command_received: angle=52.706714
+command_sent: angle:78.209; velocity:-0.00411262; tai:1.49461e+09
+command_received: angle=52.732216
+command_sent: angle:78.2086; velocity:-0.00411261; tai:1.49461e+09
+command_received: angle=52.757692
+command_sent: angle:78.2081; velocity:-0.0041126; tai:1.49461e+09
+command_received: angle=52.783143
+command_sent: angle:78.2077; velocity:-0.00411259; tai:1.49461e+09
+command_received: angle=52.808567
+command_sent: angle:78.2073; velocity:-0.00411257; tai:1.49461e+09
+command_received: angle=52.833966
+command_sent: angle:78.2069; velocity:-0.00411056; tai:1.49461e+09
+command_received: angle=52.859339
+command_sent: angle:78.2064; velocity:-0.00411115; tai:1.49461e+09
+command_received: angle=52.884686
+command_sent: angle:78.206; velocity:-0.0041112; tai:1.49461e+09
+command_received: angle=52.910007
+command_sent: angle:78.2056; velocity:-0.00411134; tai:1.49461e+09
+command_received: angle=52.935303
+command_sent: angle:78.2052; velocity:-0.00411147; tai:1.49461e+09
+command_received: angle=52.960573
+command_sent: angle:78.2048; velocity:-0.00411159; tai:1.49461e+09
+command_received: angle=52.985817
+command_sent: angle:78.2044; velocity:-0.0041117; tai:1.49461e+09
+command_received: angle=53.011035
+command_sent: angle:78.2039; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=53.036228
+command_sent: angle:78.2035; velocity:-0.00411193; tai:1.49461e+09
+command_received: angle=53.061396
+command_sent: angle:78.2031; velocity:-0.00411202; tai:1.49461e+09
+command_received: angle=53.086537
+command_sent: angle:78.2027; velocity:-0.00411211; tai:1.49461e+09
+command_received: angle=53.111653
+command_sent: angle:78.2022; velocity:-0.0041122; tai:1.49461e+09
+command_received: angle=53.136744
+command_sent: angle:78.2018; velocity:-0.00411228; tai:1.49461e+09
+command_received: angle=53.161809
+command_sent: angle:78.2014; velocity:-0.00411235; tai:1.49461e+09
+command_received: angle=53.186849
+command_sent: angle:78.201; velocity:-0.00411241; tai:1.49461e+09
+command_received: angle=53.211863
+command_sent: angle:78.2006; velocity:-0.00411247; tai:1.49461e+09
+command_received: angle=53.236851
+command_sent: angle:78.2002; velocity:-0.00411252; tai:1.49461e+09
+command_received: angle=53.261815
+command_sent: angle:78.1997; velocity:-0.00411256; tai:1.49461e+09
+command_received: angle=53.286753
+command_sent: angle:78.1993; velocity:-0.0041126; tai:1.49461e+09
+command_received: angle=53.311665
+command_sent: angle:78.1989; velocity:-0.00411263; tai:1.49461e+09
+command_received: angle=53.336552
+command_sent: angle:78.1985; velocity:-0.00411266; tai:1.49461e+09
+command_received: angle=53.361414
+command_sent: angle:78.1981; velocity:-0.00411268; tai:1.49461e+09
+command_received: angle=53.386251
+command_sent: angle:78.1976; velocity:-0.00411269; tai:1.49461e+09
+command_received: angle=53.411062
+command_sent: angle:78.1972; velocity:-0.0041127; tai:1.49461e+09
+command_received: angle=53.435849
+command_sent: angle:78.1968; velocity:-0.00411271; tai:1.49461e+09
+command_received: angle=53.460610
+command_sent: angle:78.1964; velocity:-0.0041127; tai:1.49461e+09
+command_received: angle=53.485345
+command_sent: angle:78.1959; velocity:-0.0041127; tai:1.49461e+09
+command_received: angle=53.510056
+command_sent: angle:78.1955; velocity:-0.0041127; tai:1.49461e+09
+command_received: angle=53.534741
+command_sent: angle:78.1951; velocity:-0.00411269; tai:1.49461e+09
+command_received: angle=53.559402
+command_sent: angle:78.1947; velocity:-0.00411268; tai:1.49461e+09
+command_received: angle=53.584037
+command_sent: angle:78.1943; velocity:-0.00411266; tai:1.49461e+09
+command_received: angle=53.608647
+command_sent: angle:78.1939; velocity:-0.00411065; tai:1.49461e+09
+command_received: angle=53.633232
+command_sent: angle:78.1934; velocity:-0.00411124; tai:1.49461e+09
+command_received: angle=53.657793
+command_sent: angle:78.193; velocity:-0.00411128; tai:1.49461e+09
+command_received: angle=53.682328
+command_sent: angle:78.1926; velocity:-0.00411142; tai:1.49461e+09
+command_received: angle=53.706838
+command_sent: angle:78.1922; velocity:-0.00411155; tai:1.49461e+09
+command_received: angle=53.731324
+command_sent: angle:78.1918; velocity:-0.00411167; tai:1.49461e+09
+command_received: angle=53.755784
+command_sent: angle:78.1913; velocity:-0.0041118; tai:1.49461e+09
+command_received: angle=53.780219
+command_sent: angle:78.1909; velocity:-0.00411191; tai:1.49461e+09
+command_received: angle=53.804630
+command_sent: angle:78.1905; velocity:-0.00411201; tai:1.49461e+09
+command_received: angle=53.829016
+command_sent: angle:78.19; velocity:-0.00411211; tai:1.49461e+09
+command_received: angle=53.853377
+command_sent: angle:78.1896; velocity:-0.0041122; tai:1.49461e+09
+command_received: angle=53.877713
+command_sent: angle:78.1892; velocity:-0.00411229; tai:1.49461e+09
+command_received: angle=53.902025
+command_sent: angle:78.1888; velocity:-0.00411236; tai:1.49461e+09
+command_received: angle=53.926311
+command_sent: angle:78.1884; velocity:-0.00411244; tai:1.49461e+09
+command_received: angle=53.950573
+command_sent: angle:78.1879; velocity:-0.0041125; tai:1.49461e+09
+command_received: angle=53.974811
+command_sent: angle:78.1875; velocity:-0.00411256; tai:1.49461e+09
+command_received: angle=53.999024
+command_sent: angle:78.1871; velocity:-0.0041126; tai:1.49461e+09
+command_received: angle=54.023212
+command_sent: angle:78.1867; velocity:-0.00411265; tai:1.49461e+09
+command_received: angle=54.047375
+command_sent: angle:78.1862; velocity:-0.00411269; tai:1.49461e+09
+command_received: angle=54.071514
+command_sent: angle:78.1858; velocity:-0.0041127; tai:1.49461e+09
+command_received: angle=54.095628
+command_sent: angle:78.1853; velocity:-0.00411274; tai:1.49461e+09
+command_received: angle=54.119718
+command_sent: angle:78.1849; velocity:-0.00411276; tai:1.49461e+09
+command_received: angle=54.143783
+command_sent: angle:78.1845; velocity:-0.00411277; tai:1.49461e+09
+command_received: angle=54.167824
+command_sent: angle:78.1841; velocity:-0.00411278; tai:1.49461e+09
+command_received: angle=54.191840
+command_sent: angle:78.1837; velocity:-0.00411279; tai:1.49461e+09
+command_received: angle=54.215832
+command_sent: angle:78.1832; velocity:-0.00411279; tai:1.49461e+09
+command_received: angle=54.239799
+command_sent: angle:78.1828; velocity:-0.00411278; tai:1.49461e+09
+command_received: angle=54.263742
+command_sent: angle:78.1824; velocity:-0.00411278; tai:1.49461e+09
+command_received: angle=54.287661
+command_sent: angle:78.182; velocity:-0.00411277; tai:1.49461e+09
+command_received: angle=54.311555
+command_sent: angle:78.1816; velocity:-0.00411276; tai:1.49461e+09
+command_received: angle=54.335425
+command_sent: angle:78.1811; velocity:-0.00411275; tai:1.49461e+09
+command_received: angle=54.359271
+command_sent: angle:78.1807; velocity:-0.00411074; tai:1.49461e+09
+command_received: angle=54.383092
+command_sent: angle:78.1803; velocity:-0.00411139; tai:1.49461e+09
+command_received: angle=54.406889
+command_sent: angle:78.1798; velocity:-0.00411136; tai:1.49461e+09
+command_received: angle=54.430662
+command_sent: angle:78.1794; velocity:-0.00411153; tai:1.49461e+09
+command_received: angle=54.454411
+command_sent: angle:78.179; velocity:-0.00411165; tai:1.49461e+09
+command_received: angle=54.478136
+command_sent: angle:78.1786; velocity:-0.00411177; tai:1.49461e+09
+command_received: angle=54.501836
+command_sent: angle:78.1782; velocity:-0.00411189; tai:1.49461e+09
+command_received: angle=54.525513
+command_sent: angle:78.1777; velocity:-0.004112; tai:1.49461e+09
+command_received: angle=54.549165
+command_sent: angle:78.1773; velocity:-0.0041121; tai:1.49461e+09
+command_received: angle=54.572793
+command_sent: angle:78.1768; velocity:-0.00411221; tai:1.49461e+09
+command_received: angle=54.596397
+command_sent: angle:78.1764; velocity:-0.0041123; tai:1.49461e+09
+command_received: angle=54.619977
+command_sent: angle:78.1759; velocity:-0.00411238; tai:1.49461e+09
+command_received: angle=54.643533
+command_sent: angle:78.1754; velocity:-0.00411246; tai:1.49461e+09
+command_received: angle=54.667065
+command_sent: angle:78.175; velocity:-0.00411253; tai:1.49461e+09
+command_received: angle=54.690573
+command_sent: angle:78.1745; velocity:-0.00411259; tai:1.49461e+09
+command_received: angle=54.714057
+command_sent: angle:78.174; velocity:-0.00411264; tai:1.49461e+09
+command_received: angle=54.737517
+command_sent: angle:78.1736; velocity:-0.00411269; tai:1.49461e+09
+command_received: angle=54.760953
+command_sent: angle:78.1732; velocity:-0.00411274; tai:1.49461e+09
+command_received: angle=54.784365
+command_sent: angle:78.1728; velocity:-0.00411278; tai:1.49461e+09
+command_received: angle=54.807753
+command_sent: angle:78.1724; velocity:-0.00411281; tai:1.49461e+09
+command_received: angle=54.831118
+command_sent: angle:78.172; velocity:-0.00411283; tai:1.49461e+09
+command_received: angle=54.854459
+command_sent: angle:78.1715; velocity:-0.00411285; tai:1.49461e+09
+command_received: angle=54.877776
+command_sent: angle:78.1711; velocity:-0.00411287; tai:1.49461e+09
+command_received: angle=54.901069
+command_sent: angle:78.1707; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=54.924339
+command_sent: angle:78.1703; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=54.947585
+command_sent: angle:78.1699; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=54.970807
+command_sent: angle:78.1694; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=54.994006
+command_sent: angle:78.169; velocity:-0.00411287; tai:1.49461e+09
+command_received: angle=55.017181
+command_sent: angle:78.1686; velocity:-0.00411286; tai:1.49461e+09
+command_received: angle=55.040332
+command_sent: angle:78.1682; velocity:-0.00411285; tai:1.49461e+09
+command_received: angle=55.063460
+command_sent: angle:78.1678; velocity:-0.00411284; tai:1.49461e+09
+command_received: angle=55.086564
+command_sent: angle:78.1674; velocity:-0.00411082; tai:1.49461e+09
+command_received: angle=55.109645
+command_sent: angle:78.1669; velocity:-0.00411141; tai:1.49461e+09
+command_received: angle=55.132702
+command_sent: angle:78.1665; velocity:-0.00411145; tai:1.49461e+09
+command_received: angle=55.155736
+command_sent: angle:78.1661; velocity:-0.00411162; tai:1.49461e+09
+command_received: angle=55.178747
+command_sent: angle:78.1657; velocity:-0.00411172; tai:1.49461e+09
+command_received: angle=55.201734
+command_sent: angle:78.1652; velocity:-0.00411185; tai:1.49461e+09
+command_received: angle=55.224697
+command_sent: angle:78.1648; velocity:-0.004112; tai:1.49461e+09
+command_received: angle=55.247637
+command_sent: angle:78.1643; velocity:-0.00411209; tai:1.49461e+09
+command_received: angle=55.270554
+command_sent: angle:78.1639; velocity:-0.00411219; tai:1.49461e+09
+command_received: angle=55.293447
+command_sent: angle:78.1635; velocity:-0.00411229; tai:1.49461e+09
+command_received: angle=55.316317
+command_sent: angle:78.1631; velocity:-0.00411238; tai:1.49461e+09
+command_received: angle=55.339164
+command_sent: angle:78.1627; velocity:-0.00411247; tai:1.49461e+09
+command_received: angle=55.361987
+command_sent: angle:78.1622; velocity:-0.00411255; tai:1.49461e+09
+command_received: angle=55.384788
+command_sent: angle:78.1618; velocity:-0.00411262; tai:1.49461e+09
+command_received: angle=55.407565
+command_sent: angle:78.1614; velocity:-0.00411268; tai:1.49461e+09
+command_received: angle=55.430319
+command_sent: angle:78.161; velocity:-0.00411274; tai:1.49461e+09
+command_received: angle=55.453049
+command_sent: angle:78.1606; velocity:-0.00411279; tai:1.49461e+09
+command_received: angle=55.475757
+command_sent: angle:78.1601; velocity:-0.00411283; tai:1.49461e+09
+command_received: angle=55.498441
+command_sent: angle:78.1597; velocity:-0.00411286; tai:1.49461e+09
+command_received: angle=55.521102
+command_sent: angle:78.1593; velocity:-0.0041129; tai:1.49461e+09
+command_received: angle=55.543741
+command_sent: angle:78.1589; velocity:-0.00411292; tai:1.49461e+09
+command_received: angle=55.566356
+command_sent: angle:78.1584; velocity:-0.00411294; tai:1.49461e+09
+command_received: angle=55.588948
+command_sent: angle:78.158; velocity:-0.00411296; tai:1.49461e+09
+command_received: angle=55.611517
+command_sent: angle:78.1576; velocity:-0.00411297; tai:1.49461e+09
+command_received: angle=55.634063
+command_sent: angle:78.1572; velocity:-0.00411297; tai:1.49461e+09
+command_received: angle=55.656586
+command_sent: angle:78.1568; velocity:-0.00411297; tai:1.49461e+09
+command_received: angle=55.679086
+command_sent: angle:78.1563; velocity:-0.00411297; tai:1.49461e+09
+command_received: angle=55.701563
+command_sent: angle:78.1559; velocity:-0.00411296; tai:1.49461e+09
+command_received: angle=55.724018
+command_sent: angle:78.1555; velocity:-0.00411296; tai:1.49461e+09
+command_received: angle=55.746449
+command_sent: angle:78.1551; velocity:-0.00411294; tai:1.49461e+09
+command_received: angle=55.768858
+command_sent: angle:78.1547; velocity:-0.00411293; tai:1.49461e+09
+command_received: angle=55.791244
+command_sent: angle:78.1542; velocity:-0.00411091; tai:1.49461e+09
+command_received: angle=55.813607
+command_sent: angle:78.1538; velocity:-0.0041115; tai:1.49461e+09
+command_received: angle=55.835947
+command_sent: angle:78.1534; velocity:-0.00411154; tai:1.49461e+09
+command_received: angle=55.858265
+command_sent: angle:78.153; velocity:-0.00411169; tai:1.49461e+09
+command_received: angle=55.880559
+command_sent: angle:78.1526; velocity:-0.00411182; tai:1.49461e+09
+command_received: angle=55.902831
+command_sent: angle:78.1521; velocity:-0.00411194; tai:1.49461e+09
+command_received: angle=55.925081
+command_sent: angle:78.1517; velocity:-0.00411206; tai:1.49461e+09
+command_received: angle=55.947307
+command_sent: angle:78.1513; velocity:-0.00411217; tai:1.49461e+09
+command_received: angle=55.969511
+command_sent: angle:78.1509; velocity:-0.00411227; tai:1.49461e+09
+command_received: angle=55.991692
+command_sent: angle:78.1504; velocity:-0.00411238; tai:1.49461e+09
+command_received: angle=56.013851
+command_sent: angle:78.15; velocity:-0.00411246; tai:1.49461e+09
+command_received: angle=56.035987
+command_sent: angle:78.1496; velocity:-0.00411255; tai:1.49461e+09
+command_received: angle=56.058101
+command_sent: angle:78.1492; velocity:-0.00411263; tai:1.49461e+09
+command_received: angle=56.080192
+command_sent: angle:78.1488; velocity:-0.0041127; tai:1.49461e+09
+command_received: angle=56.102261
+command_sent: angle:78.1484; velocity:-0.00411276; tai:1.49461e+09
+command_received: angle=56.124307
+command_sent: angle:78.1479; velocity:-0.00411282; tai:1.49461e+09
+command_received: angle=56.146330
+command_sent: angle:78.1475; velocity:-0.00411287; tai:1.49461e+09
+command_received: angle=56.168332
+command_sent: angle:78.1471; velocity:-0.00411291; tai:1.49461e+09
+command_received: angle=56.190310
+command_sent: angle:78.1467; velocity:-0.00411295; tai:1.49461e+09
+command_received: angle=56.212267
+command_sent: angle:78.1462; velocity:-0.00411298; tai:1.49461e+09
+command_received: angle=56.234201
+command_sent: angle:78.1458; velocity:-0.00411301; tai:1.49461e+09
+command_received: angle=56.256112
+command_sent: angle:78.1454; velocity:-0.00411303; tai:1.49461e+09
+command_received: angle=56.278002
+command_sent: angle:78.145; velocity:-0.00411304; tai:1.49461e+09
+command_received: angle=56.299869
+command_sent: angle:78.1446; velocity:-0.00411305; tai:1.49461e+09
+command_received: angle=56.321713
+command_sent: angle:78.1442; velocity:-0.00411306; tai:1.49461e+09
+command_received: angle=56.343536
+command_sent: angle:78.1437; velocity:-0.00411306; tai:1.49461e+09
+command_received: angle=56.365336
+command_sent: angle:78.1433; velocity:-0.00411306; tai:1.49461e+09
+command_received: angle=56.387114
+command_sent: angle:78.1429; velocity:-0.00411305; tai:1.49461e+09
+command_received: angle=56.408870
+command_sent: angle:78.1425; velocity:-0.00411304; tai:1.49461e+09
+command_received: angle=56.430603
+command_sent: angle:78.1421; velocity:-0.00411303; tai:1.49461e+09
+command_received: angle=56.452315
+command_sent: angle:78.1416; velocity:-0.00411302; tai:1.49461e+09
+command_received: angle=56.474004
+command_sent: angle:78.1412; velocity:-0.004111; tai:1.49461e+09
+command_received: angle=56.495671
+command_sent: angle:78.1408; velocity:-0.00411159; tai:1.49461e+09
+command_received: angle=56.517316
+command_sent: angle:78.1404; velocity:-0.00411163; tai:1.49461e+09
+command_received: angle=56.538940
+command_sent: angle:78.14; velocity:-0.00411178; tai:1.49461e+09
+command_received: angle=56.560541
+command_sent: angle:78.1395; velocity:-0.0041119; tai:1.49461e+09
+command_received: angle=56.582120
+command_sent: angle:78.1391; velocity:-0.00411203; tai:1.49461e+09
+command_received: angle=56.603677
+command_sent: angle:78.1387; velocity:-0.00411214; tai:1.49461e+09
+command_received: angle=56.625212
+command_sent: angle:78.1383; velocity:-0.00411226; tai:1.49461e+09
+command_received: angle=56.646725
+command_sent: angle:78.1379; velocity:-0.00411236; tai:1.49461e+09
+command_received: angle=56.668216
+command_sent: angle:78.1375; velocity:-0.00411246; tai:1.49461e+09
+command_received: angle=56.689685
+command_sent: angle:78.137; velocity:-0.00411255; tai:1.49461e+09
+command_received: angle=56.711132
+command_sent: angle:78.1366; velocity:-0.00411263; tai:1.49461e+09
+command_received: angle=56.732558
+command_sent: angle:78.1362; velocity:-0.00411271; tai:1.49461e+09
+command_received: angle=56.753962
+command_sent: angle:78.1357; velocity:-0.00411278; tai:1.49461e+09
+command_received: angle=56.775343
+command_sent: angle:78.1353; velocity:-0.00411285; tai:1.49461e+09
+command_received: angle=56.796703
+command_sent: angle:78.1349; velocity:-0.00411291; tai:1.49461e+09
+command_received: angle=56.818041
+command_sent: angle:78.1345; velocity:-0.00411296; tai:1.49461e+09
+command_received: angle=56.839358
+command_sent: angle:78.1341; velocity:-0.004113; tai:1.49461e+09
+command_received: angle=56.860653
+command_sent: angle:78.1336; velocity:-0.00411303; tai:1.49461e+09
+command_received: angle=56.881926
+command_sent: angle:78.1332; velocity:-0.00411307; tai:1.49461e+09
+command_received: angle=56.903177
+command_sent: angle:78.1328; velocity:-0.00411309; tai:1.49461e+09
+command_received: angle=56.924407
+command_sent: angle:78.1324; velocity:-0.00411312; tai:1.49461e+09
+command_received: angle=56.945615
+command_sent: angle:78.132; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=56.966801
+command_sent: angle:78.1316; velocity:-0.00411314; tai:1.49461e+09
+command_received: angle=56.987966
+command_sent: angle:78.1311; velocity:-0.00411314; tai:1.49461e+09
+command_received: angle=57.009109
+command_sent: angle:78.1307; velocity:-0.00411315; tai:1.49461e+09
+command_received: angle=57.030230
+command_sent: angle:78.1303; velocity:-0.00411314; tai:1.49461e+09
+command_received: angle=57.051330
+command_sent: angle:78.1299; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=57.072409
+command_sent: angle:78.1295; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=57.093466
+command_sent: angle:78.129; velocity:-0.00411312; tai:1.49461e+09
+command_received: angle=57.114502
+command_sent: angle:78.1286; velocity:-0.0041131; tai:1.49461e+09
+command_received: angle=57.135516
+command_sent: angle:78.1282; velocity:-0.00411109; tai:1.49461e+09
+command_received: angle=57.156508
+command_sent: angle:78.1278; velocity:-0.00411169; tai:1.49461e+09
+command_received: angle=57.177480
+command_sent: angle:78.1273; velocity:-0.00411172; tai:1.49461e+09
+command_received: angle=57.198430
+command_sent: angle:78.1269; velocity:-0.00411187; tai:1.49461e+09
+command_received: angle=57.219358
+command_sent: angle:78.1265; velocity:-0.00411199; tai:1.49461e+09
+command_received: angle=57.240265
+command_sent: angle:78.1261; velocity:-0.00411212; tai:1.49461e+09
+command_received: angle=57.261151
+command_sent: angle:78.1257; velocity:-0.00411223; tai:1.49461e+09
+command_received: angle=57.282016
+command_sent: angle:78.1252; velocity:-0.00411235; tai:1.49461e+09
+command_received: angle=57.302859
+command_sent: angle:78.1248; velocity:-0.00411245; tai:1.49461e+09
+command_received: angle=57.323681
+command_sent: angle:78.1244; velocity:-0.00411255; tai:1.49461e+09
+command_received: angle=57.344481
+command_sent: angle:78.124; velocity:-0.00411264; tai:1.49461e+09
+command_received: angle=57.365261
+command_sent: angle:78.1236; velocity:-0.00411272; tai:1.49461e+09
+command_received: angle=57.386019
+command_sent: angle:78.1231; velocity:-0.0041128; tai:1.49461e+09
+command_received: angle=57.406756
+command_sent: angle:78.1227; velocity:-0.00411287; tai:1.49461e+09
+command_received: angle=57.427472
+command_sent: angle:78.1223; velocity:-0.00411294; tai:1.49461e+09
+command_received: angle=57.448167
+command_sent: angle:78.1219; velocity:-0.004113; tai:1.49461e+09
+command_received: angle=57.468841
+command_sent: angle:78.1215; velocity:-0.00411305; tai:1.49461e+09
+command_received: angle=57.489493
+command_sent: angle:78.1211; velocity:-0.00411309; tai:1.49461e+09
+command_received: angle=57.510125
+command_sent: angle:78.1206; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=57.530736
+command_sent: angle:78.1202; velocity:-0.00411316; tai:1.49461e+09
+command_received: angle=57.551325
+command_sent: angle:78.1198; velocity:-0.00411318; tai:1.49461e+09
+command_received: angle=57.571894
+command_sent: angle:78.1194; velocity:-0.0041132; tai:1.49461e+09
+command_received: angle=57.592441
+command_sent: angle:78.119; velocity:-0.00411322; tai:1.49461e+09
+command_received: angle=57.612968
+command_sent: angle:78.1185; velocity:-0.00411323; tai:1.49461e+09
+command_received: angle=57.633473
+command_sent: angle:78.1181; velocity:-0.00411323; tai:1.49461e+09
+command_received: angle=57.653958
+command_sent: angle:78.1177; velocity:-0.00411323; tai:1.49461e+09
+command_received: angle=57.674422
+command_sent: angle:78.1172; velocity:-0.00411323; tai:1.49461e+09
+command_received: angle=57.694864
+command_sent: angle:78.1168; velocity:-0.00411321; tai:1.49461e+09
+command_received: angle=57.715286
+command_sent: angle:78.1164; velocity:-0.0041132; tai:1.49461e+09
+command_received: angle=57.735687
+command_sent: angle:78.1159; velocity:-0.0041132; tai:1.49461e+09
+command_received: angle=57.756068
+command_sent: angle:78.1155; velocity:-0.00411318; tai:1.49461e+09
+command_received: angle=57.776427
+command_sent: angle:78.1151; velocity:-0.00411117; tai:1.49461e+09
+command_received: angle=57.796766
+command_sent: angle:78.1147; velocity:-0.00411176; tai:1.49461e+09
+command_received: angle=57.817084
+command_sent: angle:78.1143; velocity:-0.0041118; tai:1.49461e+09
+command_received: angle=57.837381
+command_sent: angle:78.1138; velocity:-0.00411195; tai:1.49461e+09
+command_received: angle=57.857657
+command_sent: angle:78.1134; velocity:-0.00411207; tai:1.49461e+09
+command_received: angle=57.877913
+command_sent: angle:78.113; velocity:-0.00411219; tai:1.49461e+09
+command_received: angle=57.898148
+command_sent: angle:78.1126; velocity:-0.00411231; tai:1.49461e+09
+command_received: angle=57.918363
+command_sent: angle:78.1122; velocity:-0.00411242; tai:1.49461e+09
+command_received: angle=57.938556
+command_sent: angle:78.1118; velocity:-0.00411253; tai:1.49461e+09
+command_received: angle=57.958730
+command_sent: angle:78.1113; velocity:-0.00411263; tai:1.49461e+09
+command_received: angle=57.978882
+command_sent: angle:78.1109; velocity:-0.00411272; tai:1.49461e+09
+command_received: angle=57.999014
+command_sent: angle:78.1105; velocity:-0.0041128; tai:1.49461e+09
+command_received: angle=58.019126
+command_sent: angle:78.1101; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=58.039217
+command_sent: angle:78.1097; velocity:-0.00411295; tai:1.49461e+09
+command_received: angle=58.059287
+command_sent: angle:78.1092; velocity:-0.00411302; tai:1.49461e+09
+command_received: angle=58.079337
+command_sent: angle:78.1088; velocity:-0.00411308; tai:1.49461e+09
+command_received: angle=58.099367
+command_sent: angle:78.1084; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=58.119376
+command_sent: angle:78.108; velocity:-0.00411317; tai:1.49461e+09
+command_received: angle=58.139364
+command_sent: angle:78.1076; velocity:-0.00411321; tai:1.49461e+09
+command_received: angle=58.159332
+command_sent: angle:78.1071; velocity:-0.00411324; tai:1.49461e+09
+command_received: angle=58.179280
+command_sent: angle:78.1067; velocity:-0.00411326; tai:1.49461e+09
+command_received: angle=58.199208
+command_sent: angle:78.1063; velocity:-0.00411329; tai:1.49461e+09
+command_received: angle=58.219115
+command_sent: angle:78.1058; velocity:-0.0041133; tai:1.49461e+09
+command_received: angle=58.239001
+command_sent: angle:78.1054; velocity:-0.0041133; tai:1.49461e+09
+command_received: angle=58.258868
+command_sent: angle:78.105; velocity:-0.00411331; tai:1.49461e+09
+command_received: angle=58.278714
+command_sent: angle:78.1045; velocity:-0.00411331; tai:1.49461e+09
+command_received: angle=58.298540
+command_sent: angle:78.1041; velocity:-0.0041133; tai:1.49461e+09
+command_received: angle=58.318345
+command_sent: angle:78.1036; velocity:-0.00411331; tai:1.49461e+09
+command_received: angle=58.338130
+command_sent: angle:78.1032; velocity:-0.00411328; tai:1.49461e+09
+command_received: angle=58.357896
+command_sent: angle:78.1028; velocity:-0.00411328; tai:1.49461e+09
+command_received: angle=58.377640
+command_sent: angle:78.1024; velocity:-0.00411326; tai:1.49461e+09
+command_received: angle=58.397365
+command_sent: angle:78.1019; velocity:-0.00411126; tai:1.49461e+09
+command_received: angle=58.417070
+command_sent: angle:78.1015; velocity:-0.00411186; tai:1.49461e+09
+command_received: angle=58.436754
+command_sent: angle:78.1011; velocity:-0.00411188; tai:1.49461e+09
+command_received: angle=58.456419
+command_sent: angle:78.1007; velocity:-0.00411204; tai:1.49461e+09
+command_received: angle=58.476063
+command_sent: angle:78.1003; velocity:-0.00411216; tai:1.49461e+09
+command_received: angle=58.495687
+command_sent: angle:78.0999; velocity:-0.00411228; tai:1.49461e+09
+command_received: angle=58.515291
+command_sent: angle:78.0994; velocity:-0.0041124; tai:1.49461e+09
+command_received: angle=58.534875
+command_sent: angle:78.099; velocity:-0.00411251; tai:1.49461e+09
+command_received: angle=58.554440
+command_sent: angle:78.0986; velocity:-0.00411262; tai:1.49461e+09
+command_received: angle=58.573984
+command_sent: angle:78.0982; velocity:-0.00411272; tai:1.49461e+09
+command_received: angle=58.593508
+command_sent: angle:78.0978; velocity:-0.00411281; tai:1.49461e+09
+command_received: angle=58.613012
+command_sent: angle:78.0974; velocity:-0.00411289; tai:1.49461e+09
+command_received: angle=58.632497
+command_sent: angle:78.0969; velocity:-0.00411297; tai:1.49461e+09
+command_received: angle=58.651961
+command_sent: angle:78.0965; velocity:-0.00411304; tai:1.49461e+09
+command_received: angle=58.671406
+command_sent: angle:78.0961; velocity:-0.00411311; tai:1.49461e+09
+command_received: angle=58.690830
+command_sent: angle:78.0957; velocity:-0.00411317; tai:1.49461e+09
+command_received: angle=58.710235
+command_sent: angle:78.0953; velocity:-0.00411322; tai:1.49461e+09
+command_received: angle=58.729620
+command_sent: angle:78.0949; velocity:-0.00411326; tai:1.49461e+09
+command_received: angle=58.748985
+command_sent: angle:78.0944; velocity:-0.0041133; tai:1.49461e+09
+command_received: angle=58.768331
+command_sent: angle:78.094; velocity:-0.00411333; tai:1.49461e+09
+command_received: angle=58.787656
+command_sent: angle:78.0936; velocity:-0.00411336; tai:1.49461e+09
+command_received: angle=58.806962
+command_sent: angle:78.0932; velocity:-0.00411337; tai:1.49461e+09
+command_received: angle=58.826249
+command_sent: angle:78.0927; velocity:-0.00411339; tai:1.49461e+09
+command_received: angle=58.845515
+command_sent: angle:78.0923; velocity:-0.0041134; tai:1.49461e+09
+command_received: angle=58.864762
+command_sent: angle:78.0919; velocity:-0.00411341; tai:1.49461e+09
+command_received: angle=58.883989
+command_sent: angle:78.0915; velocity:-0.00411341; tai:1.49461e+09
+command_received: angle=58.903197
+command_sent: angle:78.0911; velocity:-0.00411341; tai:1.49461e+09
+command_received: angle=58.922384
+command_sent: angle:78.0907; velocity:-0.0041134; tai:1.49461e+09
+command_received: angle=58.941553
+command_sent: angle:78.0902; velocity:-0.00411339; tai:1.49461e+09
+command_received: angle=58.960701
+command_sent: angle:78.0898; velocity:-0.00411338; tai:1.49461e+09
+command_received: angle=58.979831
+command_sent: angle:78.0894; velocity:-0.00411336; tai:1.49461e+09
+command_received: angle=58.998940
+command_sent: angle:78.089; velocity:-0.00411135; tai:1.49461e+09
+command_received: angle=59.018030
+command_sent: angle:78.0886; velocity:-0.00411195; tai:1.49461e+09
+command_received: angle=59.037101
+command_sent: angle:78.0881; velocity:-0.00411197; tai:1.49461e+09
+command_received: angle=59.056152
+command_sent: angle:78.0877; velocity:-0.00411213; tai:1.49461e+09
+command_received: angle=59.075183
+command_sent: angle:78.0873; velocity:-0.00411225; tai:1.49461e+09
+command_received: angle=59.094195
+command_sent: angle:78.0869; velocity:-0.00411237; tai:1.49461e+09
+command_received: angle=59.113188
+command_sent: angle:78.0865; velocity:-0.00411249; tai:1.49461e+09
+command_received: angle=59.132161
+command_sent: angle:78.0861; velocity:-0.0041126; tai:1.49461e+09
+command_received: angle=59.151115
+command_sent: angle:78.0856; velocity:-0.00411271; tai:1.49461e+09
+command_received: angle=59.170050
+command_sent: angle:78.0852; velocity:-0.00411281; tai:1.49461e+09
+command_received: angle=59.188965
+command_sent: angle:78.0848; velocity:-0.0041129; tai:1.49461e+09
+command_received: angle=59.207861
+command_sent: angle:78.0844; velocity:-0.00411299; tai:1.49461e+09
+command_received: angle=59.226737
+command_sent: angle:78.084; velocity:-0.00411306; tai:1.49461e+09
+command_received: angle=59.245595
+command_sent: angle:78.0835; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=59.264433
+command_sent: angle:78.0831; velocity:-0.0041132; tai:1.49461e+09
+command_received: angle=59.283251
+command_sent: angle:78.0827; velocity:-0.00411326; tai:1.49461e+09
+command_received: angle=59.302051
+command_sent: angle:78.0823; velocity:-0.00411331; tai:1.49461e+09
+command_received: angle=59.320831
+command_sent: angle:78.0819; velocity:-0.00411335; tai:1.49461e+09
+command_received: angle=59.339592
+command_sent: angle:78.0815; velocity:-0.00411339; tai:1.49461e+09
+command_received: angle=59.358334
+command_sent: angle:78.081; velocity:-0.00411342; tai:1.49461e+09
+command_received: angle=59.377056
+command_sent: angle:78.0806; velocity:-0.00411344; tai:1.49461e+09
+command_received: angle=59.395760
+command_sent: angle:78.0802; velocity:-0.00411346; tai:1.49461e+09
+command_received: angle=59.414444
+command_sent: angle:78.0797; velocity:-0.00411348; tai:1.49461e+09
+command_received: angle=59.433110
+command_sent: angle:78.0793; velocity:-0.00411349; tai:1.49461e+09
+command_received: angle=59.451756
+command_sent: angle:78.0789; velocity:-0.00411349; tai:1.49461e+09
+command_received: angle=59.470383
+command_sent: angle:78.0785; velocity:-0.00411349; tai:1.49461e+09
+command_received: angle=59.488991
+command_sent: angle:78.0781; velocity:-0.00411349; tai:1.49461e+09
+command_received: angle=59.507580
+command_sent: angle:78.0776; velocity:-0.00411348; tai:1.49461e+09
+command_received: angle=59.526150
+command_sent: angle:78.0772; velocity:-0.00411348; tai:1.49461e+09
+command_received: angle=59.544701
+command_sent: angle:78.0768; velocity:-0.00411347; tai:1.49461e+09
+command_received: angle=59.563234
+command_sent: angle:78.0764; velocity:-0.00411345; tai:1.49461e+09
+command_received: angle=59.581747
+command_sent: angle:78.076; velocity:-0.00411144; tai:1.49461e+09
+command_received: angle=59.600241
+command_sent: angle:78.0755; velocity:-0.00411203; tai:1.49461e+09
+command_received: angle=59.618716
+command_sent: angle:78.0751; velocity:-0.00411207; tai:1.49461e+09
+command_received: angle=59.637173
+command_sent: angle:78.0747; velocity:-0.00411222; tai:1.49461e+09
+command_received: angle=59.655610
+command_sent: angle:78.0743; velocity:-0.00411234; tai:1.49461e+09
+command_received: angle=59.674029
+command_sent: angle:78.0739; velocity:-0.00411246; tai:1.49461e+09
+command_received: angle=59.692429
+command_sent: angle:78.0735; velocity:-0.00411258; tai:1.49461e+09
+command_received: angle=59.710810
+command_sent: angle:78.073; velocity:-0.00411269; tai:1.49461e+09
+command_received: angle=59.729172
+command_sent: angle:78.0726; velocity:-0.0041128; tai:1.49461e+09
+command_received: angle=59.747515
+command_sent: angle:78.0722; velocity:-0.00411289; tai:1.49461e+09
+command_received: angle=59.765840
+command_sent: angle:78.0718; velocity:-0.00411299; tai:1.49461e+09
+command_received: angle=59.784146
+command_sent: angle:78.0714; velocity:-0.00411307; tai:1.49461e+09
+command_received: angle=59.802433
+command_sent: angle:78.0709; velocity:-0.00411315; tai:1.49461e+09
+command_received: angle=59.820702
+command_sent: angle:78.0705; velocity:-0.00411322; tai:1.49461e+09
+command_received: angle=59.838952
+command_sent: angle:78.0701; velocity:-0.00411328; tai:1.49461e+09
+command_received: angle=59.857183
+command_sent: angle:78.0697; velocity:-0.00411334; tai:1.49461e+09
+command_received: angle=59.875395
+command_sent: angle:78.0692; velocity:-0.00411339; tai:1.49461e+09
+command_received: angle=59.893589
+command_sent: angle:78.0688; velocity:-0.00411344; tai:1.49461e+09
+command_received: angle=59.911764
+command_sent: angle:78.0684; velocity:-0.00411347; tai:1.49461e+09
+command_received: angle=59.929921
+command_sent: angle:78.068; velocity:-0.0041135; tai:1.49461e+09
+command_received: angle=59.948059
+command_sent: angle:78.0676; velocity:-0.00411353; tai:1.49461e+09
+command_received: angle=59.966178
+command_sent: angle:78.0671; velocity:-0.00411355; tai:1.49461e+09
+command_received: angle=59.984279
+command_sent: angle:78.0667; velocity:-0.00411357; tai:1.49461e+09
+command_received: angle=60.002362
+command_sent: angle:78.0663; velocity:-0.00411358; tai:1.49461e+09
+command_received: angle=60.020426
+command_sent: angle:78.0659; velocity:-0.00411358; tai:1.49461e+09
+command_received: angle=60.038471
+command_sent: angle:78.0655; velocity:-0.00411358; tai:1.49461e+09
+command_received: angle=60.056498
+command_sent: angle:78.065; velocity:-0.00411358; tai:1.49461e+09
+command_received: angle=60.074507
+command_sent: angle:78.0646; velocity:-0.00411357; tai:1.49461e+09
+command_received: angle=60.092497
+command_sent: angle:78.0642; velocity:-0.00411356; tai:1.49461e+09
+command_received: angle=60.110469
+command_sent: angle:78.0638; velocity:-0.00411354; tai:1.49461e+09
+command_received: angle=60.128422
+command_sent: angle:78.0633; velocity:-0.00411354; tai:1.49461e+09
+command_received: angle=60.146357
+command_sent: angle:78.0629; velocity:-0.00411152; tai:1.49461e+09
+command_received: angle=60.164273
+command_sent: angle:78.0625; velocity:-0.00411212; tai:1.49461e+09
+command_received: angle=60.182172
+command_sent: angle:78.0621; velocity:-0.00411215; tai:1.49461e+09
+command_received: angle=60.200052
+command_sent: angle:78.0617; velocity:-0.0041123; tai:1.49461e+09
+command_received: angle=60.217913
+command_sent: angle:78.0613; velocity:-0.00411242; tai:1.49461e+09
+command_received: angle=60.235757
+command_sent: angle:78.0608; velocity:-0.00411255; tai:1.49461e+09
+command_received: angle=60.253582
+command_sent: angle:78.0604; velocity:-0.00411266; tai:1.49461e+09
+command_received: angle=60.271388
+command_sent: angle:78.06; velocity:-0.00411278; tai:1.49461e+09
+command_received: angle=60.289177
+command_sent: angle:78.0596; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=60.306948
+command_sent: angle:78.0592; velocity:-0.00411298; tai:1.49461e+09
+command_received: angle=60.324700
+command_sent: angle:78.0587; velocity:-0.00411307; tai:1.49461e+09
+command_received: angle=60.342434
+command_sent: angle:78.0583; velocity:-0.00411316; tai:1.49461e+09
+command_received: angle=60.360150
+command_sent: angle:78.0579; velocity:-0.00411323; tai:1.49461e+09
+command_received: angle=60.377847
+command_sent: angle:78.0575; velocity:-0.00411331; tai:1.49461e+09
+command_received: angle=60.395527
+command_sent: angle:78.0571; velocity:-0.00411337; tai:1.49461e+09
+command_received: angle=60.413189
+command_sent: angle:78.0566; velocity:-0.00411343; tai:1.49461e+09
+command_received: angle=60.430832
+command_sent: angle:78.0562; velocity:-0.00411348; tai:1.49461e+09
+command_received: angle=60.448457
+command_sent: angle:78.0558; velocity:-0.00411352; tai:1.49461e+09
+command_received: angle=60.466065
+command_sent: angle:78.0554; velocity:-0.00411356; tai:1.49461e+09
+command_received: angle=60.483654
+command_sent: angle:78.0549; velocity:-0.00411359; tai:1.49461e+09
+command_received: angle=60.501225
+command_sent: angle:78.0545; velocity:-0.00411362; tai:1.49461e+09
+command_received: angle=60.518779
+command_sent: angle:78.0541; velocity:-0.00411364; tai:1.49461e+09
+command_received: angle=60.536314
+command_sent: angle:78.0537; velocity:-0.00411365; tai:1.49461e+09
+command_received: angle=60.553831
+command_sent: angle:78.0533; velocity:-0.00411366; tai:1.49461e+09
+command_received: angle=60.571331
+command_sent: angle:78.0528; velocity:-0.00411366; tai:1.49461e+09
+command_received: angle=60.588812
+command_sent: angle:78.0524; velocity:-0.00411367; tai:1.49461e+09
+command_received: angle=60.606276
+command_sent: angle:78.052; velocity:-0.00411366; tai:1.49461e+09
+command_received: angle=60.623722
+command_sent: angle:78.0516; velocity:-0.00411366; tai:1.49461e+09
+command_received: angle=60.641149
+command_sent: angle:78.0512; velocity:-0.00411365; tai:1.49461e+09
+command_received: angle=60.658559
+command_sent: angle:78.0508; velocity:-0.00411364; tai:1.49461e+09
+command_received: angle=60.675952
+command_sent: angle:78.0503; velocity:-0.00411363; tai:1.49461e+09
+command_received: angle=60.693326
+command_sent: angle:78.0499; velocity:-0.00411162; tai:1.49461e+09
+command_received: angle=60.710683
+command_sent: angle:78.0495; velocity:-0.0041122; tai:1.49461e+09
+command_received: angle=60.728021
+command_sent: angle:78.049; velocity:-0.00411224; tai:1.49461e+09
+command_received: angle=60.745342
+command_sent: angle:78.0486; velocity:-0.00411243; tai:1.49461e+09
+command_received: angle=60.762646
+command_sent: angle:78.0482; velocity:-0.00411252; tai:1.49461e+09
+command_received: angle=60.779931
+command_sent: angle:78.0478; velocity:-0.00411265; tai:1.49461e+09
+command_received: angle=60.797199
+command_sent: angle:78.0473; velocity:-0.00411277; tai:1.49461e+09
+command_received: angle=60.814449
+command_sent: angle:78.0469; velocity:-0.00411288; tai:1.49461e+09
+command_received: angle=60.831682
+command_sent: angle:78.0465; velocity:-0.00411298; tai:1.49461e+09
+command_received: angle=60.848897
+command_sent: angle:78.046; velocity:-0.00411308; tai:1.49461e+09
+command_received: angle=60.866094
+command_sent: angle:78.0456; velocity:-0.00411317; tai:1.49461e+09
+command_received: angle=60.883273
+command_sent: angle:78.0452; velocity:-0.00411326; tai:1.49461e+09
+command_received: angle=60.900435
+command_sent: angle:78.0448; velocity:-0.00411334; tai:1.49461e+09
+command_received: angle=60.917579
+command_sent: angle:78.0444; velocity:-0.00411341; tai:1.49461e+09
+command_received: angle=60.934706
+command_sent: angle:78.0439; velocity:-0.00411347; tai:1.49461e+09
+command_received: angle=60.951815
+command_sent: angle:78.0435; velocity:-0.00411353; tai:1.49461e+09
+command_received: angle=60.968907
+command_sent: angle:78.0431; velocity:-0.00411358; tai:1.49461e+09
+command_received: angle=60.985981
+command_sent: angle:78.0427; velocity:-0.00411362; tai:1.49461e+09
+command_received: angle=61.003038
+command_sent: angle:78.0423; velocity:-0.00411366; tai:1.49461e+09
+command_received: angle=61.020077
+command_sent: angle:78.0418; velocity:-0.00411368; tai:1.49461e+09
+command_received: angle=61.037099
+command_sent: angle:78.0414; velocity:-0.00411371; tai:1.49461e+09
+command_received: angle=61.054103
+command_sent: angle:78.041; velocity:-0.00411373; tai:1.49461e+09
+command_received: angle=61.071090
+command_sent: angle:78.0406; velocity:-0.00411374; tai:1.49461e+09
+command_received: angle=61.088060
+command_sent: angle:78.0402; velocity:-0.00411375; tai:1.49461e+09
+command_received: angle=61.105012
+command_sent: angle:78.0397; velocity:-0.00411376; tai:1.49461e+09
+command_received: angle=61.121946
+command_sent: angle:78.0393; velocity:-0.00411376; tai:1.49461e+09
+command_received: angle=61.138864
+command_sent: angle:78.0389; velocity:-0.00411376; tai:1.49461e+09
+command_received: angle=61.155764
+command_sent: angle:78.0385; velocity:-0.00411375; tai:1.49461e+09
+command_received: angle=61.172647
+command_sent: angle:78.0381; velocity:-0.00411374; tai:1.49461e+09
+command_received: angle=61.189512
+command_sent: angle:78.0376; velocity:-0.00411373; tai:1.49461e+09
+command_received: angle=61.206360
+command_sent: angle:78.0372; velocity:-0.00411371; tai:1.49461e+09
+command_received: angle=61.223191
+command_sent: angle:78.0368; velocity:-0.00411169; tai:1.49461e+09
+command_received: angle=61.240005
+command_sent: angle:78.0364; velocity:-0.0041123; tai:1.49461e+09
+command_received: angle=61.256801
+command_sent: angle:78.036; velocity:-0.00411232; tai:1.49461e+09
+command_received: angle=61.273580
+command_sent: angle:78.0355; velocity:-0.00411248; tai:1.49461e+09
+command_received: angle=61.290342
+command_sent: angle:78.0351; velocity:-0.0041126; tai:1.49461e+09
+command_received: angle=61.307087
+command_sent: angle:78.0347; velocity:-0.00411272; tai:1.49461e+09
+command_received: angle=61.323814
+command_sent: angle:78.0343; velocity:-0.00411284; tai:1.49461e+09
+command_received: angle=61.340525
+command_sent: angle:78.0338; velocity:-0.00411295; tai:1.49461e+09
+command_received: angle=61.357218
+command_sent: angle:78.0334; velocity:-0.00411306; tai:1.49461e+09
+command_received: angle=61.373894
+command_sent: angle:78.033; velocity:-0.00411315; tai:1.49461e+09
+command_received: angle=61.390554
+command_sent: angle:78.0326; velocity:-0.00411325; tai:1.49461e+09
+command_received: angle=61.407196
+command_sent: angle:78.0322; velocity:-0.00411333; tai:1.49461e+09
+command_received: angle=61.423821
+command_sent: angle:78.0318; velocity:-0.00411341; tai:1.49461e+09
+command_received: angle=61.440429
+command_sent: angle:78.0313; velocity:-0.00411348; tai:1.49461e+09
+command_received: angle=61.457019
+command_sent: angle:78.0309; velocity:-0.00411355; tai:1.49461e+09
+command_received: angle=61.473593
+command_sent: angle:78.0305; velocity:-0.0041136; tai:1.49461e+09
+command_received: angle=61.490150
+command_sent: angle:78.0301; velocity:-0.00411365; tai:1.49461e+09
+command_received: angle=61.506690
+command_sent: angle:78.0297; velocity:-0.0041137; tai:1.49461e+09
+command_received: angle=61.523213
+command_sent: angle:78.0292; velocity:-0.00411374; tai:1.49461e+09
+command_received: angle=61.539719
+command_sent: angle:78.0288; velocity:-0.00411377; tai:1.49461e+09
+command_received: angle=61.556208
+command_sent: angle:78.0284; velocity:-0.00411379; tai:1.49461e+09
+command_received: angle=61.572680
+command_sent: angle:78.028; velocity:-0.00411381; tai:1.49461e+09
+command_received: angle=61.589136
+command_sent: angle:78.0276; velocity:-0.00411383; tai:1.49461e+09
+command_received: angle=61.605574
+command_sent: angle:78.0272; velocity:-0.00411384; tai:1.49461e+09
+command_received: angle=61.621996
+command_sent: angle:78.0267; velocity:-0.00411384; tai:1.49461e+09
+command_received: angle=61.638401
+command_sent: angle:78.0263; velocity:-0.00411384; tai:1.49461e+09
+command_received: angle=61.654788
+command_sent: angle:78.0259; velocity:-0.00411384; tai:1.49461e+09
+command_received: angle=61.671160
+command_sent: angle:78.0255; velocity:-0.00411384; tai:1.49461e+09
+command_received: angle=61.687514
+command_sent: angle:78.025; velocity:-0.00411382; tai:1.49461e+09
+command_received: angle=61.703851
+command_sent: angle:78.0246; velocity:-0.00411381; tai:1.49461e+09
+command_received: angle=61.720172
+command_sent: angle:78.0242; velocity:-0.0041138; tai:1.49461e+09
+command_received: angle=61.736476
+command_sent: angle:78.0238; velocity:-0.00411179; tai:1.49461e+09
+command_received: angle=61.752763
+command_sent: angle:78.0234; velocity:-0.00411239; tai:1.49461e+09
+command_received: angle=61.769034
+command_sent: angle:78.0229; velocity:-0.00411241; tai:1.49461e+09
+command_received: angle=61.785288
+command_sent: angle:78.0225; velocity:-0.00411257; tai:1.49461e+09
+command_received: angle=61.801525
+command_sent: angle:78.0221; velocity:-0.00411269; tai:1.49461e+09
+command_received: angle=61.817746
+command_sent: angle:78.0217; velocity:-0.00411281; tai:1.49461e+09
+command_received: angle=61.833950
+command_sent: angle:78.0213; velocity:-0.00411294; tai:1.49461e+09
+command_received: angle=61.850137
+command_sent: angle:78.0208; velocity:-0.00411304; tai:1.49461e+09
+command_received: angle=61.866308
+command_sent: angle:78.0204; velocity:-0.00411315; tai:1.49461e+09
+command_received: angle=61.882462
+command_sent: angle:78.02; velocity:-0.00411325; tai:1.49461e+09
+command_received: angle=61.898599
+command_sent: angle:78.0196; velocity:-0.00411334; tai:1.49461e+09
+command_received: angle=61.914720
+command_sent: angle:78.0191; velocity:-0.00411343; tai:1.49461e+09
+command_received: angle=61.930825
+command_sent: angle:78.0187; velocity:-0.0041135; tai:1.49461e+09
+command_received: angle=61.946913
+command_sent: angle:78.0183; velocity:-0.00411357; tai:1.49461e+09
+command_received: angle=61.962984
+command_sent: angle:78.0179; velocity:-0.00411364; tai:1.49461e+09
+command_received: angle=61.979039
+command_sent: angle:78.0175; velocity:-0.00411369; tai:1.49461e+09
+command_received: angle=61.995077
+command_sent: angle:78.0171; velocity:-0.00411375; tai:1.49461e+09
+command_received: angle=62.011099
+command_sent: angle:78.0166; velocity:-0.00411379; tai:1.49461e+09
+command_received: angle=62.027105
+command_sent: angle:78.0162; velocity:-0.00411382; tai:1.49461e+09
+command_received: angle=62.043094
+command_sent: angle:78.0158; velocity:-0.00411386; tai:1.49461e+09
+command_received: angle=62.059067
+command_sent: angle:78.0154; velocity:-0.00411388; tai:1.49461e+09
+command_received: angle=62.075023
+command_sent: angle:78.015; velocity:-0.0041139; tai:1.49461e+09
+command_received: angle=62.090963
+command_sent: angle:78.0145; velocity:-0.00411391; tai:1.49461e+09
+command_received: angle=62.106887
+command_sent: angle:78.0141; velocity:-0.00411393; tai:1.49461e+09
+command_received: angle=62.122794
+command_sent: angle:78.0137; velocity:-0.00411393; tai:1.49461e+09
+command_received: angle=62.138685
+command_sent: angle:78.0133; velocity:-0.00411393; tai:1.49461e+09
+command_received: angle=62.154559
+command_sent: angle:78.0128; velocity:-0.00411393; tai:1.49461e+09
+command_received: angle=62.170417
+command_sent: angle:78.0124; velocity:-0.0041139; tai:1.49461e+09
+command_received: angle=62.186259
+command_sent: angle:78.012; velocity:-0.00411391; tai:1.49461e+09
+command_received: angle=62.202085
+command_sent: angle:78.0115; velocity:-0.0041139; tai:1.49461e+09
+command_received: angle=62.217895
+command_sent: angle:78.0111; velocity:-0.00411388; tai:1.49461e+09
+command_received: angle=62.233688
+command_sent: angle:78.0107; velocity:-0.00411187; tai:1.49461e+09
+command_received: angle=62.249465
+command_sent: angle:78.0103; velocity:-0.00411246; tai:1.49461e+09
+command_received: angle=62.265226
+command_sent: angle:78.0099; velocity:-0.0041125; tai:1.49461e+09
+command_received: angle=62.280970
+command_sent: angle:78.0094; velocity:-0.00411265; tai:1.49461e+09
+command_received: angle=62.296699
+command_sent: angle:78.009; velocity:-0.00411277; tai:1.49461e+09
+command_received: angle=62.312411
+command_sent: angle:78.0086; velocity:-0.00411289; tai:1.49461e+09
+command_received: angle=62.328107
+command_sent: angle:78.0082; velocity:-0.00411301; tai:1.49461e+09
+command_received: angle=62.343787
+command_sent: angle:78.0078; velocity:-0.00411312; tai:1.49461e+09
+command_received: angle=62.359451
+command_sent: angle:78.0074; velocity:-0.00411323; tai:1.49461e+09
+command_received: angle=62.375099
+command_sent: angle:78.007; velocity:-0.00411332; tai:1.49461e+09
+command_received: angle=62.390731
+command_sent: angle:78.0065; velocity:-0.00411342; tai:1.49461e+09
+command_received: angle=62.406347
+command_sent: angle:78.0061; velocity:-0.0041135; tai:1.49461e+09
+command_received: angle=62.421947
+command_sent: angle:78.0057; velocity:-0.00411358; tai:1.49461e+09
+command_received: angle=62.437531
+command_sent: angle:78.0053; velocity:-0.00411365; tai:1.49461e+09
+command_received: angle=62.453098
+command_sent: angle:78.0049; velocity:-0.00411372; tai:1.49461e+09
+command_received: angle=62.468650
+command_sent: angle:78.0044; velocity:-0.00411377; tai:1.49461e+09
+command_received: angle=62.484186
+command_sent: angle:78.004; velocity:-0.00411383; tai:1.49461e+09
+command_received: angle=62.499706
+command_sent: angle:78.0036; velocity:-0.00411387; tai:1.49461e+09
+command_received: angle=62.515210
+command_sent: angle:78.0032; velocity:-0.0041139; tai:1.49461e+09
+command_received: angle=62.530698
+command_sent: angle:78.0028; velocity:-0.00411394; tai:1.49461e+09
+command_received: angle=62.546170
+command_sent: angle:78.0024; velocity:-0.00411397; tai:1.49461e+09
+command_received: angle=62.561626
+command_sent: angle:78.0019; velocity:-0.00411399; tai:1.49461e+09
+command_received: angle=62.577066
+command_sent: angle:78.0015; velocity:-0.004114; tai:1.49461e+09
+command_received: angle=62.592491
+command_sent: angle:78.0011; velocity:-0.00411401; tai:1.49461e+09
+command_received: angle=62.607899
+command_sent: angle:78.0007; velocity:-0.00411402; tai:1.49461e+09
+command_received: angle=62.623292
+command_sent: angle:78.0002; velocity:-0.00411402; tai:1.49461e+09
+command_received: angle=62.638669
+command_sent: angle:77.9998; velocity:-0.00411402; tai:1.49461e+09
+command_received: angle=62.654030
+command_sent: angle:77.9994; velocity:-0.00411401; tai:1.49461e+09
+command_received: angle=62.669375
+command_sent: angle:77.999; velocity:-0.004114; tai:1.49461e+09
+command_received: angle=62.684705
+command_sent: angle:77.9986; velocity:-0.00411399; tai:1.49461e+09
+command_received: angle=62.700019
+command_sent: angle:77.9981; velocity:-0.00411397; tai:1.49461e+09
+command_received: angle=62.715317
+command_sent: angle:77.9977; velocity:-0.00411197; tai:1.49461e+09
+command_received: angle=62.730599
+command_sent: angle:77.9973; velocity:-0.00411256; tai:1.49461e+09
+command_received: angle=62.745866
+command_sent: angle:77.9969; velocity:-0.00411259; tai:1.49461e+09
+command_received: angle=62.761117
+command_sent: angle:77.9965; velocity:-0.00411274; tai:1.49461e+09
+command_received: angle=62.776352
+command_sent: angle:77.9961; velocity:-0.00411286; tai:1.49461e+09
+command_received: angle=62.791572
+command_sent: angle:77.9956; velocity:-0.00411299; tai:1.49461e+09
+command_received: angle=62.806776
+command_sent: angle:77.9952; velocity:-0.00411311; tai:1.49461e+09
+command_received: angle=62.821965
+command_sent: angle:77.9948; velocity:-0.00411322; tai:1.49461e+09
+command_received: angle=62.837137
+command_sent: angle:77.9943; velocity:-0.00411333; tai:1.49461e+09
+command_received: angle=62.852295
+command_sent: angle:77.9939; velocity:-0.00411342; tai:1.49461e+09
+command_received: angle=62.867436
+command_sent: angle:77.9935; velocity:-0.00411352; tai:1.49461e+09
+command_received: angle=62.882562
+command_sent: angle:77.9931; velocity:-0.0041136; tai:1.49461e+09
+command_received: angle=62.897673
+command_sent: angle:77.9927; velocity:-0.00411368; tai:1.49461e+09
+command_received: angle=62.912768
+command_sent: angle:77.9922; velocity:-0.00411375; tai:1.49461e+09
+command_received: angle=62.927847
+command_sent: angle:77.9918; velocity:-0.00411381; tai:1.49461e+09
+command_received: angle=62.942911
+command_sent: angle:77.9914; velocity:-0.00411387; tai:1.49461e+09
+command_received: angle=62.957960
+command_sent: angle:77.991; velocity:-0.00411392; tai:1.49461e+09
+command_received: angle=62.972993
+command_sent: angle:77.9905; velocity:-0.00411396; tai:1.49461e+09
+command_received: angle=62.988010
+command_sent: angle:77.9901; velocity:-0.004114; tai:1.49461e+09
+command_received: angle=63.003012
+command_sent: angle:77.9897; velocity:-0.00411403; tai:1.49461e+09
+command_received: angle=63.017999
+command_sent: angle:77.9893; velocity:-0.00411406; tai:1.49461e+09
+command_received: angle=63.032970
+command_sent: angle:77.9889; velocity:-0.00411408; tai:1.49461e+09
+command_received: angle=63.047926
+command_sent: angle:77.9885; velocity:-0.00411409; tai:1.49461e+09
+command_received: angle=63.062867
+command_sent: angle:77.988; velocity:-0.0041141; tai:1.49461e+09
+command_received: angle=63.077792
+command_sent: angle:77.9876; velocity:-0.00411411; tai:1.49461e+09
+command_received: angle=63.092702
+command_sent: angle:77.9872; velocity:-0.00411411; tai:1.49461e+09
+command_received: angle=63.107596
+command_sent: angle:77.9868; velocity:-0.0041141; tai:1.49461e+09
+command_received: angle=63.122475
+command_sent: angle:77.9863; velocity:-0.0041141; tai:1.49461e+09
+command_received: angle=63.137339
+command_sent: angle:77.9859; velocity:-0.00411408; tai:1.49461e+09
+command_received: angle=63.152188
+command_sent: angle:77.9855; velocity:-0.00411407; tai:1.49461e+09
+command_received: angle=63.167021
+command_sent: angle:77.9851; velocity:-0.00411406; tai:1.49461e+09
+command_received: angle=63.181839
+command_sent: angle:77.9846; velocity:-0.00411205; tai:1.49461e+09
+command_received: angle=63.196642
+command_sent: angle:77.9842; velocity:-0.00411264; tai:1.49461e+09
+command_received: angle=63.211430
+command_sent: angle:77.9838; velocity:-0.00411268; tai:1.49461e+09
+command_received: angle=63.226202
+command_sent: angle:77.9834; velocity:-0.00411283; tai:1.49461e+09
+command_received: angle=63.240959
+command_sent: angle:77.983; velocity:-0.00411295; tai:1.49461e+09
+command_received: angle=63.255701
+command_sent: angle:77.9825; velocity:-0.00411307; tai:1.49461e+09
+command_received: angle=63.270428
+command_sent: angle:77.9821; velocity:-0.00411319; tai:1.49461e+09
+command_received: angle=63.285140
+command_sent: angle:77.9817; velocity:-0.00411331; tai:1.49461e+09
+command_received: angle=63.299836
+command_sent: angle:77.9813; velocity:-0.00411341; tai:1.49461e+09
+command_received: angle=63.314518
+command_sent: angle:77.9808; velocity:-0.00411351; tai:1.49461e+09
+command_received: angle=63.329184
+command_sent: angle:77.9804; velocity:-0.0041136; tai:1.49461e+09
+command_received: angle=63.343835
+command_sent: angle:77.98; velocity:-0.00411369; tai:1.49461e+09
+command_received: angle=63.358471
+command_sent: angle:77.9795; velocity:-0.00411376; tai:1.49461e+09
+command_received: angle=63.373092
+command_sent: angle:77.9791; velocity:-0.00411383; tai:1.49461e+09
+command_received: angle=63.387698
+command_sent: angle:77.9787; velocity:-0.0041139; tai:1.49461e+09
+command_received: angle=63.402289
+command_sent: angle:77.9783; velocity:-0.00411396; tai:1.49461e+09
+command_received: angle=63.416865
+command_sent: angle:77.9779; velocity:-0.00411401; tai:1.49461e+09
+command_received: angle=63.431426
+command_sent: angle:77.9774; velocity:-0.00411405; tai:1.49461e+09
+command_received: angle=63.445972
+command_sent: angle:77.977; velocity:-0.00411409; tai:1.49461e+09
+command_received: angle=63.460503
+command_sent: angle:77.9766; velocity:-0.00411412; tai:1.49461e+09
+command_received: angle=63.475020
+command_sent: angle:77.9762; velocity:-0.00411415; tai:1.49461e+09
+command_received: angle=63.489521
+command_sent: angle:77.9758; velocity:-0.00411416; tai:1.49461e+09
+command_received: angle=63.504007
+command_sent: angle:77.9753; velocity:-0.00411418; tai:1.49461e+09
+command_received: angle=63.518478
+command_sent: angle:77.9749; velocity:-0.00411419; tai:1.49461e+09
+command_received: angle=63.532935
+command_sent: angle:77.9745; velocity:-0.00411419; tai:1.49461e+09
+command_received: angle=63.547376
+command_sent: angle:77.9741; velocity:-0.00411419; tai:1.49461e+09
+command_received: angle=63.561803
+command_sent: angle:77.9736; velocity:-0.00411419; tai:1.49461e+09
+command_received: angle=63.576215
+command_sent: angle:77.9732; velocity:-0.00411418; tai:1.49461e+09
+command_received: angle=63.590612
+command_sent: angle:77.9728; velocity:-0.00411418; tai:1.49461e+09
+command_received: angle=63.604994
+command_sent: angle:77.9724; velocity:-0.00411416; tai:1.49461e+09
+command_received: angle=63.619361
+command_sent: angle:77.972; velocity:-0.00411414; tai:1.49461e+09
+command_received: angle=63.633714
+command_sent: angle:77.9715; velocity:-0.00411214; tai:1.49461e+09
+command_received: angle=63.648052
+command_sent: angle:77.9711; velocity:-0.00411273; tai:1.49461e+09
+command_received: angle=63.662375
+command_sent: angle:77.9707; velocity:-0.00411276; tai:1.49461e+09
+command_received: angle=63.676683
+command_sent: angle:77.9703; velocity:-0.00411291; tai:1.49461e+09
+command_received: angle=63.690977
+command_sent: angle:77.9699; velocity:-0.00411304; tai:1.49461e+09
+command_received: angle=63.705256
+command_sent: angle:77.9695; velocity:-0.00411316; tai:1.49461e+09
+command_received: angle=63.719520
+command_sent: angle:77.969; velocity:-0.00411327; tai:1.49461e+09
+command_received: angle=63.733769
+command_sent: angle:77.9686; velocity:-0.00411339; tai:1.49461e+09
+command_received: angle=63.748004
+command_sent: angle:77.9682; velocity:-0.00411349; tai:1.49461e+09
+command_received: angle=63.762225
+command_sent: angle:77.9678; velocity:-0.00411359; tai:1.49461e+09
+command_received: angle=63.776430
+command_sent: angle:77.9674; velocity:-0.00411368; tai:1.49461e+09
+command_received: angle=63.790621
+command_sent: angle:77.9669; velocity:-0.00411377; tai:1.49461e+09
+command_received: angle=63.804797
+command_sent: angle:77.9665; velocity:-0.00411385; tai:1.49461e+09
+command_received: angle=63.818959
+command_sent: angle:77.9661; velocity:-0.00411392; tai:1.49461e+09
+command_received: angle=63.833106
+command_sent: angle:77.9657; velocity:-0.00411398; tai:1.49461e+09
+command_received: angle=63.847239
+command_sent: angle:77.9653; velocity:-0.00411404; tai:1.49461e+09
+command_received: angle=63.861357
+command_sent: angle:77.9648; velocity:-0.00411409; tai:1.49461e+09
+command_received: angle=63.875460
+command_sent: angle:77.9644; velocity:-0.00411413; tai:1.49461e+09
+command_received: angle=63.889549
+command_sent: angle:77.964; velocity:-0.00411417; tai:1.49461e+09
+command_received: angle=63.903624
+command_sent: angle:77.9635; velocity:-0.0041142; tai:1.49461e+09
+command_received: angle=63.917683
+command_sent: angle:77.9631; velocity:-0.00411423; tai:1.49461e+09
+command_received: angle=63.931729
+command_sent: angle:77.9627; velocity:-0.00411425; tai:1.49461e+09
+command_received: angle=63.945760
+command_sent: angle:77.9623; velocity:-0.00411426; tai:1.49461e+09
+command_received: angle=63.959776
+command_sent: angle:77.9618; velocity:-0.00411427; tai:1.49461e+09
+command_received: angle=63.973778
+command_sent: angle:77.9614; velocity:-0.00411426; tai:1.49461e+09
+command_received: angle=63.987766
+command_sent: angle:77.961; velocity:-0.00411427; tai:1.49461e+09
+command_received: angle=64.001739
+command_sent: angle:77.9605; velocity:-0.00411427; tai:1.49461e+09
+command_received: angle=64.015698
+command_sent: angle:77.9601; velocity:-0.00411427; tai:1.49461e+09
+command_received: angle=64.029642
+command_sent: angle:77.9597; velocity:-0.00411426; tai:1.49461e+09
+command_received: angle=64.043573
+command_sent: angle:77.9593; velocity:-0.00411424; tai:1.49461e+09
+command_received: angle=64.057488
+command_sent: angle:77.9589; velocity:-0.00411423; tai:1.49461e+09
+command_received: angle=64.071390
+command_sent: angle:77.9585; velocity:-0.00411223; tai:1.49461e+09
+command_received: angle=64.085277
+command_sent: angle:77.958; velocity:-0.00411281; tai:1.49461e+09
+command_received: angle=64.099149
+command_sent: angle:77.9576; velocity:-0.00411285; tai:1.49461e+09
+command_received: angle=64.113008
+command_sent: angle:77.9572; velocity:-0.004113; tai:1.49461e+09
+command_received: angle=64.126852
+command_sent: angle:77.9568; velocity:-0.00411313; tai:1.49461e+09
+command_received: angle=64.140682
+command_sent: angle:77.9563; velocity:-0.00411326; tai:1.49461e+09
+command_received: angle=64.154498
+command_sent: angle:77.9559; velocity:-0.00411337; tai:1.49461e+09
+command_received: angle=64.168299
+command_sent: angle:77.9555; velocity:-0.00411348; tai:1.49461e+09
+command_received: angle=64.182086
+command_sent: angle:77.9551; velocity:-0.00411359; tai:1.49461e+09
+command_received: angle=64.195859
+command_sent: angle:77.9546; velocity:-0.00411369; tai:1.49461e+09
+command_received: angle=64.209618
+command_sent: angle:77.9542; velocity:-0.00411378; tai:1.49461e+09
+command_received: angle=64.223362
+command_sent: angle:77.9538; velocity:-0.00411386; tai:1.49461e+09
+command_received: angle=64.237093
+command_sent: angle:77.9533; velocity:-0.00411394; tai:1.49461e+09
+command_received: angle=64.250809
+command_sent: angle:77.9529; velocity:-0.00411401; tai:1.49461e+09
+command_received: angle=64.264511
+command_sent: angle:77.9525; velocity:-0.00411408; tai:1.49461e+09
+command_received: angle=64.278199
+command_sent: angle:77.9521; velocity:-0.00411413; tai:1.49461e+09
+command_received: angle=64.291873
+command_sent: angle:77.9517; velocity:-0.00411418; tai:1.49461e+09
+command_received: angle=64.305533
+command_sent: angle:77.9512; velocity:-0.00411423; tai:1.49461e+09
+command_received: angle=64.319179
+command_sent: angle:77.9508; velocity:-0.00411426; tai:1.49461e+09
+command_received: angle=64.332810
+command_sent: angle:77.9504; velocity:-0.0041143; tai:1.49461e+09
+command_received: angle=64.346428
+command_sent: angle:77.95; velocity:-0.00411432; tai:1.49461e+09
+command_received: angle=64.360031
+command_sent: angle:77.9496; velocity:-0.00411434; tai:1.49461e+09
+command_received: angle=64.373621
+command_sent: angle:77.9492; velocity:-0.00411436; tai:1.49461e+09
+command_received: angle=64.387196
+command_sent: angle:77.9487; velocity:-0.00411437; tai:1.49461e+09
+command_received: angle=64.400758
+command_sent: angle:77.9483; velocity:-0.00411437; tai:1.49461e+09
+command_received: angle=64.414305
+command_sent: angle:77.9479; velocity:-0.00411437; tai:1.49461e+09
+command_received: angle=64.427839
+command_sent: angle:77.9475; velocity:-0.00411437; tai:1.49461e+09
+command_received: angle=64.441359
+command_sent: angle:77.947; velocity:-0.00411436; tai:1.49461e+09
+command_received: angle=64.454864
+command_sent: angle:77.9466; velocity:-0.00411434; tai:1.49461e+09
+command_received: angle=64.468356
+command_sent: angle:77.9461; velocity:-0.00411433; tai:1.49461e+09
+command_received: angle=64.481834
+command_sent: angle:77.9457; velocity:-0.00411432; tai:1.49461e+09
+command_received: angle=64.495298
+command_sent: angle:77.9453; velocity:-0.00411231; tai:1.49461e+09
+command_received: angle=64.508748
+command_sent: angle:77.9449; velocity:-0.0041129; tai:1.49461e+09
+command_received: angle=64.522184
+command_sent: angle:77.9445; velocity:-0.00411294; tai:1.49461e+09
+command_received: angle=64.535606
+command_sent: angle:77.944; velocity:-0.00411309; tai:1.49461e+09
+command_received: angle=64.549015
+command_sent: angle:77.9436; velocity:-0.00411321; tai:1.49461e+09
+command_received: angle=64.562409
+command_sent: angle:77.9432; velocity:-0.00411333; tai:1.49461e+09
+command_received: angle=64.575790
+command_sent: angle:77.9428; velocity:-0.00411345; tai:1.49461e+09
+command_received: angle=64.589157
+command_sent: angle:77.9424; velocity:-0.00411357; tai:1.49461e+09
+command_received: angle=64.602510
+command_sent: angle:77.9419; velocity:-0.00411367; tai:1.49461e+09
+command_received: angle=64.615850
+command_sent: angle:77.9415; velocity:-0.00411377; tai:1.49461e+09
+command_received: angle=64.629175
+command_sent: angle:77.9411; velocity:-0.00411386; tai:1.49461e+09
+command_received: angle=64.642487
+command_sent: angle:77.9407; velocity:-0.00411394; tai:1.49461e+09
+command_received: angle=64.655785
+command_sent: angle:77.9403; velocity:-0.00411402; tai:1.49461e+09
+command_received: angle=64.669070
+command_sent: angle:77.9398; velocity:-0.00411409; tai:1.49461e+09
+command_received: angle=64.682341
+command_sent: angle:77.9394; velocity:-0.00411416; tai:1.49461e+09
+command_received: angle=64.695598
+command_sent: angle:77.939; velocity:-0.00411421; tai:1.49461e+09
+command_received: angle=64.708841
+command_sent: angle:77.9386; velocity:-0.00411427; tai:1.49461e+09
+command_received: angle=64.722071
+command_sent: angle:77.9381; velocity:-0.00411431; tai:1.49461e+09
+command_received: angle=64.735287
+command_sent: angle:77.9377; velocity:-0.00411435; tai:1.49461e+09
+command_received: angle=64.748489
+command_sent: angle:77.9373; velocity:-0.00411438; tai:1.49461e+09
+command_received: angle=64.761678
+command_sent: angle:77.9369; velocity:-0.00411441; tai:1.49461e+09
+command_received: angle=64.774853
+command_sent: angle:77.9364; velocity:-0.00411442; tai:1.49461e+09
+command_received: angle=64.788015
+command_sent: angle:77.936; velocity:-0.00411444; tai:1.49461e+09
+command_received: angle=64.801163
+command_sent: angle:77.9356; velocity:-0.00411444; tai:1.49461e+09
+command_received: angle=64.814297
+command_sent: angle:77.9352; velocity:-0.00411445; tai:1.49461e+09
+command_received: angle=64.827418
+command_sent: angle:77.9348; velocity:-0.00411445; tai:1.49461e+09
+command_received: angle=64.840526
+command_sent: angle:77.9343; velocity:-0.00411445; tai:1.49461e+09
+command_received: angle=64.853619
+command_sent: angle:77.9339; velocity:-0.00411445; tai:1.49461e+09
+command_received: angle=64.866700
+command_sent: angle:77.9335; velocity:-0.00411444; tai:1.49461e+09
+command_received: angle=64.879766
+command_sent: angle:77.9331; velocity:-0.00411443; tai:1.49461e+09
+command_received: angle=64.892820
+command_sent: angle:77.9327; velocity:-0.00411441; tai:1.49461e+09
+command_received: angle=64.905860
+command_sent: angle:77.9323; velocity:-0.0041124; tai:1.49461e+09
+command_received: angle=64.918886
+command_sent: angle:77.9318; velocity:-0.004113; tai:1.49461e+09
+command_received: angle=64.931899
+command_sent: angle:77.9314; velocity:-0.00411303; tai:1.49461e+09
+command_received: angle=64.944899
+command_sent: angle:77.931; velocity:-0.00411318; tai:1.49461e+09
+command_received: angle=64.957885
+command_sent: angle:77.9306; velocity:-0.0041133; tai:1.49461e+09
+command_received: angle=64.970857
+command_sent: angle:77.9302; velocity:-0.00411343; tai:1.49461e+09
+command_received: angle=64.983817
+command_sent: angle:77.9297; velocity:-0.00411355; tai:1.49461e+09
+command_received: angle=64.996763
+command_sent: angle:77.9293; velocity:-0.00411366; tai:1.49461e+09
+command_received: angle=65.009695
+command_sent: angle:77.9289; velocity:-0.00411376; tai:1.49461e+09
+command_received: angle=65.022614
+command_sent: angle:77.9285; velocity:-0.00411386; tai:1.49461e+09
+command_received: angle=65.035520
+command_sent: angle:77.928; velocity:-0.00411395; tai:1.49461e+09
+command_received: angle=65.048413
+command_sent: angle:77.9276; velocity:-0.00411404; tai:1.49461e+09
+command_received: angle=65.061292
+command_sent: angle:77.9272; velocity:-0.00411411; tai:1.49461e+09
+command_received: angle=65.074158
+command_sent: angle:77.9268; velocity:-0.00411419; tai:1.49461e+09
+command_received: angle=65.087010
+command_sent: angle:77.9263; velocity:-0.00411425; tai:1.49461e+09
+command_received: angle=65.099850
+command_sent: angle:77.9259; velocity:-0.00411431; tai:1.49461e+09
+command_received: angle=65.112676
+command_sent: angle:77.9255; velocity:-0.00411436; tai:1.49461e+09
+command_received: angle=65.125489
+command_sent: angle:77.9251; velocity:-0.0041144; tai:1.49461e+09
+command_received: angle=65.138288
+command_sent: angle:77.9247; velocity:-0.00411444; tai:1.49461e+09
+command_received: angle=65.151075
+command_sent: angle:77.9242; velocity:-0.00411447; tai:1.49461e+09
+command_received: angle=65.163848
+command_sent: angle:77.9238; velocity:-0.0041145; tai:1.49461e+09
+command_received: angle=65.176608
+command_sent: angle:77.9234; velocity:-0.00411452; tai:1.49461e+09
+command_received: angle=65.189355
+command_sent: angle:77.923; velocity:-0.00411453; tai:1.49461e+09
+command_received: angle=65.202088
+command_sent: angle:77.9226; velocity:-0.00411454; tai:1.49461e+09
+command_received: angle=65.214809
+command_sent: angle:77.9221; velocity:-0.00411454; tai:1.49461e+09
+command_received: angle=65.227516
+command_sent: angle:77.9217; velocity:-0.00411454; tai:1.49461e+09
+command_received: angle=65.240210
+command_sent: angle:77.9213; velocity:-0.00411454; tai:1.49461e+09
+command_received: angle=65.252891
+command_sent: angle:77.9209; velocity:-0.00411454; tai:1.49461e+09
+command_received: angle=65.265559
+command_sent: angle:77.9205; velocity:-0.00411453; tai:1.49461e+09
+command_received: angle=65.278214
+command_sent: angle:77.92; velocity:-0.00411451; tai:1.49461e+09
+command_received: angle=65.290856
+command_sent: angle:77.9196; velocity:-0.0041145; tai:1.49461e+09
+command_received: angle=65.303485
+command_sent: angle:77.9192; velocity:-0.00411249; tai:1.49461e+09
+command_received: angle=65.316101
+command_sent: angle:77.9188; velocity:-0.00411308; tai:1.49461e+09
+command_received: angle=65.328703
+command_sent: angle:77.9184; velocity:-0.00411311; tai:1.49461e+09
+command_received: angle=65.341293
+command_sent: angle:77.9179; velocity:-0.00411327; tai:1.49461e+09
+command_received: angle=65.353870
+command_sent: angle:77.9175; velocity:-0.00411339; tai:1.49461e+09
+command_received: angle=65.366433
+command_sent: angle:77.9171; velocity:-0.00411351; tai:1.49461e+09
+command_received: angle=65.378984
+command_sent: angle:77.9167; velocity:-0.00411364; tai:1.49461e+09
+command_received: angle=65.391522
+command_sent: angle:77.9163; velocity:-0.00411374; tai:1.49461e+09
+command_received: angle=65.404046
+command_sent: angle:77.9158; velocity:-0.00411385; tai:1.49461e+09
+command_received: angle=65.416558
+command_sent: angle:77.9154; velocity:-0.00411395; tai:1.49461e+09
+command_received: angle=65.429057
+command_sent: angle:77.915; velocity:-0.00411404; tai:1.49461e+09
+command_received: angle=65.441543
+command_sent: angle:77.9146; velocity:-0.00411412; tai:1.49461e+09
+command_received: angle=65.454016
+command_sent: angle:77.9141; velocity:-0.0041142; tai:1.49461e+09
+command_received: angle=65.466476
+command_sent: angle:77.9137; velocity:-0.00411427; tai:1.49461e+09
+command_received: angle=65.478923
+command_sent: angle:77.9133; velocity:-0.00411434; tai:1.49461e+09
+command_received: angle=65.491358
+command_sent: angle:77.9129; velocity:-0.00411439; tai:1.49461e+09
+command_received: angle=65.503779
+command_sent: angle:77.9125; velocity:-0.00411444; tai:1.49461e+09
+command_received: angle=65.516188
+command_sent: angle:77.9121; velocity:-0.00411449; tai:1.49461e+09
+command_received: angle=65.528584
+command_sent: angle:77.9116; velocity:-0.00411452; tai:1.49461e+09
+command_received: angle=65.540967
+command_sent: angle:77.9112; velocity:-0.00411456; tai:1.49461e+09
+command_received: angle=65.553337
+command_sent: angle:77.9108; velocity:-0.00411457; tai:1.49461e+09
+command_received: angle=65.565695
+command_sent: angle:77.9104; velocity:-0.0041146; tai:1.49461e+09
+command_received: angle=65.578039
+command_sent: angle:77.9099; velocity:-0.00411461; tai:1.49461e+09
+command_received: angle=65.590371
+command_sent: angle:77.9095; velocity:-0.00411463; tai:1.49461e+09
+command_received: angle=65.602690
+command_sent: angle:77.9091; velocity:-0.00411463; tai:1.49461e+09
+command_received: angle=65.614997
+command_sent: angle:77.9087; velocity:-0.00411463; tai:1.49461e+09
+command_received: angle=65.627290
+command_sent: angle:77.9083; velocity:-0.00411463; tai:1.49461e+09
+command_received: angle=65.639571
+command_sent: angle:77.9079; velocity:-0.00411462; tai:1.49461e+09
+command_received: angle=65.651840
+command_sent: angle:7

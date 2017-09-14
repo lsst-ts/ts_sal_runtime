@@ -1,0 +1,10 @@
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/datetime.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/operation_manager.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/pxi_simulator.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/sal_event_logger.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/send_eui_command.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/send_sal_command.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/test-ll_commands.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/test-rollout.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/test-safe_queue.dir
+/home/dmills/sal/test/lsst-master/tma_management/build/CMakeFiles/test-time.dir
