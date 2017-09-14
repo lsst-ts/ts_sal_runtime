@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Starting CCS-OCS bridge simulation in GUI only mode"
+mvn "-Dexec.args=-classpath %classpath toyocsbridge.ToyOCSBridge" -Dexec.executable=java org.codehaus.mojo:exec-maven-plugin:1.2.1:exec
+
+

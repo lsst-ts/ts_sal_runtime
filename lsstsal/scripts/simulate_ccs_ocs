@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Starting CCS-OCS bridge simulation"
+mvn "-Dexec.args=-classpath %classpath toyocsbridge.OCSInterface" -Dexec.executable=java org.codehaus.mojo:exec-maven-plugin:1.2.1:exec
+

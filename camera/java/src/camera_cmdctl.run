@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Starting commander/controller sample for SALTopic"
+gnome-terminal -e "java -cp $SAL_HOME/lib/saj_camera_types.jar:./classes:$OSPL_HOME/jar/dcpssaj.jar:saj_camera_cmdctl.jar cameraController" &
+java -cp $SAL_HOME/lib/saj_camera_types.jar:./classes:$OSPL_HOME/jar/dcpssaj.jar:saj_camera_cmdctl.jar cameraCommander
+

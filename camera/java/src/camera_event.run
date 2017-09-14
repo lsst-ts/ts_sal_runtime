@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Starting Event generator/logger for SALTopic"
+gnome-terminal -e "java -cp $SAL_HOME/lib/saj_camera_types.jar:./classes:$OSPL_HOME/jar/dcpssaj.jar:saj_camera_event.jar cameraEventLogger" &
+java -cp $SAL_HOME/lib/saj_camera_types.jar:./classes:$OSPL_HOME/jar/dcpssaj.jar:saj_camera_event.jar cameraEvent
+

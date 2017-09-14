@@ -1,0 +1,94 @@
+#----------------------------------------------------------------------------
+#       Macros
+#----------------------------------------------------------------------------
+JAVAC         = javac
+JAR           = jar
+JAVACFLAGS    = $(GENFLAGS) -sourcepath ../src
+CLASSEXT      = .class
+CLASSDIR      = ../src/
+OUTPUT_OPTION = -d $(CLASSDIR)
+COMPILE.java  = $(JAVAC) $(JAVACFLAGS) -cp $(JAVACCPATH) 
+JAVACCPATH    = "$(SAL_HOME)/lib/saj_camera_types.jar:$(CLASSDIR):$(OSPL_HOME)/jar/dcpssaj.jar:"
+MAKEFILE      = Makefile.saj_camera_cmdctl
+DEPENDENCIES  =
+LTARGETDIR    = ./
+CAT           = cat
+MV            = mv -f
+RM            = rm -rf
+CP            = cp -p
+NUL           = /dev/null
+MKDIR         = mkdir -p
+TESTDIRSTART  = test -d
+TESTDIREND    = ||
+TOUCH         = touch
+GENFLAGS      =  
+CLASSES       =  $(CLASSDIR)/org/lsst/sal/SAL_camera$(CLASSEXT) $(CLASSDIR)/org/lsst/sal/salActor$(CLASSEXT) $(CLASSDIR)ErrorHandler$(CLASSEXT) $(CLASSDIR)cameraCommander$(CLASSEXT) $(CLASSDIR)cameraController$(CLASSEXT)
+JARCLASSES    =  org/lsst/sal/SAL_camera$(CLASSEXT) org/lsst/sal/salActor$(CLASSEXT) ErrorHandler$(CLASSEXT) cameraCommander$(CLASSEXT)  cameraController$(CLASSEXT)
+JAREXT        = .jar
+MAINCLASS     = cameraCommander cameraController
+JARFILE       = $(LTARGETDIR)$(LIBPREFIX)saj_camera_cmdctl$(LIBSUFFIX)$(JAREXT)
+MANIFEST      = saj_camera_cmdctl.manifest
+JARFLAGS      = cvfm
+SRC           = ../src/org/lsst/sal/SAL_camera.java ../src/org/lsst/sal/salActor.java ../src/ErrorHandler.java ../src/cameraCommander.java ../src/cameraController.java 
+
+#----------------------------------------------------------------------------
+#       Local targets
+#----------------------------------------------------------------------------
+
+all: $(JARFILE)
+
+$(JARFILE): $(CLASSES) $(CLASSDIR)$(MANIFEST)
+	@$(TESTDIRSTART) "$(LTARGETDIR)" $(TESTDIREND) $(MKDIR) "$(LTARGETDIR)"
+	cd $(CLASSDIR) && $(JAR) $(JARFLAGS) $(JARFILE) $(MANIFEST) $(JARCLASSES) 
+
+
+#	$(MV) $(CLASSDIR)/$(JARFILE) .
+
+$(CLASSDIR)$(MANIFEST):
+	echo Class-Path: saj_camera_types.jar $(OSPL_HOME)/jar/dcpssaj.jar > $(CLASSDIR)$(MANIFEST)
+	echo Main-Class: $(MAINCLASS) >> $(CLASSDIR)$(MANIFEST)
+
+generated: $(GENERATED_DIRTY)
+	@-:
+
+$(CLASSDIR)/org/lsst/sal/salActor$(CLASSEXT): ../src/org/lsst/sal/salActor.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/org/lsst/sal/salActor.java
+
+$(CLASSDIR)/org/lsst/sal/SAL_camera$(CLASSEXT): ../src/org/lsst/sal/SAL_camera.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/org/lsst/sal/SAL_camera.java
+
+$(CLASSDIR)ErrorHandler$(CLASSEXT): ../src/ErrorHandler.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/ErrorHandler.java
+
+$(CLASSDIR)cameraCommander$(CLASSEXT): ../src/cameraCommander.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/cameraCommander.java
+
+$(CLASSDIR)cameraController$(CLASSEXT): ../src/cameraController.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/cameraController.java
+
+clean:
+	-$(RM) $(CLASSES)
+
+realclean: clean
+	-$(RM) $(BIN)
+	-$(RM) $(CLASSDIR)$(MANIFEST)
+
+check-syntax:
+	$(COMPILE.java) $(EXPORTFLAGS) $(CHK_SOURCES)
+
+#----------------------------------------------------------------------------
+#       Dependencies
+#----------------------------------------------------------------------------
+
+$(DEPENDENCIES):
+	@$(TOUCH) $(DEPENDENCIES)
+
+depend:
+	-$(MPC_ROOT)/depgen.pl  $(JAVACFLAGS) $(JAVAJAVACFLAGS) $(CPPFLAGS) -f $(DEPENDENCIES) $(SRC) 2> $(NUL)
+
+include $(DEPENDENCIES)

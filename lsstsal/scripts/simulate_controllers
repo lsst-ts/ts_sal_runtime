@@ -1,0 +1,29 @@
+#!/usr/bin/tclsh
+
+if { [info exists env(SAL_WORK_DIR)] == 0 } {
+   puts stdout "The LSST SAL environment is not setup, please use the appropriate setup.env"
+   exit
+}
+
+set base $env(SAL_WORK_DIR)
+set xy 500
+foreach i $argv {
+   set subsys [lindex [split $i _] 0]
+   set simctrl $base/$subsys/cpp/src/sacpp_[set subsys]_ctrl
+   if { [file exists $base/$subsys/cpp/src/sacpp_[set i]_controller] }  {
+      set simctrl $base/$subsys/cpp/src/sacpp_[set i]_controller
+   }
+   if { [info exists env(LSST_[string toupper [set i]]_SIMULATOR)] } {
+      set simctrl $env(LSST_[string toupper [set i]]_SIMULATOR)
+   }
+   if { [file exists $simctrl] } {
+     puts stdout "Starting controller simulator for subsystem $i using $simctrl"
+     exec xterm -iconic -geometry +$xy+$xy -e $simctrl &
+     incr xy 50 
+   } else {
+     puts stdout "No simulator available for subsystem $i"
+     puts stdout "Use environment variable LSST_[string toupper [set i]]_SIMULATOR to set"
+  }
+}
+
+

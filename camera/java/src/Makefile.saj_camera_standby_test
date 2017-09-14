@@ -1,0 +1,94 @@
+#----------------------------------------------------------------------------
+#       Macros
+#----------------------------------------------------------------------------
+JAVAC         = javac
+JAR           = jar
+JAVACFLAGS    = $(GENFLAGS) -sourcepath ../src
+CLASSEXT      = .class
+CLASSDIR      = ../src/
+OUTPUT_OPTION = -d $(CLASSDIR)
+COMPILE.java  = $(JAVAC) $(JAVACFLAGS) -cp $(JAVACCPATH) 
+JAVACCPATH    = "$(SAL_HOME)/lib/saj_camera_types.jar:$(CLASSDIR):$(OSPL_HOME)/jar/dcpssaj.jar:$(SAL_HOME)/lib/junit.jar:"
+MAKEFILE      = Makefile.saj_SAL_camera_standbyTest_test
+DEPENDENCIES  = 
+LTARGETDIR    = ./
+CAT           = cat
+MV            = mv -f
+RM            = rm -rf
+CP            = cp -p
+NUL           = /dev/null
+MKDIR         = mkdir -p
+TESTDIRSTART  = test -d
+TESTDIREND    = ||
+TOUCH         = touch
+GENFLAGS      = -g
+CLASSES       =  $(CLASSDIR)/org/lsst/sal/SAL_camera$(CLASSEXT) $(CLASSDIR)/org/lsst/sal/salActor$(CLASSEXT) $(CLASSDIR)ErrorHandler$(CLASSEXT) $(CLASSDIR)cameraCommander_standbyTest$(CLASSEXT) $(CLASSDIR)cameraController_standbyTest$(CLASSEXT)
+JARCLASSES    =  org/lsst/sal/SAL_camera$(CLASSEXT) org/lsst/sal/salActor$(CLASSEXT) ErrorHandler$(CLASSEXT) cameraCommander_standbyTest$(CLASSEXT)  cameraController_standbyTest$(CLASSEXT)
+JAREXT        = .jar
+MAINCLASS     = cameraCommander_standbyTest cameraController_standbyTest
+JARFILE       = $(LTARGETDIR)$(LIBPREFIX)saj_SAL_camera_standbyTest_test$(LIBSUFFIX)$(JAREXT)
+MANIFEST      = saj_SAL_camera_standbyTest_test.manifest
+JARFLAGS      = cvfm
+SRC           = ../src/org/lsst/sal/SAL_camera.java ../src/org/lsst/sal/salActor.java ../src/ErrorHandler.java ../src/cameraCommander_standbyTest.java ../src/cameraController_standbyTest.java 
+
+#----------------------------------------------------------------------------
+#       Local targets
+#----------------------------------------------------------------------------
+
+all: $(JARFILE)
+
+$(JARFILE): $(CLASSES) $(CLASSDIR)$(MANIFEST)
+	@$(TESTDIRSTART) "$(LTARGETDIR)" $(TESTDIREND) $(MKDIR) "$(LTARGETDIR)"
+	cd $(CLASSDIR) && $(JAR) $(JARFLAGS) $(JARFILE) $(MANIFEST) $(JARCLASSES) 
+
+
+#	$(MV) $(CLASSDIR)/$(JARFILE) .
+
+$(CLASSDIR)$(MANIFEST):
+	echo Class-Path: saj_camera_types.jar $(OSPL_HOME)/jar/dcpssaj.jar > $(CLASSDIR)$(MANIFEST)
+	echo Main-Class: $(MAINCLASS) >> $(CLASSDIR)$(MANIFEST)
+
+generated: $(GENERATED_DIRTY)
+	@-:
+
+$(CLASSDIR)/org/lsst/sal/salActor$(CLASSEXT): ../src/org/lsst/sal/salActor.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/org/lsst/sal/salActor.java
+
+$(CLASSDIR)/org/lsst/sal/SAL_camera$(CLASSEXT): ../src/org/lsst/sal/SAL_camera.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/org/lsst/sal/SAL_camera.java
+
+$(CLASSDIR)ErrorHandler$(CLASSEXT): ../src/ErrorHandler.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/ErrorHandler.java
+
+$(CLASSDIR)cameraCommander_standbyTest$(CLASSEXT): ../src/cameraCommander_standbyTest.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/cameraCommander_standbyTest.java
+
+$(CLASSDIR)cameraController_standbyTest$(CLASSEXT): ../src/cameraController_standbyTest.java
+	@$(TESTDIRSTART) "$(CLASSDIR)" $(TESTDIREND) $(MKDIR) "$(CLASSDIR)"
+	$(COMPILE.java) $(EXPORTFLAGS) $(OUTPUT_OPTION) ../src/cameraController_standbyTest.java
+
+clean:
+	-$(RM) $(CLASSES)
+
+realclean: clean
+	-$(RM) $(BIN)
+	-$(RM) $(CLASSDIR)$(MANIFEST)
+
+check-syntax:
+	$(COMPILE.java) $(EXPORTFLAGS) $(CHK_SOURCES)
+
+#----------------------------------------------------------------------------
+#       Dependencies
+#----------------------------------------------------------------------------
+
+$(DEPENDENCIES):
+	@$(TOUCH) $(DEPENDENCIES)
+
+depend:
+	-$(MPC_ROOT)/depgen.pl  $(JAVACFLAGS) $(JAVAJAVACFLAGS) $(CPPFLAGS) -f $(DEPENDENCIES) $(SRC) 2> $(NUL)
+
+include $(DEPENDENCIES)

@@ -1,0 +1,16 @@
+#!/usr/bin/tclsh
+
+set base $env(SAL_WORK_DIR)
+set xy 50
+foreach i $argv {
+   if { [file exists $base/$i/java/src/[set i]Controller.class] } {
+     puts stdout "Starting java controller simulator for subsystem $i"
+     cd $base/$i/java/src
+     exec gnome-terminal -geometry +$xy+$xy -e "java -cp $env(SAL_HOME)/lib/saj_camera_types.jar:./classes:$env(OSPL_HOME)/jar/dcpssaj.jar:saj_camera_cmdctl.jar cameraController"  &
+     incr xy 50 
+   } else {
+     puts stdout "No java simulator available for subsystem $i"
+  }
+}
+
+
